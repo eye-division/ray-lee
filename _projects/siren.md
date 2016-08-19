@@ -1,5 +1,5 @@
 ---
-title: "Shadow Me"
+title: "Siren"
 description: "A seven minute long animated movie with music by composer Pia Silvi"
 project_date: 2003-12-01T00:00:00.000Z
 project_to_date:

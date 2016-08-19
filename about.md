@@ -6,11 +6,10 @@ permalink: /about/
 
 <img src="{{ site.baseurl }}/assets/profile-placeholder.gif" title="Profile Picture" class="profile">
 
-Neat Whiskey is a base theme and configuration for [Jekyll](http://jekyllrb.com/), based on Bourbon and Neat. It is a fork of the [Centratrium][centrarium] custom theme by [Ben Centra][bencentra].
+Ray Lee is an artist, composer, and performer. His work investigates his fascination with the hidden world of electro-magnetic radiation and in particular how sound can be used as evidence of invisible phenomena He is interested in the way that science and philosophy represent the universe, and his work questions the orthodoxies that emerge, and submerge, according to the currently fashionable trends. He creates spinning, whirling, and pendulous sound installations and performances that explore “circles of ether,” the invisible forces that surround us.
 
-This page is a good place to write about yourself, your project, your product, or whatever it is your site is for. You can replace the image above, or you can get rid of it entirely. 
+His large scale installation and performance ‘Siren’ was a hit at the 2007 Edinburgh Fringe winning a Herald Angel Award and receiving 5 star reviews. ‘Siren’ was featured at the 2007 Ars Electronica Festival in Austria and has gone to tour the world with performances in 12 countries including the USA, Canada, New Zealand, Australia and several countries in Europe.
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/). And you can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+His recent work ‘Force Field’ received an award at the 2008 Prix Ars Electronica for Digital Music.
 
-[centrarium]: https://github.com/bencentra/centrarium
-[bencentra]: http://bencentra.com
+He lectures in contemporary arts and music at Oxford Brookes University.

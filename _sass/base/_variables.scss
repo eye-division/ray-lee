@@ -1,9 +1,9 @@
 // Google Fonts
-@import url(//fonts.googleapis.com/css?family=Roboto+Slab:400,700,300|Roboto:400,700,300|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300);
+@import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
 
 // Typography
-$base-font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; // $helvetica;
-$heading-font-family: "Roboto Slab", "Helvetica Neue", "Helvetica", "Arial", sans-serif; // $base-font-family;
+$base-font-family: "Proxima Nova", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$heading-font-family: "Montserrat", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 
 // Font Sizes
 $base-font-size: $em-base; // 16px
@@ -25,9 +25,10 @@ $base-z-index: 0;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
-$blue: #2980b9;
+$blue: #31C6E0;
 $background-grey: #373535;
 $white: #fff;
+$black: #111111;
 
 // Font Colors
 $base-background-color: #fff;
@@ -50,3 +51,6 @@ $tablet: 960px;
 $max-width: rem(1200);
 $medium-screen: $mobile;
 $large-screen: $tablet;
+
+// header height
+$header-height: 4em;

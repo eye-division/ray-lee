@@ -1,20 +1,24 @@
 
 /*
- * Projects page
+ * Projects page and listings
  */
+.project-list {
+    @include outer-container;
+}
 .project {
-    clear: both;
-    margin-bottom: 3em;
+    @include media($mobile) {
+        @include span-columns(4);
+    }
+    margin-bottom: 1em;
     a {
         display: block;
         @include clearfix;
-        padding: 1em;
+        padding: 1em 0;
         transition: background-color 0.5s ease;
         color: $base-font-color;
         &:hover, &:focus {
             color: $base-font-color;
             text-decoration: none;
-            background-color: tint($action-color, 80%);
         }
     }
     h3 {
@@ -31,20 +35,14 @@
         box-sizing: border-box;
     }
     img {
-        border-radius: 5px;
         height: auto;
-        box-shadow: 5px 5px 5px $light-gray;
         max-width: 100%;
     }
     .project-description {
     }
     @include media($mobile) {
         .project-image {
-            clear: both;
-            float: right;
-            width: 40%;
-            line-height: 300px;
-            text-align: right;
+            line-height: 200px;
         }
 
         img {
@@ -54,28 +52,22 @@
         }
 
         h3 {
-            float: left;
-            width: 75%;
-        }
 
+        }
         .project-date {
-            padding-bottom: 1em;
-            float: right;
-            line-height: 1.8em;
-            text-align: right;
-            width: 25%;
+
         }
         .project-description {
-            padding: 20px;
             padding-left: 0;
             font-size: 1.2em;
-            float: right;
-            width: 60%;
             box-sizing: border-box;
         }
     }
 }
 
+.last {
+    @include omega();
+}
 /*
  * Individual project pages
  */

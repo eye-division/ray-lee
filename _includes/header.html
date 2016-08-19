@@ -4,7 +4,7 @@
       {% if site.logo %}
       <img src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title }}">
       {% else %}
-      <span>{{ site.title }}</span>
+      <span class="title">{{ site.title }}</span> <span class="subtitle">{{ site.subtitle }}</span>
       {% endif %}
     </a>
     <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
@@ -15,7 +15,7 @@
         {% for link in site.data.nav %}
           <li class="nav-link{% if page.url == link.href %} active{% endif %}"><a href="{{ link.href | prepend: site.baseurl }}">{{ link.title }}</a>
         {% endfor %}
-        
+
         {% if false %}
         <!-- alternative social links in nav menu -->
           {% for social in site.social %}

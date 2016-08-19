@@ -1,5 +1,5 @@
 ---
-title: "Sound Pool"
+title: "Cold Storage"
 description: "Sound Pool was an interactive audio-visual installation created for an exhibition at Banbury Museum"
 project_date: 2006-11-01T00:00:00.000Z
 project_to_date: 2006-12-01T00:00:00.000Z

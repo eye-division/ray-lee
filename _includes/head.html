@@ -14,7 +14,9 @@
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
   <!--<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/styles/monokai_sublime.min.css">-->
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
-
+  <!-- Typekit -->
+  <script src="https://use.typekit.net/cbt2zdh.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
   <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
   <link rel="shortcut icon" href="{{ "/assets/icons/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
   <link rel="icon" href="{{ "/assets/icons/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
@@ -68,10 +70,10 @@
 
   <!-- Site styles -->
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  
+
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
-  
+
   <!-- Header image from page -->
   {% if page.main_image_path %}
   <style>
@@ -85,7 +87,7 @@
     }
   </style>
   {% endif %}
-  
+
   <!-- Scripts -->
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 <!--<script defer src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>-->
@@ -107,5 +109,5 @@
   });
 </script>
 {% endif %}
-  
+
 </head>

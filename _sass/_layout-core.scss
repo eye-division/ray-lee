@@ -24,10 +24,13 @@ body {
     @include flex(none);
 }
 
-main {
+
+main, .page {
+    padding-top: $header-height;
     display: block;
     @include flex(1 0 auto);
 }
+
 
 ol.default {
     @extend %default-ol;
@@ -52,13 +55,15 @@ blockquote {
 *	Navigation
 */
 .navigation {
-    box-shadow: 0 2px $highlight-color;
     padding: 0 1em;
+    @include media ($tablet) {
+        padding: 0;
+    }
     margin: 0;
     z-index: 100;
     position: fixed;
     width: 100%;
-    background-color: $white;
+    background-color: $black;
     /*
     *	Navigation Menu - http://refills.bourbon.io/unstyled/ (see "Navigation")
     */
@@ -81,8 +86,9 @@ blockquote {
         position: relative;
     }
     .logo {
+        padding-top: 1em;
         float: left;
-        height: 4em;
+        height: $header-height;
         @include media ($tablet) {
             padding-left: $em-base;
         }
@@ -92,8 +98,17 @@ blockquote {
             padding-right: 1em;
         }
         span {
-            font-size: 1.25em;
+            font-size: modular-scale(3);
         }
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    .title {
+
+    }
+    .subtitle {
+        text-transform: uppercase;
     }
     nav {
         float: none;
@@ -158,50 +173,12 @@ blockquote {
     @include outer-container;
     padding: 1em;
 }
+
 /*
 *	index.html
 */
-.post-list {
-    padding-top: 1em !important;
-    @extend %default-ul;
-}
-.post-meta {
-    @include outer-container;
-    padding: 0 1em;
-    color: $medium-gray;
-    .post-date {
-        @include span-columns(6);
-        text-align: left;
-        font-size: 0.9em;
-    }
-    .post-categories {
-        @include span-columns(6);
-        margin-right: 0;
-        text-align: right;
-        font-size: 0.9em;
-    }
-}
-.pagination {
-    padding-top: 2em;
-    text-align: center;
-    color: $medium-gray;
-    .page-number {
-        padding: 0 1em;
-    }
-}
-.site-header-container {
-    color: $white;
-    background-color: $highlight-color;
-    .site-header{
-        .title {
-            font-size: modular-scale(6);
-        }
-        .subtitle {
-            text-transform: uppercase;
-            font-size: modular-scale(1);
-        }
-    }
-}
+
+
 img {
     max-width: 100%;
 }
@@ -242,50 +219,56 @@ img {
         padding-bottom: 0.6em;
     }
 }
-.has-cover {
-    #content-header {
-        width: 100%;
-        max-width: 100%;
-        padding: 0;
-        position: relative;
-        height: 60vh;
-        background-position: 50% 40%;
-        background-size: cover;
-        @include media($tablet) {
-            background-attachment: fixed;
-            height: 80vh;
+
+/*
+ * components on home page
+ */
+.top {
+    background-color: $black;
+    color: $white;
+    h2, h3 {
+        color: $action-color;
+    }
+}
+.wrapper {
+    @include outer-container;
+    padding: 1em;
+    .photo {
+        @include span-columns(8);
+        .rayphoto {
+            @include span-columns(2 of 8);
+        }
+        .text {
+            @include span-columns(6 of 8);
+            @include omega();
         }
     }
+    .latest {
+        @include span-columns(4);
+        @include omega();
 
-    #page-title {
-        width: 100%;
-        padding-top: 0;
-        position: absolute;
-        bottom: 0;
     }
-
+}
+#{$all-buttons} {
+  background-color: #f00;
 }
 
+#{$all-buttons-focus},
+#{$all-buttons-hover} {
+  background-color: #0f0;
+}
+
+#{$all-buttons-active} {
+  background-color: #00f;
+}
 /*
 *	Footer
 */
 .site-footer {
-    $link-color: $white;
+    //$link-color: $white;
     padding: 1em 1em 2em 1em;
-    background-color: $highlight-color;
-    color: $white;
-    a {
-        color: $link-color;
-        &:active,
-            &:focus,
-            &:hover {
-            color: darken($link-color, 10%);
-        }
-        &:active,
-            &:focus {
-            outline: none;
-        }
-    }
+    background-color: $white;
+
     .wrapper {
         @include outer-container;
     }
