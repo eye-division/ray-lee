@@ -52,15 +52,18 @@ main_image_path: /assets/chorus.jpg
 {% assign projects = site.projects | where: "list",true | sort: "project_date" %}
 
 {% if projects %}
-  <h2>Projects</h2>
+
 <section class="project-list">
+
+  <h2>Projects</h2>
+
   {% for project in projects %}
   <article class="project {% cycle 'alpha', '', 'last' %}">
     <a href="{{project.url}}" title="{{project.title}}">
         {% if project.main_image_path %}
-        {% include img.html src=project.main_image_path width=400 %}
+        {% include img.html src=project.main_image_path width=400 height=300 %}
         {% else %}
-        {% include img.html src="/siteicon.png" width=400 %}
+        {% include img.html src="/siteicon.png" width=400 height=300 %}
         {% endif %}
 
     </a>
