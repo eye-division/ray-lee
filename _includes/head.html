@@ -74,19 +74,6 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
-  <!-- Header image from page -->
-  {% if page.main_image_path %}
-  <style>
-    #content-header {
-      background-image: url("{% include imgpath.html src=page.main_image_path width=640 height=480 %}") !important;
-    }
-    @media screen and (min-width: 960px) {
-      #content-header {
-        background-image: url("{% include imgpath.html src=page.main_image_path width=1600 height=800 %}") !important;
-      }
-    }
-  </style>
-  {% endif %}
 
   <!-- Scripts -->
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>

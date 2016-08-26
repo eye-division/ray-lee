@@ -47,8 +47,38 @@ code {
     padding: 0 3px;
 }
 
+
 blockquote {
-    font-style: italic;
+  color: $action-color;
+  border-left: 10px solid shade($action-color,80%);
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+cite {
+    text-align: right;
+}
+blockquote:before {
+  color: $action-color;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+// Buttons
+
+.button {
+    //@extend button;
+    @include bbb-flat-style($action-color, $white);
+    &:hover:not(:disabled) {
+        color: $white;
+        background: darken($action-color, 20%);
+        text-decoration: none;
+  }
 }
 
 /*
@@ -171,7 +201,7 @@ blockquote {
 
 #content {
     @include outer-container;
-    padding: 1em;
+    padding: 0 1em 1em 1em;
 }
 
 /*
@@ -198,42 +228,49 @@ img {
 }
 
 #page-title {
-    padding-top: 6em;
+    padding-top: 1em;
     h1, p {
-        @include outer-container;
-        padding: 0 20px;
+        padding: 0 0 0 $em-base;
         margin-bottom: 0;
-        background-color: rgba(0,0,0,0.5);
-        color: $white;
-        font-weight: normal;
     }
     h1 {
-        text-transform: uppercase;
-        font-size: 1.4em;
-        @include media($mobile) {
-            font-size: 2em;
-        }
+
     }
     p {
-        font-size: 1.2em;
-        padding-bottom: 0.6em;
+
     }
 }
 
+.reverse-bg {
+    background-color: $black;
+    color: $white;
+    blockquote {
+        border-left: 10px solid shade($action-color,80%);
+    }
+}
 /*
  * components on home page
  */
 .top {
-    background-color: $black;
-    color: $white;
     h2, h3 {
         color: $action-color;
     }
+    margin-bottom: 2rem;
 }
 .wrapper {
     @include outer-container;
     padding: 1em;
-    .photo {
+
+}
+.photo {
+    .rayphoto {
+        @include span-columns(4);
+    }
+    .text {
+        @include span-columns(8);
+        @include omega();
+    }
+    @include media ($mobile) {
         @include span-columns(8);
         .rayphoto {
             @include span-columns(2 of 8);
@@ -243,24 +280,18 @@ img {
             @include omega();
         }
     }
-    .latest {
+}
+.latest {
+    @include media ($mobile) {
         @include span-columns(4);
         @include omega();
-
     }
-}
-#{$all-buttons} {
-  background-color: #f00;
+
 }
 
-#{$all-buttons-focus},
-#{$all-buttons-hover} {
-  background-color: #0f0;
-}
 
-#{$all-buttons-active} {
-  background-color: #00f;
-}
+
+
 /*
 *	Footer
 */
@@ -268,71 +299,82 @@ img {
     //$link-color: $white;
     padding: 1em 1em 2em 1em;
     background-color: $white;
-
+    a {
+        color: $black;
+    }
     .wrapper {
+        border-top: 1px #000 solid;
         @include outer-container;
     }
     .footer-heading {
 
     }
-    /*
-    *	Site Navigation (left)
-    */
-    .site-navigation {
-        @include span-columns(12);
-        @include media ($mobile) {
-            @include span-columns(6);
-        }
-        @include media ($tablet) {
-            @include span-columns(4);
-        }
-        font-size: 0.9em;
-        ul {
-            @extend %default-ul;
-        }
+}
+
+.widget {
+    border-top: 1px solid $action-color;
+    padding-top: 1em;
+    @include media ($tablet) {
+        border-top: none;
+        padding-top: 0;
     }
-    /*
-    *	Contact Info (center)
-    */
-    .site-contact {
-        margin-top: 1em;
-        @include span-columns(12);
-        @include media ($mobile) {
-            @include span-columns(6);
-            margin-top: 0;
-            margin-right: 0;
-        }
-        @include media ($tablet) {
-            @include span-columns(4);
-            margin-top: 0;
-        }
-        font-size: 0.9em;
-        i {
-            width: 1.25em;
-            text-align: center;
-        }
-        ul {
-            @extend %default-ul;
-        }
+}
+/*
+*   Site Contact (left)
+*/
+.site-contact {
+    @include span-columns(12);
+
+    li {
+        float: left;
+        padding-right: 0.5em;
     }
-    /*
-    *	Site Description/Signature (right)
-    */
-    .site-signature {
-        margin-top: 1em;
-        @include span-columns(12);
-        @include media ($tablet) {
-            @include span-columns(4);
-            margin-right: 0;
-            margin-top: 0;
-        }
-        font-size: 0.9em;
-        a {
-            text-decoration: underline;
-        }
+    @include media ($tablet) {
+        @include span-columns(4);
+    }
+    font-size: 0.9em;
+    ul {
+        @extend %default-ul;
+    }
+}
+/*
+*   Newsletter (center)
+*/
+.site-newsletter {
+    margin-top: 1em;
+    @include span-columns(12);
+
+    @include media ($tablet) {
+        @include span-columns(4);
+        margin-top: 0;
+    }
+    font-size: 0.9em;
+    i {
+        width: 1.25em;
+        text-align: center;
+    }
+    ul {
+        @extend %default-ul;
     }
 }
 
+/*
+*   Site Partners (right)
+*/
+.site-partners {
+    margin-top: 1em;
+    @include span-columns(12);
+    @include media ($tablet) {
+        border-top: none;
+        padding-top: 0;
+        @include span-columns(4);
+        margin-right: 0;
+        margin-top: 0;
+    }
+    img {
+        max-width: 300px;
+    }
+}
 /*
 *	Posts
 */

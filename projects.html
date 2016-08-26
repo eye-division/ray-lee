@@ -5,31 +5,39 @@ permalink: /projects/
 main_image_path: "/assets/chorus.jpg"
 ---
 <section class="project-intro editable">
-  <p>A selection of example projects.</p>
+
 </section>
 
-{% assign projects = site.projects | where: "list",true | sort: "project_date" %}
+{% assign projects = site.projects %}
 
 {% if projects %}
 <section class="project-list">
 
-  {% for project in projects reversed %}
-  <section class="project">
-    <a href="{{project.url}}">
-      <h3 class="project-header">{{project.title}}</h3>
-      <div class="project-date">{% include dates.html from=project.project_date to=project.project_to_date %}</div>
-      <div class="project-image">
+  {% for project in projects %}
+  <article class="project {% cycle 'alpha', '', 'last' %}">
+    <a href="{{project.url}}" title="{{project.title}}">
         {% if project.main_image_path %}
         {% include img.html src=project.main_image_path width=400 height=300 %}
         {% else %}
         {% include img.html src="/siteicon.png" width=400 height=300 %}
         {% endif %}
-      </div>
-      <div class="project-description">
-        {{project.description}}
-      </div>
+
     </a>
-  </section>
+    <div class="title">
+      <a href="{{project.url}}" title="{{project.title}}">
+        <h3 class="">{{project.title}}</h3>
+      </a>
+    </div>
+   {% if project.description %}
+    <div class="caption">
+      <div class="blur"></div>
+      <div class="caption-text">
+        <p>{{project.description}}</p>
+      </div>
+    </div>
+      {% endif %}
+
+  </article>
   {% endfor %}
 </section>
 {% endif %}

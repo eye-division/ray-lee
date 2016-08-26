@@ -2,7 +2,7 @@
 layout: home
 main_image_path: /assets/chorus.jpg
 ---
-<section class="top">
+<section class="top reverse-bg">
 
   <div class="wrapper">
 
@@ -11,11 +11,11 @@ main_image_path: /assets/chorus.jpg
 
         <div class="about">
           <div class="rayphoto">
-            <img src="{{ site.baseurl }}/assets/ray-lee-circle.jpg" alt="Ray Lee" class="">
+            <img src="{{ site.baseurl }}/assets/ray-portrait.jpg" alt="Ray Lee" class="">
           </div>
           <div class="text">
             <p>Ray Lee is an artist, composer, and performer. His work investigates his fascination with the hidden world of electro-magnetic radiation and in particular how sound can be used as evidence of invisible phenomena. He is interested in the way that science and philosophy represent the universe, and his work questions the orthodoxies that emerge, and submerge, according to the currently fashionable trends. He creates spinning, whirling, and pendulous sound installations and performances that explore “circles of ether,” the invisible forces that surround us.</p>
-            <p><a href="" class="button">Read more . . .</a></p>
+            <p><a href="/about/" class="button">Read more . . .</a></p>
           </div>
         </div>
     </div>
@@ -25,7 +25,14 @@ main_image_path: /assets/chorus.jpg
       <h2>Chorus</h2>
       <p>23 &amp; 24 October 2015: University Square, outside Coventry Cathedral</p>
       <p>I'm presenting a version of <em>Chorus, </em>my large scale outdoor sound work at INTIME, Coventry on the 23rd and 24th October. <em>Chorus</em> will be located in University Square which is right next to Coventry Cathedral and will be performed at 6pm and 8pm on the 23rd Oct and then from 1pm-3pm as a continuous looped performance on Saturday 24th in the afternoon, with two more performances at 6pm and 7.30pm on Saturday evening. The performances are free and open to the public.</p>
-      <p><a href="">Read more . . .</a></p>
+
+
+      <blockquote>
+        <p>a choir of rotating sirens, their individually strident voices congealing into a thick mutating chord that transfixed listeners in its sticky flux.</p>
+        <cite>David Toop, The Wire</cite>
+      </blockquote>
+
+      <p><a href="#" class="button">Read more . . .</a></p>
 
       <div class="video">
         <div class="video-wrapper">
@@ -45,24 +52,32 @@ main_image_path: /assets/chorus.jpg
 {% assign projects = site.projects | where: "list",true | sort: "project_date" %}
 
 {% if projects %}
+  <h2>Projects</h2>
 <section class="project-list">
-  {% for project in projects reversed %}
+  {% for project in projects %}
   <article class="project {% cycle 'alpha', '', 'last' %}">
-
-    <a href="{{project.url}}">
-      <div class="project-image">
+    <a href="{{project.url}}" title="{{project.title}}">
         {% if project.main_image_path %}
-        {% include img.html src=project.main_image_path width=400 height=300 %}
+        {% include img.html src=project.main_image_path width=400 %}
         {% else %}
-        {% include img.html src="/siteicon.png" width=400 height=300 %}
+        {% include img.html src="/siteicon.png" width=400 %}
         {% endif %}
-      </div>
-      <h3 class="project-header">{{project.title}}</h3>
-      <div class="project-date">{% include dates.html from=project.project_date to=project.project_to_date %}</div>
-      <div class="project-description">
-        {{project.description}}
-      </div>
+
     </a>
+    <div class="title">
+      <a href="{{project.url}}" title="{{project.title}}">
+        <h3 class="">{{project.title}}</h3>
+      </a>
+    </div>
+   {% if project.description %}
+    <div class="caption">
+      <div class="blur"></div>
+      <div class="caption-text">
+        <p>{{project.description}}</p>
+      </div>
+    </div>
+      {% endif %}
+
   </article>
   {% endfor %}
 </section>

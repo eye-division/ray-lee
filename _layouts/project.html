@@ -27,18 +27,39 @@ layout: default
     </section>
     {% endif %}
 
-    {% if page.images[0].image_path %}
-    <section class="image-gallery">
-      {% for image in page.images %}
-        {% if image.image_path %}
-        <a href="{% include imgpath.html src=image.image_path width=1280 %}" data-lightbox="gallery" data-title="{{ image.description }}">
-            {% include img.html src=image.image_path width=120 height=120 alt=image.description %}
-        </a>
-        {% endif %}
-      {% endfor %}
-    </section>
-    {% endif %}
+    {% if page.images %}
 
+      {% if page.images[0].image_path %}
+      <section class="image-gallery">
+
+        {% for image in page.images %}
+
+          {% if forloop.length == 1 %}
+
+            {% if image.image_path %}
+
+              <a href="{% include imgpath.html src=image.image_path width=1280 %}" data-lightbox="gallery" data-title="{{ image.description }}">
+                  {% include img.html src=image.image_path width=400 alt=image.description %}
+              </a>
+
+            {% endif %}
+
+          {% else %}
+
+            {% if image.image_path %}
+            <a href="{% include imgpath.html src=image.image_path width=1280 %}" data-lightbox="gallery" data-title="{{ image.description }}">
+                {% include img.html src=image.image_path width=120 height=120 alt=image.description %}
+            </a>
+
+            {% endif %}
+
+          {% endif %}
+
+        {% endfor %}
+      </section>
+      {% endif %}
+
+    {% endif %}
   </aside>
 {% endif %}
 

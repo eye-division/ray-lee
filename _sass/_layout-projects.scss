@@ -2,53 +2,92 @@
 /*
  * Projects page and listings
  */
+// body class
+.projects {
+
+}
+
 .project-list {
     @include outer-container;
 }
+
 .project {
+
     @include media($mobile) {
         @include span-columns(4);
     }
+    position: relative;
     margin-bottom: 1em;
-    a {
-        display: block;
-        @include clearfix;
-        padding: 1em 0;
-        transition: background-color 0.5s ease;
-        color: $base-font-color;
-        &:hover, &:focus {
-            color: $base-font-color;
-            text-decoration: none;
-        }
+    overflow: hidden;
+
+    @include padding(null 0.5em);
+
+
+    .title {
+        @include position(absolute, null 0 8px 0);
+        z-index: 20;
+
+        background-color: $action-color;
+        width: 100%;
+        padding: 0.1rem 0;
+        text-align: center;
     }
     h3 {
+        font-weight: normal;
         margin-bottom: 0;
+        color: $white;
     }
+    .caption {
+        //@include ellipsis;
+        @include position(absolute, 0 0 8px 0);
+        opacity: 0;
+        cursor: pointer;
+        transition: all 0.45s ease-in-out;
+    }
+    .blur {
+        background-color: $action-color;
+        height: 100%;
+        width: 100%;
+        z-index: 5;
+        position: absolute;
+    }
+    .caption-text {
+        z-index: 10;
+        width: 90%;
+        height: 100%;
+        text-align: center;
+        @include position(absolute, 50px null null 0);
+        a {
+            color: $white;
+        }
+    }
+
     .project-date {
         font-family: $heading-font-family;
-        text-transform: uppercase;
-        color: $medium-gray;
+        font-size: smaller;
     }
+
     .project-image {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
     img {
+        width: 100%;
         height: auto;
         max-width: 100%;
     }
-    .project-description {
-    }
+
     @include media($mobile) {
+
         .project-image {
-            line-height: 200px;
+            //line-height: 200px;
         }
 
         img {
             margin: 0;
-            display: inline;
-            vertical-align: middle;
+            //display: inline;
+            //vertical-align: middle;
         }
 
         h3 {
@@ -64,28 +103,31 @@
         }
     }
 }
+.project:hover .caption {
+    opacity: 1;
+}
 
 .last {
     @include omega();
 }
+
 /*
  * Individual project pages
  */
 .projects {
+
     iframe {
         max-width: 100%;
     }
     .media {
         .image-gallery {
             img {
-                border-radius: 5px;
-                box-shadow: 5px 5px 5px $light-gray;
                 float: left;
                 margin: 5px;
                 transition: box-shadow 0.5s ease;
             }
             a:hover img, a:focus img {
-                box-shadow: 5px 5px 5px $highlight-color;
+
             }
         }
     }

@@ -1,25 +1,30 @@
 ---
 title: "Swing"
-description: "Sound Pool was an interactive audio-visual installation created for an exhibition at Banbury Museum"
+description: "Swing is a sound performance installation that consists of an array of bare loudspeaker cones suspended and swinging above the audience, each individually emitting a discrete sound."
 project_date: 2006-11-01T00:00:00.000Z
 project_to_date: 2006-12-01T00:00:00.000Z
 list: true
-main_image_path: "/assets/sound-pool-header.jpg"
-video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/YNe03b5BxLM?rel=0" frameborder="0" allowfullscreen></iframe>'
+main_image_path: "/assets/swing1.jpg"
+video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/fDPiPD6fyNI?rel=0" frameborder="0" allowfullscreen></iframe>'
 images:
-  - image_path: "/assets/sound-pool1.jpg"
+  - image_path: "/assets/swing1.jpg"
     description:
-  - image_path: "/assets/sound-pool2.jpg"
+  - image_path: "/assets/swing2.jpg"
     description:
-  - image_path: "/assets/sound-pool3.jpg"
-    description:
-  - image_path: "/assets/sound-pool4.jpg"
-    description:
+
 ---
-_Sound Pool_ presented visitors with a virtual pool of water reflecting local skies,
-accompanied by a slowly shifting chordal soundscape. Movement in the space caused ripples 
-across the pool's surface, which in turn brought into focus sounds from everyday Banbury, 
-before slowly dissolving away again. Visitors could play with the installation like a large,
-intuitive instrument. Others could simply sit and absorb the fragmented narratives and familiar
-snatches of sound as others moved about, or wait a few minutes for a short shower of 'rain' 
-to bring forth a new selection of sounds like the retuning of a radio.
+Swing is a sound performance installation that consists of an array of bare loudspeaker cones suspended and swinging above the audience, each individually emitting a discrete sound. The speakers are connected via a series of ropes and pulleys to a gantry where a team of 'bell-ringers' pull the ropes, making the speakers swing over the the audience who are able to move around underneath the swinging sounds.
+
+This extraordinary sonic spectacle has been presented at various venues including at the 1999 Huddersfield Contemporary Music Festival.
+
+Swing is a machine for the realisation of sounds intended to heard through the medium of swinging loudspeakers. Swing is a live event that can last up to an hour. It can be repeated a number of times over a day or an evening.
+
+The basis of the piece remains the same. Bare loudspeaker cones are suspended from the ceiling at a height of approx. 2.4m off the floor. Depending on the size of the building up to 20 speakers are used in installations. Each speaker is wired up to play discrete sounds run from separate sources and the sounds are mixed live during the performance, playing the speakers like a kind of carillon.
+
+All of the loudspeakers are attached by ropes and pulleys to one end of the building where a team of 'bell-ringers' make the speakers swing to and fro over the heads of the audience creating a Doppler-like effect as the sounds rush past.
+
+Swing has a powerful effect on an audience who initially duck and flinch as the speakers hurtle past their heads. Once they become accustomed to the fact that they are safe to wander freely and safely below the speakers their attention can shift to the compositional quality of the slowly shifting sampled and manipulated sounds from the specific site being used. The swinging action of the speakers conjures a sense of magic or religious ritual and also has a hypnotic effect on an audience.
+
+> ‘a fascinating counterpoint of sound and light, its 16 human controlled loudspeaker cones suspended from the ceiling producing constantly shifting patterns that held the attention’ The Independent
+
+> ‘A celebration of the fleeting, the passing sonic moment’ Live Art Magazine

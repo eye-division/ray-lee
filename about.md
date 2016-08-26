@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img src="{{ site.baseurl }}/assets/profile-placeholder.gif" title="Profile Picture" class="profile">
+<img src="{{ site.baseurl }}/assets/ray-portrait-w.jpg" title="Ray Lee" class="profile" width="200">
 
 Ray Lee is an artist, composer, and performer. His work investigates his fascination with the hidden world of electro-magnetic radiation and in particular how sound can be used as evidence of invisible phenomena He is interested in the way that science and philosophy represent the universe, and his work questions the orthodoxies that emerge, and submerge, according to the currently fashionable trends. He creates spinning, whirling, and pendulous sound installations and performances that explore “circles of ether,” the invisible forces that surround us.
 

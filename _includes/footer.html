@@ -2,26 +2,13 @@
 
   <div class="wrapper">
 
-    <div class="site-navigation">
-      
-      <p><strong>Site Map</strong></p>
-      <ul class="pages">
-        {% for page in site.pages %}
-        {% if page.title and page.main_nav != false %}
-          <li class="nav-link"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-        {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
-
     <div class="site-contact">
 
-      <p><strong>Contact</strong></p>
+      <h3>Connect</h3>
       <ul class="social-media-list">
         <li>
           <a href="mailto:{{ site.email }}">
-            <i class="fa fa-envelope-o"></i>
-            <span class="username">{{ site.email }}</span>
+            <i class="fa fa-envelope-square fa-3x"></i>
           </a>
         </li>
 
@@ -29,8 +16,7 @@
           {% if social.url != null %}
           <li>
             <a href="{{ social.url }}" title="{{ social.desc }}">
-              <i class="fa fa-{{ social.icon }}"></i>
-              <span class="username">{% if social.username %}{{ social.username }}{% else %}{{ social.name }}{% endif %}</span>
+              <i class="fa fa-{{ social.icon }} fa-3x"></i>
             </a>
           </li>
           {% endif %}
@@ -39,9 +25,25 @@
       </ul>
     </div>
 
-    <div class="site-signature">
-      <p class="rss-subscribe text"><strong>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></strong></p>
-      <p class="text">{{ site.description }}</p>
+    <div class="site-newsletter widget">
+      <h3>Sign up to the mailing list</h3>
+        <div id="mc_embed_signup"><form action="//invisible-forces.us2.list-manage.com/subscribe/post?u=456cb8361a9e19cbcb5de859f&amp;id=c3af209ccb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="" class="validate"></form>
+        <div id="mc_embed_signup_scroll">
+        <label for="mce-EMAIL"> </label> <input name="EMAIL" id="mce-EMAIL" placeholder="email address" required="" class="email" type="email"> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+
+          <div style="position: absolute; left: -5000px;"><input name="b_456cb8361a9e19cbcb5de859f_c3af209ccb" tabindex="-1" type="text">
+          </div>
+          <div class="clear"><input name="subscribe" id="mc-embedded-subscribe" class="button" type="submit" value="Subscribe">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-partners widget">
+      <h3>Supported by:</h3>
+      <p><a href="http://www.artscouncil.org.uk/" target="new" title="Arts Council England"><img src="{{ site.baseurl }}/assets/logo-artscouncil.png" alt="Arts Council England" class=""></a></p>
+
+      <p><a href="https://www.prsformusic.com/" title="Performing Rights Society" target="new"><img src="{{ site.baseurl }}/assets/logo-prs.png" alt="Performing Rights Society" class=""></a></p>
     </div>
 
   </div>

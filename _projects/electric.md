@@ -1,25 +1,27 @@
 ---
 title: "Electric"
-description: "Sound Pool was an interactive audio-visual installation created for an exhibition at Banbury Museum"
+description: "Join ‘Professor Lee’ for a short conversation about the nature of the hidden force that drives our technologically intense lives."
 project_date: 2006-11-01T00:00:00.000Z
 project_to_date: 2006-12-01T00:00:00.000Z
 list: true
-main_image_path: "/assets/sound-pool-header.jpg"
-video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/YNe03b5BxLM?rel=0" frameborder="0" allowfullscreen></iframe>'
+main_image_path: "/assets/electric1.jpg"
+video_embed: ''
 images:
-  - image_path: "/assets/sound-pool1.jpg"
+  - image_path: "/assets/electric1.jpg"
+    description: 
+  - image_path: "/assets/electric2.jpg"
     description:
-  - image_path: "/assets/sound-pool2.jpg"
-    description:
-  - image_path: "/assets/sound-pool3.jpg"
-    description:
-  - image_path: "/assets/sound-pool4.jpg"
-    description:
+
 ---
-_Sound Pool_ presented visitors with a virtual pool of water reflecting local skies,
-accompanied by a slowly shifting chordal soundscape. Movement in the space caused ripples 
-across the pool's surface, which in turn brought into focus sounds from everyday Banbury, 
-before slowly dissolving away again. Visitors could play with the installation like a large,
-intuitive instrument. Others could simply sit and absorb the fragmented narratives and familiar
-snatches of sound as others moved about, or wait a few minutes for a short shower of 'rain' 
-to bring forth a new selection of sounds like the retuning of a radio.
+First performed as part of Battersea Arts Centre's One on One Festival July 2010.
+
+> "Walking away with a tingle still caught on your skin and a bemused smile, it’s the sort of experience that feels like a small privilege. An opportunity given. Another of life’s little experiences ticked off the list."
+Matt Trueman
+
+see <a href="http://carouseloffantasies.blogspot.com/2010/07/review-electric-one-on-one-festival-at.html">full review</a>
+
+Just how much do you know about electricity?
+
+Join ‘Professor Lee’ for a short conversation about the nature of the hidden force that drives our technologically intense lives. Feel the force. Become one with the electrons. In the safe hands of ‘Professor Lee’ you will experience, if you so chose, a mild electric shock, completely safe, of course….. By holding hands we will make a circuit. Our bodies become capacitors and the electricity passes through us. You can’t see electricity, but you can feel it.
+
+(Not advisable for persons with pacemakers or epilepsy)
