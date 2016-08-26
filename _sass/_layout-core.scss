@@ -73,7 +73,7 @@ blockquote p {
 
 .button {
     //@extend button;
-    @include bbb-flat-style($action-color, $white);
+    //@include bbb-flat-style($action-color, $white);
     &:hover:not(:disabled) {
         color: $white;
         background: darken($action-color, 20%);

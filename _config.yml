@@ -28,8 +28,8 @@ permalink: pretty
 
 # Image CDN
 imagecdn:
-  staging: "http://ed-raylee-dev.imgix.net"
-  production: "http://ed-raylee.imgix.net"
+  staging: "http://ed-ray-lee-dev.imgix.net"
+  production: "http://ed-ray-lee.imgix.net"
 
 # Collections
 collections:
