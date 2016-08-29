@@ -25,6 +25,7 @@
     //@include padding(null 0.5em);
 
 
+
     .title {
         @include position(absolute, null 0 8px 0);
         z-index: 20;
@@ -37,6 +38,9 @@
         a:hover, a:focus {
             text-decoration: none;
         }
+    }
+    .subtitle {
+        text-transform: uppercase;
     }
     h3 {
         font-weight: normal;

@@ -123,10 +123,12 @@ blockquote p {
 // logo
 .logo {
     float: left;
+    width: 90%;
     height: $header-height-mobile;
     line-height: 2em;
     padding-top: 1em;
     @include media($mobile) {
+        width: initial;
         height: $header-height;
     }
     @include media ($tablet) {
@@ -142,8 +144,9 @@ blockquote p {
         font-size: modular-scale(3);
     }
     .subtitle {
-        display: block;
-
+        line-height: 1em;
+        display: inline-block;
+        text-transform: uppercase;
         font-size: modular-scale(5);
         @include media ($mobile) {
             margin-left: 10px;
@@ -154,12 +157,7 @@ blockquote p {
         text-decoration: none;
     }
 }
-.title {
 
-}
-.subtitle {
-    text-transform: uppercase;
-}
 
 // nav menus
 //
@@ -190,7 +188,6 @@ ul.navigation-menu {
 // Nav items
 li.nav-link {
     display: block;
-    text-align: right;
     width: 100%;
     padding: 0.25em 0;
     @include media ($tablet) {
@@ -218,7 +215,7 @@ li.nav-link {
 }
 
 // Sub menus
-li.more.nav-link {
+/*li.more.nav-link {
     padding-right: 0;
 
     //@include media ($tablet) {
@@ -242,31 +239,44 @@ li.more.nav-link {
       font-family: "helvetica, arial, sans-serif";
       content: "\25BE";
     }
-}
+}*/
 
 li.more {
     overflow: visible;
     padding-right: 0;
 
     a {
-      padding-right: 0.8em;
+      //padding-right: 0.8em;
     }
 
     > a {
-        padding-right: 1.6em;
+        //padding-right: 1.6em;
         position: relative;
         transition: all 0.2s ease-in-out;
         @include media ($tablet) {
-            margin-right: $navigation-submenu-padding;
+            //margin-right: $navigation-submenu-padding;
         }
 
         &::after {
-            content: "›";
+            //content: "›";
             font-size: 1.2em;
             position: absolute;
-            right: $navigation-submenu-padding / 2;
+
+            right: -1em;
+            font-family: "helvetica, arial, sans-serif";
+            content: "\25BE";
+            @include media ($tablet) {
+                right: 0;
+            }
         }
     }
+    /*
+     > a::after {
+      @include position(absolute, auto 0em auto auto);
+      font-family: "helvetica, arial, sans-serif";
+      content: "\25BE";
+    }
+    */
 
     &:focus > .submenu,
     &:hover > .submenu {
@@ -274,7 +284,7 @@ li.more {
     }
 
     @include media ($tablet) {
-      padding-right: 0.8em;
+      //padding-right: 0.8em;
       position: relative;
     }
 }   // end li.more
@@ -348,7 +358,7 @@ ul.submenu {
     opacity: 0.8;
   }
   .menu__container.is-active & {
-    color: #333;
+    //color: #333;
   }
 }
 /*

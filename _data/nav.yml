@@ -1,6 +1,8 @@
 - title: "Projects"
   href: "/projects/"
   subcategories:
+    - subtitle: "View all projects"
+      subhref: "/projects"
     - subtitle: "Siren"
       subhref: "/projects/siren/"
     - subtitle: "Swarm"
