@@ -55,3 +55,15 @@ $large-screen: $tablet;
 
 // header height
 $header-height: 4em;
+$header-height-mobile: 6em;
+
+// navigation
+$navigation-padding: 1em;
+$navigation-background: $black;
+
+$navigation-color-hover: white;
+$navigation-height: 30px;
+
+$navigation-active-link-color: transparentize($white, 0.5);
+$navigation-submenu-padding: 1em;
+$navigation-submenu-width: 15em;

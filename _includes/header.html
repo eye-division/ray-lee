@@ -4,7 +4,7 @@
       {% if site.logo %}
       <img src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title }}">
       {% else %}
-      <span class="title">{{ site.title }}</span> <span class="subtitle">{{ site.subtitle }}</span>
+      <span class="title">{{ site.title }}</span> <i class="fa fa-ellipsis-v"></i> <span class="subtitle">{{ site.subtitle }}</span>
       {% endif %}
     </a>
     <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
@@ -12,22 +12,39 @@
     </a>
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
-        {% for link in site.data.nav %}
-          <li class="nav-link{% if page.url == link.href %} active{% endif %}"><a href="{{ link.href | prepend: site.baseurl }}">{{ link.title }}</a>
+
+       {% for link in site.data.nav %}
+
+          {% if link.subcategories != null %}
+
+          <li class="nav-link menu__container more" id="menu__container">
+
+            <a href="#menu" id="menu__button" class="menu__button{% if page.url == link.href %} active{% endif %}">{{ link.title }}</a>
+
+            <div id="menuclick" class="menuclick">
+
+              <ul class="submenu">
+
+                {% for subcategory in link.subcategories %}
+
+                     <li><a href="{{ subcategory.subhref | prepend: site.baseurl }}" class="{% if page.url == link.href %}active{% endif %}">{{ subcategory.subtitle }}</a></li>
+
+                {% endfor %}
+
+              </ul>
+            </div>
+          </li>
+
+          {% else %}
+
+          <li class="nav-link{% if page.url == link.href %} active{% endif %}">
+            <a href="{{ link.href | prepend: site.baseurl }}">{{ link.title }}</a>
+          </li>
+
+          {% endif %}
+
         {% endfor %}
 
-        {% if false %}
-        <!-- alternative social links in nav menu -->
-          {% for social in site.social %}
-            {% if social.url != null %}
-            <li class="nav-link social">
-              <a href="{{ social.url }}" title="{{ social.desc }}">
-                <i class="fa fa-{{ social.icon }}"></i>
-              </a>
-            </li>
-            {% endif %}
-          {% endfor %}
-        {% endif %}
       </ul>
     </nav>
   </div>
