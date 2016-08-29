@@ -25,6 +25,7 @@
     //@include padding(null 0.5em);
 
 
+
     .title {
         @include position(absolute, null 0 8px 0);
         z-index: 20;
@@ -37,6 +38,9 @@
         a:hover, a:focus {
             text-decoration: none;
         }
+    }
+    .subtitle {
+        text-transform: uppercase;
     }
     h3 {
         font-weight: normal;
@@ -77,10 +81,13 @@
         }
         @include media($tablet) {
             top: 30px;
-            font-size: 1.4em;
+            font-size: 1.2em;
         }
         a {
             color: $white;
+            &:hover,&:focus {
+                text-decoration: none;
+            }
         }
     }
 
@@ -153,5 +160,30 @@
     }
 }
 
+/*
+ * Lightbox
+ */
+
+.lb-dataContainer {
+    background: $black;
+    padding: 1em
+}
+.lb-data {
+    .lb-number {
+        color: $action-color;
+    }
+    .lb-close {
+        background: url('/assets/close.png') top right no-repeat;
+    }
+}
+
+.lb-nav {
+    a.lb-next {
+        background: url('/assets/next.png') right 48% no-repeat;
+    }
+    a.lb-prev {
+        background: url('/assets/prev.png') left 48% no-repeat;
+    }
+}
 
 
