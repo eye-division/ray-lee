@@ -61,30 +61,32 @@ main_image_path: /assets/chorus.jpg
   <h2>Projects</h2>
 
   {% for project in projects %}
-  <article class="project {% cycle 'alpha', '', 'last' %}">
-    <a href="{{project.url}}" title="{{project.title}}">
-        {% if project.main_image_path %}
-        {% include img.html src=project.main_image_path width=400 height=300 %}
-        {% else %}
-        {% include img.html src="/siteicon.png" width=400 height=300 %}
-        {% endif %}
+    {% if project.tag == 'home' %}
+      <article class="project {% cycle 'alpha', '', 'last' %}">
+        <a href="{{project.url}}" title="{{project.title}}">
+            {% if project.main_image_path %}
+            {% include img.html src=project.main_image_path width=400 height=300 %}
+            {% else %}
+            {% include img.html src="/siteicon.png" width=400 height=300 %}
+            {% endif %}
 
-    </a>
-    <div class="title">
-      <a href="{{project.url}}" title="{{project.title}}">
-        <h3 class="">{{project.title}}</h3>
-      </a>
-    </div>
-   {% if project.description %}
-    <div class="caption">
-      <div class="blur"></div>
-      <div class="caption-text">
-        <p><a href="{{project.url}}" title="{{project.title}}">{{project.description}}</a></p>
-      </div>
-    </div>
-      {% endif %}
+        </a>
+        <div class="title">
+          <a href="{{project.url}}" title="{{project.title}}">
+            <h3 class="">{{project.title}}</h3>
+          </a>
+        </div>
+       {% if project.description %}
+        <div class="caption">
+          <div class="blur"></div>
+          <div class="caption-text">
+            <p><a href="{{project.url}}" title="{{project.title}}">{{project.description}}</a></p>
+          </div>
+        </div>
+          {% endif %}
 
-  </article>
+      </article>
+    {% endif %}
   {% endfor %}
 </section>
 {% endif %}

@@ -10,7 +10,7 @@ images:
     description:
   - image_path: "/assets/choir2.jpg"
     description:
-  
+tags: home
 ---
 ‘Choir’ is an early version of the work that evolved into <a href="{{ site.baseurl }}/projects/siren/">‘Siren’</a>. The installation performance ‘Choir’ took the rotating sirens that had been first developed in ‘The Theremin Lesson’ and ‘Spin’ and tested the idea of using a large number of them on their own as the basis of the work. In Choir, sixteen tripods were used and installed, filling the Upper Gallery at what was then The Museum of Modern Art, Oxford (now Modern Art Oxford). A series of short fifteen minute performances took place over one evening as part of the OX1 Festival. Limited speed control over the spinning arms was available and there was only one performer, however, the work showed the potential to be developed into a much larger project.
 

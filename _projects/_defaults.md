@@ -9,4 +9,5 @@ video_embed:
 images:
   - image_path:
     description:
+tags:
 ---
