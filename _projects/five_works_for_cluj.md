@@ -4,10 +4,12 @@ description: "5 sound works for cluj napoca, Romania"
 project_date: 2006-11-01T00:00:00.000Z
 project_to_date: 2006-12-01T00:00:00.000Z
 list: true
+past: true
 main_image_path: "/assets/cluj.jpg"
 video_embed: 
 images:
   - image_path: "/assets/cluj.jpg"
     description:
+order: 6
 ---
 5 sound works for Cluj Napoca, Romania

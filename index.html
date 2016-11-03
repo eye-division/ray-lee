@@ -61,7 +61,7 @@ main_image_path: /assets/chorus.jpg
   <h2>Projects</h2>
 
   {% for project in projects %}
-    {% if project.tag == 'home' %}
+    {% if project.tags == 'home' %}
       <article class="project {% cycle 'alpha', '', 'last' %}">
         <a href="{{project.url}}" title="{{project.title}}">
             {% if project.main_image_path %}

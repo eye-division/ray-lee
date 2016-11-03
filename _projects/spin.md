@@ -4,12 +4,13 @@ description: "Spin' develops and extends the research work begun in 'The Theremi
 project_date: 2006-11-01T00:00:00.000Z
 project_to_date: 2006-12-01T00:00:00.000Z
 list: true
+past: true
 main_image_path: "/assets/spin.jpg"
 video_embed: 
 images:
   - image_path: "/assets/spin.jpg"
     description:
-
+order: 12
 ---
 'Spin', Sensitive Skin season of new performance. Future Factory Nottingham. 2001
 

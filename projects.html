@@ -9,11 +9,47 @@ main_image_path: "/assets/chorus.jpg"
 </section>
 
 {% assign projects = site.projects %}
+{% assign current = site.projects | where: "list",true | where:"past",false | sort: "project_date" %}
 
-{% if projects %}
-<section class="project-list">
+{% assign past = site.projects | where: "list",true | where:"past",true | sort: "order" %}
 
-  {% for project in projects %}
+{% if current %}
+<section class="project-list projects-current">
+  <h2>Current projects</h2>
+  {% for project in current %}
+  <article class="project {% cycle 'alpha', '', 'last' %}">
+    <a href="{{project.url}}" title="{{project.title}}">
+        {% if project.main_image_path %}
+        {% include img.html src=project.main_image_path width=400 height=300 %}
+        {% else %}
+        {% include img.html src="/siteicon.png" width=400 height=300 %}
+        {% endif %}
+
+    </a>
+    <div class="title">
+      <a href="{{project.url}}" title="{{project.title}}">
+        <h3 class="">{{project.title}}</h3>
+      </a>
+    </div>
+   {% if project.description %}
+    <div class="caption">
+      <div class="blur"></div>
+      <div class="caption-text">
+        <p><a href="{{project.url}}" title="{{project.title}}">{{project.description}}</a></p>
+      </div>
+    </div>
+      {% endif %}
+
+  </article>
+  {% endfor %}
+</section>
+{% endif %}
+
+{% if past  %}
+<section class="project-list projects-past">
+  <h2>Past projects</h2>
+
+  {% for project in past %}
   <article class="project {% cycle 'alpha', '', 'last' %}">
     <a href="{{project.url}}" title="{{project.title}}">
         {% if project.main_image_path %}

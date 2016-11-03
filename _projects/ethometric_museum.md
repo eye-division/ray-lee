@@ -4,6 +4,7 @@ description: "Appearing to be artefacts from a hitherto unknown branch of scienc
 project_date: 2006-11-01T00:00:00.000Z
 project_to_date: 2006-12-01T00:00:00.000Z
 list: true
+past: true
 main_image_path: "/assets/ethometric-museum2.jpg"
 video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/a1A43yG--Vk?rel=0" frameborder="0" allowfullscreen></iframe>'
 images:
@@ -21,6 +22,7 @@ images:
     description:
   - image_path: "/assets/ethometric-recorder.jpg"
     description:
+order: 5
 ---
 Appearing to be artefacts from a hitherto unknown branch of science, Ethometric Instruments are curious, fascinating relics from a bygone age.
 
