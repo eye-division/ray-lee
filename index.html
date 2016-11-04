@@ -1,15 +1,33 @@
 ---
 layout: home
 main_image_path: /assets/chorus.jpg
+carousel:
+  - image: /assets/chorus.jpg
+    caption: 'Chorus'
+  - image: /assets/choir1.jpg
+    caption: 'Choir'
 ---
 <section class="top reverse-bg">
 
   <div class="wrapper">
 
     <div class="photo">
-
+      <!-- testing slider -->
+      {% if page.carousel %}
+      <div class="flexslider">
+        <ul class="slides">
+          {% for slides in page.carousel %}
+          <li>
+            <img src="{{ slides.image }}">
+            <p class="flex-caption">{{ slides.caption }}</p>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+      <!--
         <img src="{{ site.baseurl }}/assets/chorus-800.jpg" alt="Chorus" class="">
-
+      -->
         <h2>About Ray Lee</h2>
 
         <div class="about">
