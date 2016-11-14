@@ -19,7 +19,9 @@ carousel:
           {% for slides in page.carousel %}
           <li>
             <img src="{{ slides.image }}">
+            {% if slides.caption %}
             <p class="flex-caption">{{ slides.caption }}</p>
+            {% endif %}
           </li>
           {% endfor %}
         </ul>
