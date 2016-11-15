@@ -8,9 +8,9 @@ past: false
 main_image_path:
 video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/f3gPhKR4j8k?rel=0" frameborder="0" allowfullscreen></iframe>'
 images:
-  - image_path: /assets/siren1.jpg
+  - image_path:
     description:
-  - image_path: /assets/siren2.jpg
+  - image_path:
     description:
   - image_path: /assets/siren3.jpg
     description:
