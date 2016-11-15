@@ -10,6 +10,7 @@ video_embed:
 images:
   - image_path: "/assets/spin.jpg"
     description:
+tags:
 order: 12
 ---
 'Spin', Sensitive Skin season of new performance. Future Factory Nottingham. 2001

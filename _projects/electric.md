@@ -12,6 +12,7 @@ images:
     description: 
   - image_path: "/assets/electric2.jpg"
     description:
+tags:
 order: 4
 ---
 First performed as part of Battersea Arts Centre's One on One Festival July 2010.

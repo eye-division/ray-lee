@@ -14,6 +14,7 @@ images:
     description:
   - image_path: "/assets/coldstorage-stav-and-danielle.jpg"
     description:
+tags:
 order: 3
 ---
 A Battersea Arts Centre bedroom commission.

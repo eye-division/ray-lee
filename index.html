@@ -8,6 +8,7 @@ carousel:
     caption: Choir
   - image: /assets/images/chorus.jpg
     caption:
+latest_video_embed:
 ---
 <section class="top reverse-bg">
 
@@ -38,14 +39,14 @@ carousel:
           <div class="rayphoto">
           <a href="{{ site.baseurl }}/about/" title="Read more about Ray Lee"><img src="{{ site.baseurl }}/assets/ray-portrait.jpg" alt="Ray Lee photograph" class=""></a>
           </div>
-          <div class="text">
-            <p><strong>Ray Lee</strong> is an artist, composer, and performer. His work investigates his fascination with the hidden world of electro-magnetic radiation and in particular how sound can be used as evidence of invisible phenomena. He is interested in the way that science and philosophy represent the universe, and his work questions the orthodoxies that emerge, and submerge, according to the currently fashionable trends. He creates spinning, whirling, and pendulous sound installations and performances that explore “circles of ether,” the invisible forces that surround us.</p>
-            <p><a href="{{ site.baseurl }}/about/" class="button">Read more . . .</a></p>
+          <div class="text editable">
+            <p><strong>Ray Lee</strong> is an artist, composer, and performer. His work investigates his fascination with the hidden world of electro-magnetic radiation and in particular how sound can be used as evidence of invisible phenomena. He is interested in the way that science and philosophy represent the universe, and his work questions the orthodoxies that emerge, and submerge, according to the currently fashionable trends. He creates spinning, whirling, and pendulous sound installations and performances that explore “<em>circles of ether</em>,” the invisible forces that surround us.</p>
+            <p><a href="{{ site.baseurl }}/about/" class="readmore">Read more . . .</a></p>
           </div>
         </div>
     </div>
 
-    <div class="latest">
+    <div class="latest editable">
 
       <h2>Chorus</h2>
       <p>23 &amp; 24 October 2015: University Square, outside Coventry Cathedral</p>
@@ -57,7 +58,7 @@ carousel:
         <cite>David Toop, The Wire</cite>
       </blockquote>
 
-      <p><a href="{{ site.baseurl }}/projects/chorus/" class="button">Read more . . .</a></p>
+      <p><a href="{{ site.baseurl }}/projects/chorus/" class="readmore">Read more . . .</a></p>
 
       <div class="video">
         <div class="video-wrapper">
@@ -110,5 +111,10 @@ carousel:
       </article>
     {% endif %}
   {% endfor %}
+
+  <footer>
+  <p><a href="{{ site.baseurl }}/projects/" class="readmore">View all . . .</a></p>
+  </footer>
+
 </section>
 {% endif %}

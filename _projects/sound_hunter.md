@@ -10,6 +10,7 @@ video_embed: ''
 images:
   - image_path: "/assets/soundhunter.jpg"
     description:
+tags:
 order: 11  
 ---
 Activating and controlling the Ethometric Instruments in <a href="{{ site.base_url }}/projects/the_archive/">The Archive</a>, ‘The Sound Hunter’ creates a web of sound, a haunting and mesmerising flux both engaging and compelling.

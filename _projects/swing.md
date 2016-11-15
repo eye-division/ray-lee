@@ -12,6 +12,7 @@ images:
     description:
   - image_path: "/assets/swing2.jpg"
     description:
+tags:
 order: 13
 ---
 Swing is a sound performance installation that consists of an array of bare loudspeaker cones suspended and swinging above the audience, each individually emitting a discrete sound. The speakers are connected via a series of ropes and pulleys to a gantry where a team of 'bell-ringers' pull the ropes, making the speakers swing over the the audience who are able to move around underneath the swinging sounds.

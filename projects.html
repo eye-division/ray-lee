@@ -25,11 +25,9 @@ main_image_path: "/assets/chorus.jpg"
         {% include img.html src="/siteicon.png" width=400 height=300 %}
         {% endif %}
 
-    </a>
     <div class="title">
-      <a href="{{project.url}}" title="{{project.title}}">
         <h3 class="">{{project.title}}</h3>
-      </a>
+
     </div>
    {% if project.description %}
     <div class="caption">
@@ -38,8 +36,8 @@ main_image_path: "/assets/chorus.jpg"
         <p><a href="{{project.url}}" title="{{project.title}}">{{project.description}}</a></p>
       </div>
     </div>
-      {% endif %}
-
+    {% endif %}
+    </a>
   </article>
   {% endfor %}
 </section>

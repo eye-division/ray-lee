@@ -22,6 +22,7 @@ images:
     description:
   - image_path: "/assets/ethometric-recorder.jpg"
     description:
+tags:
 order: 5
 ---
 Appearing to be artefacts from a hitherto unknown branch of science, Ethometric Instruments are curious, fascinating relics from a bygone age.

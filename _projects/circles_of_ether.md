@@ -16,6 +16,7 @@ images:
     description:
   - image_path: "/assets/circles-of-ether4.jpg"
     description:
+tags:
 order: 2
 ---
 A spatial composition for an ensemble of kinetic sound machines.

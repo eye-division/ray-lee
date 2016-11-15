@@ -14,6 +14,7 @@ images:
     description: "Forcefield"
   - image_path: "/assets/forcefield3.jpg"
     description: "Forcefield"
+tags:
 order: 7
 ---
 Force field is a 30 minute performance for MIDI Theremin and sound machines. By interacting with the electro-magnetic ‘force field’ that surrounds the Theremin, Lee activates and controls a series of kinetic sound machines creating music and movement from the Ether.

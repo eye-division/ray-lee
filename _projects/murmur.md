@@ -12,6 +12,7 @@ video_embed2: '<iframe src="https://player.vimeo.com/video/21689741" width="640"
 images:
   - image_path: "/assets/murmur.jpg"
     description:
+tags:
 order: 9
 ---
 A spatial composition for an ensemble of kinetic sound machines.

@@ -17,6 +17,7 @@ images:
     description:
   - image_path: "/assets/chorus3.jpg"
     description:
+tags:
 order: 17
 ---
 Towering above the audience a series of giant metal tripods support rotating arms. At the end of each arm loudspeakers emit precisely tuned musical pitches creating a pulsating, harmonic drone, singing out a hypnotic siren call to all those present.

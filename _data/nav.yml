@@ -41,3 +41,5 @@
       subhref: "/projects/chorus/"
 - title: "About"
   href: "/about/"
+- title: "Info"
+  href: "/info/"

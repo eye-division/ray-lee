@@ -26,6 +26,7 @@ images:
     description:
   - image_path: "/assets/siren9.jpg"
     description:
+tags:
 order: 10
 ---
 Siren is a spectacular performance piece that takes place within an installation of large sound sculptures; metal tripods with rotating arms that emit electronic drones. Two performers move with the mass of swirling metal, tuning the drones to create a hypnotic composition and controlling the machinery to create a stunning audio visual spectacle.Siren is a true synthesis of different 
@@ -50,7 +51,8 @@ siren at Hanger 3022, Upper Heyford Airbase, Oxford Contemporary Music October 2
 
 For the audience this was an experience outside of the normal conventions of attending an art gallery, theatre or concert. Once through the razor-wired checkpoint, the audience faced a two-mile drive into the heart of this bleak and desolate ex-cold war territory. The airfield, once home to a fleet of US jet bombers, now lies half empty, the fifty or more huge, curved, bomb-proof concrete hangers providing a haunting reminder of the site’s history.
 
->‘I could have sat for hours hypnotised by the final crystal chord of the spinning oscillators’ Live Art Magazine
+>‘I could have sat for hours hypnotised by the final crystal chord of the spinning oscillators’ 
+Live Art Magazine
 
 >“a choir of rotating sirens, their individually strident voices congealing into a thick mutating chord that transfixed listeners in its sticky flux.” David Toop, The Wire
 

@@ -10,6 +10,7 @@ video_embed:
 images:
   - image_path: "/assets/cluj.jpg"
     description:
+tags:
 order: 6
 ---
 5 sound works for Cluj Napoca, Romania

@@ -49,6 +49,12 @@ code {
     padding: 0 3px;
 }
 
+/* SVG icons */
+.icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
 
 blockquote {
   color: darken($action-color,20%);
@@ -73,14 +79,23 @@ blockquote p {
 }
 // Buttons
 
-.button {
+.readmore,
+.prev, .next {
     @extend button;
     @include bbb-flat-style($action-color, $white);
     &:hover:not(:disabled) {
         color: $white;
         background: darken($action-color, 20%);
         text-decoration: none;
+
   }
+  .icon {
+    fill: $white;
+    margin-bottom: -5px;
+  }
+}
+.next {
+    float: right;
 }
 
 
@@ -110,6 +125,9 @@ blockquote p {
     font-size: 1.5em;
     padding-top: 0.5em;
     padding-right: 0.5em;
+    .icon {
+        fill: $white;
+    }
     @include media ($tablet) {
         display: none;
     }
@@ -467,7 +485,10 @@ img {
 }
 
 
-
+section footer {
+    padding: 1em 0;
+    clear: both;
+}
 
 /*
 *	Footer

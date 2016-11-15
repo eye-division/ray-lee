@@ -11,6 +11,7 @@ video_description: 'BBC World Service Digital planet interview with Ray Lee at K
 images:
   - image_path: "/assets/theremonium.jpg"
     description:
+tags:
 order: 16
 ---
 Kinetica Art Fair, London 2010

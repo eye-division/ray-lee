@@ -15,7 +15,8 @@ images:
     description:
   - image_path: "/assets/swarm-amsterdam.jpg"
     description:
-
+tags:
+order: 17
 ---
 Swarm is a kinetic sound work designed for atrium spaces consisting of a series of suspended motors from each of which are hung three loudspeakers. As the motors rotate the loudspeakers are swung out by centrifugal force and emit stored sounds above the heads of the audience. Originally commissioned by Muziek Centrum Nederland it was recomposed for FACT, Liverpool 2008.
 
