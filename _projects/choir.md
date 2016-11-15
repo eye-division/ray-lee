@@ -1,7 +1,7 @@
 ---
 title: Choir
 description: ‘Choir’ is an early version of the work that evolved into ‘Siren’.
-project_date: 2006-11-01 00:00:00
+project_date: 2001-10-01 00:00:00
 list: true
 past: true
 main_image_path: /assets/choir1.jpg
