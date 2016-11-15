@@ -1,33 +1,34 @@
 ---
-title: "Siren"
-description: "Siren is a spectacular performance piece that takes place within an installation of large sound sculptures; metal tripods with rotating arms that emit electronic drones."
-project_date: 2003-12-01T00:00:00.000Z
+title: Siren
+description: Siren is a spectacular performance piece that takes place within an installation of large sound sculptures; metal tripods with rotating arms that emit electronic drones.
+project_date: 2004-10-28 00:00:00
 project_to_date:
 list: true
-past: true
-main_image_path: "/assets/siren1.jpg"
+past: false
+main_image_path: /assets/siren1.jpg
 video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/f3gPhKR4j8k?rel=0" frameborder="0" allowfullscreen></iframe>'
 images:
-  - image_path: "/assets/siren1.jpg"
+  - image_path: /assets/siren1.jpg
     description:
-  - image_path: "/assets/siren2.jpg"
+  - image_path: /assets/siren2.jpg
     description:
-  - image_path: "/assets/siren3.jpg"
+  - image_path: /assets/siren3.jpg
     description:
-  - image_path: "/assets/siren4.jpg"
+  - image_path: /assets/siren4.jpg
     description:
-  - image_path: "/assets/siren5.jpg"
+  - image_path: /assets/siren5.jpg
     description:
-  - image_path: "/assets/siren6.jpg"
+  - image_path: /assets/siren6.jpg
     description:
-  - image_path: "/assets/siren7.jpg"
+  - image_path: /assets/siren7.jpg
     description:
-  - image_path: "/assets/siren8.jpg"
+  - image_path: /assets/siren8.jpg
     description:
-  - image_path: "/assets/siren9.jpg"
+  - image_path: /assets/siren9.jpg
     description:
 tags:
-order: 10
+  - home
+order: 3
 ---
 Siren is a spectacular performance piece that takes place within an installation of large sound sculptures; metal tripods with rotating arms that emit electronic drones. Two performers move with the mass of swirling metal, tuning the drones to create a hypnotic composition and controlling the machinery to create a stunning audio visual spectacle.Siren is a true synthesis of different 
 artistic traditions.
