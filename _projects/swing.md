@@ -1,19 +1,20 @@
 ---
-title: "Swing"
-description: "Swing is a sound performance installation that consists of an array of bare loudspeaker cones suspended and swinging above the audience, each individually emitting a discrete sound."
-project_date: 2006-11-01T00:00:00.000Z
-project_to_date: 2006-12-01T00:00:00.000Z
+title: Swing
+description: 'Swing is a sound performance installation that consists of an array of bare loudspeaker cones suspended and swinging above the audience, each individually emitting a discrete sound.'
+project_date: 1994-10-30 00:00:00
+project_to_date: 2006-12-01 00:00:00
 list: true
-archive: true
-main_image_path: "/assets/swing1.jpg"
+archive: false
+main_image_path: /assets/swing1.jpg
 video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/fDPiPD6fyNI?rel=0" frameborder="0" allowfullscreen></iframe>'
 images:
-  - image_path: "/assets/swing1.jpg"
+  - image_path: /assets/swing1.jpg
     description:
-  - image_path: "/assets/swing2.jpg"
+  - image_path: /assets/swing2.jpg
     description:
 tags:
-order: 13
+  - home
+order: 4
 ---
 Swing is a sound performance installation that consists of an array of bare loudspeaker cones suspended and swinging above the audience, each individually emitting a discrete sound. The speakers are connected via a series of ropes and pulleys to a gantry where a team of 'bell-ringers' pull the ropes, making the speakers swing over the the audience who are able to move around underneath the swinging sounds.
 
