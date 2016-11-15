@@ -8,10 +8,6 @@ past: false
 main_image_path: /assets/murmur.jpg
 video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/f3gPhKR4j8k?rel=0" frameborder="0" allowfullscreen></iframe>'
 images:
-  - image_path:
-    description:
-  - image_path:
-    description:
   - image_path: /assets/siren3.jpg
     description:
   - image_path: /assets/siren4.jpg
