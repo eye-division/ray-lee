@@ -1,29 +1,30 @@
 ---
-title: "Ethometric museum"
-description: "Appearing to be artefacts from a hitherto unknown branch of science, Ethometric Instruments are curious, fascinating relics from a bygone age."
-project_date: 2006-11-01T00:00:00.000Z
-project_to_date: 2006-12-01T00:00:00.000Z
+title: Ethometric museum
+description: 'Appearing to be artefacts from a hitherto unknown branch of science, Ethometric Instruments are curious, fascinating relics from a bygone age.'
+project_date: 2011-04-01 00:00:00
+project_to_date: 2006-12-01 00:00:00
 list: true
-past: true
-main_image_path: "/assets/ethometric-museum2.jpg"
+past: false
+main_image_path: /assets/ethometric-museum2.jpg
 video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/a1A43yG--Vk?rel=0" frameborder="0" allowfullscreen></iframe>'
 images:
-  - image_path: "/assets/ethometric-stav-door.jpg"
+  - image_path: /assets/ethometric-stav-door.jpg
     description:
-  - image_path: "/assets/ethometric-museum.jpg"
+  - image_path: /assets/ethometric-museum.jpg
     description:
-  - image_path: "/assets/ethometric-museum2.jpg"
+  - image_path: /assets/ethometric-museum2.jpg
     description:
-  - image_path: "/assets/ethometric-museum-ray.jpg"
+  - image_path: /assets/ethometric-museum-ray.jpg
     description:
-  - image_path: "/assets/ethometer-crop.jpg"
+  - image_path: /assets/ethometer-crop.jpg
     description:
-  - image_path: "/assets/ethomagnetron.jpg"
+  - image_path: /assets/ethomagnetron.jpg
     description:
-  - image_path: "/assets/ethometric-recorder.jpg"
+  - image_path: /assets/ethometric-recorder.jpg
     description:
 tags:
-order: 5
+  - home
+order: 2
 ---
 Appearing to be artefacts from a hitherto unknown branch of science, Ethometric Instruments are curious, fascinating relics from a bygone age.
 
