@@ -4,7 +4,7 @@ description: "Activating and controlling the Ethometric Instruments in The Archi
 project_date: 2006-11-01T00:00:00.000Z
 project_to_date: 2006-12-01T00:00:00.000Z
 list: true
-past: true
+archive: true
 main_image_path: "/assets/soundhunter.jpg"
 video_embed: ''
 images:

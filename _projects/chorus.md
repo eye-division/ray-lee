@@ -4,7 +4,7 @@ description: Towering above the audience a series of giant metal tripods support
 project_date: 2013-04-01 00:00:00
 project_to_date: 2006-12-01 00:00:00
 list: true
-past: false
+archive: false
 main_image_path: /assets/chorus.jpg
 video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/5vkGw7SM2ak?rel=0" frameborder="0" allowfullscreen></iframe>'
 video_embed2: 'https://vimeo.com/99467393'

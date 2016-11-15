@@ -4,11 +4,11 @@
       {% if site.logo %}
       <img src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title }}">
       {% else %}
-      <span class="title">{{ site.title }}</span> <i class="fa fa-2x angle-right"></i> <span class="subtitle">{{ site.subtitle }}</span>
+      <span class="title">{{ site.title }}</span> <svg class="icon"><use xlink:href="#icon-chevron_right" /></svg> <span class="subtitle">{{ site.subtitle }}</span>
       {% endif %}
     </a>
     <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
-      <svg class="icon"><use xlink:href="#icon-align_justify" /></svg>
+      <svg class="icon"><use xlink:href="#icon-reorder" /></svg>
     </a>
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">

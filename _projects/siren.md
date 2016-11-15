@@ -4,7 +4,7 @@ description: Siren is a spectacular performance piece that takes place within an
 project_date: 2004-10-28 00:00:00
 project_to_date:
 list: true
-past: false
+archive: false
 main_image_path: /assets/murmur.jpg
 video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/f3gPhKR4j8k?rel=0" frameborder="0" allowfullscreen></iframe>'
 images:

@@ -9,9 +9,9 @@ main_image_path: "/assets/chorus.jpg"
 </section>
 
 {% assign projects = site.projects %}
-{% assign current = site.projects | where: "list",true | where:"past",false | sort: "project_date" %}
+{% assign current = site.projects | where: "list",true | where:"archive",false | sort: "project_date" %}
 
-{% assign past = site.projects | where: "list",true | where:"past",true | sort: "order" %}
+{% assign past = site.projects | where: "list",true | where:"archive",true | sort: "order" %}
 
 {% if current %}
 <section class="project-list projects-current">
@@ -45,7 +45,7 @@ main_image_path: "/assets/chorus.jpg"
 
 {% if past  %}
 <section class="project-list projects-past">
-  <h2>Past projects</h2>
+  <h2>Archive</h2>
 
   {% for project in past %}
   <article class="project {% cycle 'alpha', '', 'last' %}">

@@ -4,7 +4,7 @@ description: "First displayed at Battersea Arts Centre, London May 2010, ‘The 
 project_date: 2006-11-01T00:00:00.000Z
 project_to_date: 2006-12-01T00:00:00.000Z
 list: true
-past: true
+archive: true
 main_image_path: "/assets/archive-stav-1.jpg"
 video_embed: ''
 images:

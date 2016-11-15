@@ -4,7 +4,7 @@ description: "What would it be like to go to sleep and wake up in one thousand y
 project_date: 2006-11-01T00:00:00.000Z
 project_to_date: 2006-12-01T00:00:00.000Z
 list: true
-past: true
+archive: true
 main_image_path: "/assets/coldstorage1.jpg"
 video_embed: ''
 images:

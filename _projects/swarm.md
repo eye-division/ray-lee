@@ -4,7 +4,7 @@ description: "Swarm is a kinetic sound work designed for atrium spaces consistin
 project_date: 2006-11-01T00:00:00.000Z
 project_to_date: 2006-12-01T00:00:00.000Z
 list: true
-past: true
+archive: true
 main_image_path: "/assets/swarm1.jpg"
 video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/GCOW1GEl8qk?rel=0" frameborder="0" allowfullscreen></iframe>'
 video_embed2: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/4jOxk-HhYH8?rel=0" frameborder="0" allowfullscreen></iframe>'

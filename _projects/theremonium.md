@@ -4,7 +4,7 @@ description: "The Robotic Theremin Ensemble is Ray Lee plus a trio of robotic as
 project_date: 2006-11-01T00:00:00.000Z
 project_to_date: 2006-12-01T00:00:00.000Z
 list: true
-past: true
+archive: true
 main_image_path: "/assets/theremonium.jpg"
 video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/6b_HiFW8gtU?rel=0" frameborder="0" allowfullscreen></iframe>'
 video_description: 'BBC World Service Digital planet interview with Ray Lee at Kinetica Art Fair 2010'

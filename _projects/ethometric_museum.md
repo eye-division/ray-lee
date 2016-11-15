@@ -4,7 +4,7 @@ description: 'Appearing to be artefacts from a hitherto unknown branch of scienc
 project_date: 2011-04-01 00:00:00
 project_to_date: 2006-12-01 00:00:00
 list: true
-past: false
+archive: false
 main_image_path: /assets/ethometric-museum2.jpg
 video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/a1A43yG--Vk?rel=0" frameborder="0" allowfullscreen></iframe>'
 images:

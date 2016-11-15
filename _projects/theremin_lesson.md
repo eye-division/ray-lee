@@ -4,7 +4,7 @@ description: "Hand built, early electronic circuitry powers spinning sirens, rot
 project_date: 2006-11-01T00:00:00.000Z
 project_to_date: 2006-12-01T00:00:00.000Z
 list: true
-past: true
+archive: true
 main_image_path: "/assets/thereminlesson.jpg"
 video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/AGaNFEwHL2Y?rel=0" frameborder="0" allowfullscreen></iframe>'
 images:
