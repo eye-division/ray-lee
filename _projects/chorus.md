@@ -1,21 +1,21 @@
 ---
-title: "Chorus"
-description: "Towering above the audience a series of giant metal tripods support rotating arms."
-project_date: 2006-11-01T00:00:00.000Z
-project_to_date: 2006-12-01T00:00:00.000Z
+title: Chorus
+description: Towering above the audience a series of giant metal tripods support rotating arms.
+project_date: 2013-04-01 00:00:00
+project_to_date: 2006-12-01 00:00:00
 list: true
 past: false
-main_image_path: "/assets/chorus.jpg"
-video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/5vkGw7SM2ak?rel=0" frameborder="0" allowfullscreen></iframe>' 
+main_image_path: /assets/chorus.jpg
+video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/5vkGw7SM2ak?rel=0" frameborder="0" allowfullscreen></iframe>'
 video_embed2: 'https://vimeo.com/99467393'
 images:
-  - image_path: "/assets/chorus.jpg"
+  - image_path: /assets/chorus.jpg
     description:
-  - image_path: "/assets/chorus1.jpg"
+  - image_path: /assets/chorus1.jpg
     description:
-  - image_path: "/assets/chorus2.jpg"
+  - image_path: /assets/chorus2.jpg
     description:
-  - image_path: "/assets/chorus3.jpg"
+  - image_path: /assets/chorus3.jpg
     description:
 tags:
 order: 17
