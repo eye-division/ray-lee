@@ -12,6 +12,16 @@ images:
     description:
   - image_path: /assets/swing2.jpg
     description:
+  - image_path: /assets/swing 96.JPG
+    description:
+  - image_path: /assets/swing bells 7cm.jpg
+    description:
+  - image_path: /assets/swing 95 drawing.jpg
+    description:
+  - image_path: /assets/snibston1.jpg
+    description:
+  - image_path: /assets/swing snibston drawing.jpg
+    description:
 tags:
   - home
 order: 9
