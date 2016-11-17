@@ -1,5 +1,5 @@
 ---
-title: Ethometric museum
+title: Ethometric Museum
 description: 'Appearing to be artefacts from a hitherto unknown branch of science, Ethometric Instruments are curious, fascinating relics from a bygone age.'
 project_date: 2011-04-01 00:00:00
 project_to_date: 2006-12-01 00:00:00
@@ -45,7 +45,7 @@ Selected Press
 
 > A kind of musical H.G.Wells - Ivan Hewitt BBC Radio 3
 
-> Witty, strange and beautiful...For total strangeness see Ray Lee’s Ethometric Museum. - Lyn Gardner, Guardian&nbsp;
+> Witty, strange and beautiful…For total strangeness see Ray Lee’s Ethometric Museum. - Lyn Gardner, Guardian&nbsp;
 
 > Gentle, whimsical and resonant with beauty - Glasgow Herald \*\*\*\*
 
@@ -62,31 +62,30 @@ The score for *The Ethometric Museum* contains a description of all of the instr
 
 2011
 
-- Museum of the History of Science, Oxford
+* Museum of the History of Science, Oxford
 
-- BEAM sound art festival, Brunel University, London
+* BEAM sound art festival, Brunel University, London
 
-- Cellar of Mason’s Lodge, Hill Street Theatre, Edinburgh
+* Cellar of Mason’s Lodge, Hill Street Theatre, Edinburgh
 
-- The Old Library, South Hill Park Arts Centre, Bracknell
+* The Old Library, South Hill Park Arts Centre, Bracknell
 
 2012
 
-- Council Chamber, Battersea Arts Centre, London
+* Council Chamber, Battersea Arts Centre, London
 
-- Gravity Fields Festival Grantham
+* Gravity Fields Festival Grantham
 
-- Natural Science Society, Bournemouth Arts Festival
+* Natural Science Society, Bournemouth Arts Festival
 
-- Alms House, Corsham Festival
+* Alms House, Corsham Festival
 
-- Tesla Museum, Belgrade, Serbia, supported by the British Council
+* Tesla Museum, Belgrade, Serbia, supported by the British Council
 
 2013
 
-- Ashmolean Museum Oxford
-
--Science Museum, London
+* Ashmolean Museum Oxford
+* Science Museum, London
 
 **Supported by:**
 
