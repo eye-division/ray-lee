@@ -27,7 +27,7 @@ order: -1
 
 *Chorus* consists of fourteen five-meter tall tripods with rotating arms. These structures have been designed to create an immersive sound experience capable of transforming urban or rural environments. The work has been designed to function in outdoor locations in all weather conditions.&nbsp; The *Chorus* machines were designed by Ray Lee with assistance from Charlie Camm and built by Charlie Camm of Scenetec Ltd.
 
-In *Chorus* each of the tripods emits discrete tones from each of the loudspeakers situated on the end of each arm. &nbsp;The full fourteen tripod version allows twenty-eight discrete tracks to employed.
+In *Chorus* each of the tripods emits discrete tones from the loudspeakers situated on the end of the arms. The full fourteen tripod version allows twenty-eight discrete tracks to employed.
 
 *Chorus* aims to bring a contemporary music and visual art spectacle to a very wide audience. By locating the work outdoors and on a monumental scale *Chorus* is able to be experienced by large numbers of people and has the ability to attract people to the work who may have been ‘just passing by’.
 
