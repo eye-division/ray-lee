@@ -5,14 +5,14 @@ project_date: 2011-04-01 00:00:00
 project_to_date: 2006-12-01 00:00:00
 list: true
 archive: false
-main_image_path: /assets/ethometric-museum2.jpg
+main_image_path: /assets/P1050600.JPG
 video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/a1A43yG--Vk?rel=0" frameborder="0" allowfullscreen></iframe>'
 images:
   - image_path: /assets/ethometric-stav-door.jpg
     description:
   - image_path: /assets/ethometric-museum.jpg
     description:
-  - image_path: /assets/ethometric-museum2.jpg
+  - image_path: /assets/1927-101.jpg
     description:
   - image_path: /assets/ethometric-museum-ray.jpg
     description:
@@ -21,6 +21,12 @@ images:
   - image_path: /assets/ethomagnetron.jpg
     description:
   - image_path: /assets/ethometric-recorder.jpg
+    description:
+  - image_path: /assets/1927-102.jpg
+    description:
+  - image_path: /assets/1927-105.jpg
+    description:
+  - image_path: /assets/P1050793.JPG
     description:
 tags:
   - home
