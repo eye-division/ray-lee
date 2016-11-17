@@ -114,7 +114,7 @@ html[xmlns] .flexslider .slides {
   text-decoration: none;
   display: block;
   width: 40px;
-  height: 40px;
+  height: 60px;
   margin: -20px 0 0;
   position: absolute;
   top: 50%;
@@ -131,14 +131,22 @@ html[xmlns] .flexslider .slides {
   transition: all 0.3s ease-in-out;
 }
 .flex-direction-nav a:before {
-    font: normal normal normal 36px/1 FontAwesome;
+  /*
+  // font awesome version
+  font: normal normal normal 36px/1 FontAwesome;
   display: inline-block;
   content: '\f053';
-  color: $white;
+  */
+  font-family: "flexslider-icon";
+  font-size: 40px;
+  display: inline-block;
+  content: '\f001';
+  color: $blue;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);
 }
 .flex-direction-nav a.flex-next:before {
-  content: '\f054';
+  content: '\f002';
+  // fontawesome version: content: '\f054';
 }
 .flex-direction-nav .flex-prev {
   left: -50px;
@@ -278,7 +286,7 @@ html[xmlns] .flexslider .slides {
   padding: 2%;
   left: 0;
   bottom: 0;
-  background: rgba(0,0,0,.5);
+  background: rgba($blue,.5);
   color: $white;
   font-size: large;
   line-height: 18px;

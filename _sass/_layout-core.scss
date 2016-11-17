@@ -82,10 +82,11 @@ blockquote p {
 .readmore,
 .prev, .next {
     @extend button;
-    @include bbb-flat-style($action-color, $white);
+    @include bbb-flat-style(darken($action-color, 20%), $white);
     &:hover:not(:disabled) {
         color: $white;
-        background: darken($action-color, 20%);
+        background: darken($action-color, 40%);
+        @include transition (background 0.2s ease-in-out);
         text-decoration: none;
 
   }
