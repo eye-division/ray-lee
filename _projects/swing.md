@@ -38,7 +38,7 @@ order: 9
 
 *Swing* was a sound performance installation that consisted of an array of bare loudspeaker cones suspended above the audience at a height of approximately 2.4m off the floor, each individually emitting a discrete sound. The speakers were connected via a series of ropes and pulleys to a gantry where a team of 'bell-ringers' pulled the ropes, making the speakers swing over the audience who were able to move around underneath the swinging sounds. The work intended to evoke a sense of the history and former function of the building it had been made for.
 
-The original 1994 version was made as part of *Un-Earth,*a one-off, night time event by Fine Rats International at Snibston Colliery, a former coal mine, turned into a mining visitors centre. The event used the surface buildings and site of the colliery. *Swing*was made for the former winding house of the colliery. The second larger scale version of *Swing* was made for a former electricity generating station in Nottingham.
+The original 1994 version was made as part of *Un-Earth,*a one-off, night time event by Fine Rats International at Snibston Colliery, a former coal mine, turned into a mining visitors centre. The event used the surface buildings and site of the colliery. *Swing&nbsp;*was made for the former winding house of the colliery. The second larger scale version of *Swing* was made for a former electricity generating station in Nottingham.
 
 **Technical:**
 
@@ -48,7 +48,7 @@ Mono cassette players were fed into the discrete left and right channels of ster
 
 The composition varied for the different contexts that the work was installed in. In the 1994 version the audience could walk through the installation which ran continuously for two hours. All of the sonic material was being constantly replayed on cassette loop tapes with the mechanical sequencer turning the sound on or off. Because the sonic material lasted longer than the 30 second mechanical sequence this created a constantly changing soundscape.
 
-For *Swing*95 and *Swing* 99 the work was a 30 minute composition in four sections, each of approx 7 or 8 minutes. The audience arrived at the beginning and left at the end. Each section used a new set of cassette tapes. The first section consisted of disparate electronic noises, elements of text, samples taken from the site; the second section used semi-tuned continuous electronic drones generated using a Mini-Moog synthesiser; the third section used semi-tuned synthesised bell sounds again generated on a Mini-Moog synthesiser; and the final section developed these bell sounds adding delay.
+For *Swing&nbsp;*95 and *Swing* 99 the work was a 30 minute composition in four sections, each of approx 7 or 8 minutes. The audience arrived at the beginning and left at the end. Each section used a new set of cassette tapes. The first section consisted of disparate electronic noises, elements of text, samples taken from the site; the second section used semi-tuned continuous electronic drones generated using a Mini-Moog synthesiser; the third section used semi-tuned synthesised bell sounds again generated on a Mini-Moog synthesiser; and the final section developed these bell sounds adding delay.
 
 **Touring and restaging:**
 
