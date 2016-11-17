@@ -10,23 +10,27 @@ video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie
 images:
   - image_path: /assets/ethometric-stav-door.jpg
     description:
-  - image_path: /assets/ethometric-museum.jpg
-    description:
-  - image_path: /assets/1927-101.jpg
+  - image_path: /assets/P1050600.JPG
     description:
   - image_path: /assets/ethometric-museum-ray.jpg
     description:
+  - image_path: /assets/1927-101.jpg
+    description:
   - image_path: /assets/ethometer-crop.jpg
     description:
-  - image_path: /assets/ethomagnetron.jpg
-    description:
-  - image_path: /assets/ethometric-recorder.jpg
+  - image_path: /assets/multiwave oscillethergraph generators in action.JPG
     description:
   - image_path: /assets/1927-102.jpg
     description:
+  - image_path: /assets/ethomagnetron.jpg
+    description:
   - image_path: /assets/1927-105.jpg
     description:
+  - image_path: /assets/ethometric-recorder.jpg
+    description:
   - image_path: /assets/P1050793.JPG
+    description:
+  - image_path: /assets/ethometric-museum.jpg
     description:
 tags:
   - home
