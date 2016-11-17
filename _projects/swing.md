@@ -22,6 +22,8 @@ images:
     description:
   - image_path: /assets/swing snibston drawing.jpg
     description:
+  - image_path: /assets/swing schematic.jpg
+    description:
 tags:
   - home
 order: 9
