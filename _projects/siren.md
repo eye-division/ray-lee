@@ -8,19 +8,39 @@ archive: false
 main_image_path: /assets/murmur.jpg
 video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/f3gPhKR4j8k?rel=0" frameborder="0" allowfullscreen></iframe>'
 images:
-  - image_path: /assets/siren3.jpg
-    description:
-  - image_path: /assets/siren4.jpg
-    description:
-  - image_path: /assets/siren5.jpg
-    description:
-  - image_path: /assets/siren6.jpg
-    description:
   - image_path: /assets/siren7.jpg
     description:
   - image_path: /assets/siren8.jpg
     description:
+  - image_path: /assets/siren5.jpg
+    description:
   - image_path: /assets/siren9.jpg
+    description:
+  - image_path: /assets/03_141029_guido_mencari_london_spill_festival-38_PRINT.jpg
+    description:
+  - image_path: /assets/01_141029_guido_mencari_london_spill_festival-240_PRINT.jpg
+    description:
+  - image_path: /assets/siren6.jpg
+    description:
+  - image_path: /assets/DSCN0102.JPG
+    description:
+  - image_path: /assets/84.JPG
+    description:
+  - image_path: /assets/DSCN0119.JPG
+    description:
+  - image_path: /assets/02_141029_guido_mencari_london_spill_festival-119_PRINT.jpg
+    description:
+  - image_path: /assets/IMG_8513.JPG
+    description:
+  - image_path: /assets/IMG_8527.JPG
+    description:
+  - image_path: /assets/siren new york 09 1.jpg
+    description:
+  - image_path: /assets/siren walker3.jpg
+    description:
+  - image_path: /assets/siren wexner1.jpg
+    description:
+  - image_path: /assets/siren3.jpg
     description:
 tags:
   - home
