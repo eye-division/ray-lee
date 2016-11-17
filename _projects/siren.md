@@ -66,18 +66,18 @@ This ‘choir of rotating sirens’ creates an audio visual spectacle that is es
 
 For the audience this was an experience outside of the normal conventions of attending an art gallery, theatre or concert. Once through the razor-wired checkpoint, the audience faced a two-mile drive into the heart of this bleak and desolate ex-cold war territory. The airfield, once home to a fleet of US jet bombers, now lies half empty, the fifty or more huge, curved, bomb-proof concrete hangers providing a haunting reminder of the site’s history.
 
-> ###### Mesmerizing - New Yorker
+> ##### Mesmerizing - New Yorker
 
-> ###### An amazing spectacle - The Daily Telegraph
+> ##### An amazing spectacle - The Daily Telegraph
 
-> ###### Remarkable work that possesses sculptural, performative, and musical dimensions - ArtIntelligence.net
+> ##### Remarkable work that possesses sculptural, performative, and musical dimensions - ArtIntelligence.net
 
-> ###### We are literally watching sound as it moves through space - The Age, Melbourne
+> ##### We are literally watching sound as it moves through space - The Age, Melbourne
 
-> ###### Taking in Sirens is a bit like ingesting a mild hallucinogen, then waiting for the buzz to hit. And it does hit…- PLANK Magazine, Vancouver
+> ##### Taking in Sirens is a bit like ingesting a mild hallucinogen, then waiting for the buzz to hit. And it does hit…- PLANK Magazine, Vancouver
 
-> ###### A precise piece of theatre - The Glasgow Herald \*\*\*\*\* Herald Angel Winner at Edinburgh Fringe 07
+> ##### A precise piece of theatre - The Glasgow Herald \*\*\*\*\* Herald Angel Winner at Edinburgh Fringe 07
 
-> ###### a choir of rotating sirens, their individually strident voices congealing into a thick mutating chord that transfixed listeners in its sticky flux - David Toop, The Wire
+> ##### a choir of rotating sirens, their individually strident voices congealing into a thick mutating chord that transfixed listeners in its sticky flux - David Toop, The Wire
 
-> ###### The work was called ‘Siren’ because I made thirty spinning sirens that rotate, emitting pulsing electronic tones. I liked the sense of danger that the word conveys, together with the idea of the siren call, luring people towards it. In Hanger 3022, the sirens had inevitable echoes of the site’s history, but for me the work had an elegiac quality. The sound of my sirens is more like an ethereal choir rather than the warning air raid tones you expect from the word siren - Ray Lee
+> ##### The work was called ‘Siren’ because I made thirty spinning sirens that rotate, emitting pulsing electronic tones. I liked the sense of danger that the word conveys, together with the idea of the siren call, luring people towards it. In Hanger 3022, the sirens had inevitable echoes of the site’s history, but for me the work had an elegiac quality. The sound of my sirens is more like an ethereal choir rather than the warning air raid tones you expect from the word siren - Ray Lee
