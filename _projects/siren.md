@@ -48,6 +48,8 @@ order: 3
 ---
 
 
+> An amazing spectacle - The Daily Telegraph
+
 *Siren* is a spectacular performance piece that takes place within an installation of large sound sculptures; metal tripods with rotating arms that emit electronic drones. Two performers move with the mass of swirling metal, tuning the drones to create a hypnotic composition and controlling the machinery to create a stunning audio visual spectacle.&nbsp;
 
 It has recently been reconfigured into a computer controlled kinetic installation that can run automatically for months with minimal maintenance.
@@ -62,8 +64,6 @@ This ‘choir of rotating sirens’ creates an audio visual spectacle that is es
 
 > #### Mesmerizing - New Yorker
 
-> #### An amazing spectacle - The Daily Telegraph
-
 > #### Remarkable work that possesses sculptural, performative, and musical dimensions - ArtIntelligence.net
 
 > #### We are literally watching sound as it moves through space - The Age, Melbourne
@@ -75,3 +75,63 @@ This ‘choir of rotating sirens’ creates an audio visual spectacle that is es
 > #### a choir of rotating sirens, their individually strident voices congealing into a thick mutating chord that transfixed listeners in its sticky flux - David Toop, The Wire
 
 > #### The work was called ‘Siren’ because I made thirty spinning sirens that rotate, emitting pulsing electronic tones. I liked the sense of danger that the word conveys, together with the idea of the siren call, luring people towards it. In Hanger 3022, the sirens had inevitable echoes of the site’s history, but for me the work had an elegiac quality. The sound of my sirens is more like an ethereal choir rather than the warning air raid tones you expect from the word siren - Ray Lee
+
+#### touring and re-staging:
+
+**2015** - Alhondiga Gallery, Bilbao, Spain (automated version)
+
+**2014**- SPILL Festival, Ipswich
+
+**2012** - Galway Festival, Ireland
+
+**2011** - Theatre Trafo, Budapest, Hungary
+
+- Straw Theatre, Tallinn, Estonia
+
+- LAB 30 Festival, Augsburg, Germany
+
+**2010** - WOMADelaide, Australia.
+
+**2009** - Under the Radar festival, New York, USA
+
+- PUSH International Festival, Vancouver, Canada
+
+- Walker Arts Center, Minneapolis, USA
+
+- Wexner Arts Center, Columbus, Ohio, USA
+
+- Auckland International Festival, New Zealand
+
+- 10 Days Festival, Tasmania, Australia
+
+- Melbourne International Festival, Australia
+
+- Sleepless Night Festival, Miami, USA
+
+**2008**- Kontejner, Zagreb, Croatia
+
+- LEV Festival, Laboral, Gijon, Spain
+
+- Circulo, Tenerife (automated version V1)
+
+- International Festival of Arts and Ideas, New Haven, USA
+
+- Gaudeamus Music Festival, Amsterdam, Netherlands
+
+- Ignite Festival, Royal Opera House, London
+
+**2007** - Shunt, London Bridge.
+
+- Victoria Baths, Manchester, Futuresonic Festival
+
+- British Council International Showcase, Edinburgh
+
+- Ars Electronica Festival, Linz, Austria
+
+- Ponctuation Grande Bretagne, Angers, France
+
+- Festival les Urbaines, Lausanne, Switzerland
+
+**2005** - Festival A/D Werf, Utrecht
+
+**2004** - Hanger 3022, disused F1-11 fighter jet hanger at ex-US Airbase, Upper Heyford
