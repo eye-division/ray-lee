@@ -17,6 +17,22 @@ images:
     description:
   - image_path: /assets/chorus3.jpg
     description:
+  - image_path: /assets/2851_015.jpg
+    description:
+  - image_path: /assets/12-Chorus-FarrowsCreative.jpg
+    description:
+  - image_path: /assets/2851_047.jpg
+    description:
+  - image_path: /assets/chorus in portland.jpg
+    description:
+  - image_path: /assets/chorus ray lee 2.jpg
+    description:
+  - image_path: /assets/Chorus_photo credit_FITS-Dragos Dumitru (7).jpg
+    description:
+  - image_path: /assets/2014-08-04 14.41.44.jpg
+    description:
+  - image_path: /assets/20130705_180542.jpg
+    description:
 tags:
   - home
 order: -1
@@ -43,57 +59,57 @@ The *Chorus* machines are 4.5m to 5.5m tall aluminium tripods with motorised, ro
 
 **Touring and restaging:**
 
-2012 &nbsp; Oxford Castle (scratch version)
+2016
 
-2013 &nbsp;
+* Canary Wharf Winter Lights Festival, London
 
-- &nbsp;Audiograft Oxford (scratch version)
+* ZAT, Montepelier France
 
-- Town Square Newbury for Corn Exchange Newbury (premiere)
+* Freedom Festival, Hull
 
-- Place de l’Opera, Lieux Public, Marseilles
+* Inside Out Festival, Dorset
 
-- Winchester Hat Fair&nbsp;&nbsp;
-
-- Henley Festival
-
-- Bournemouth Arts Festival
-
-- Constellation Festival Reading
-
-- Festival of Light, Huddersfield
-
-2014&nbsp;
-
-- Future City, Salford
-
-- Milton Keynes International Festival
-
-- WOMAD, Charlton Park. UK
-
-- National Theatre Outdoors
+* New Scientist Live, Excel Arena, London
 
 2015
 
-- White Night Melbourne, Australia
+* White Night Melbourne, Australia
 
-- Sibiu International Theatre Festival, Romania
+* Sibiu International Theatre Festival, Romania
 
-- &nbsp; Warsaw Autumn Festival of Contemporary Music
+* &nbsp; Warsaw Autumn Festival of Contemporary Music
 
-- &nbsp;In Time Festival, Coventry
+* &nbsp;In Time Festival, Coventry
 
-2016
+2014&nbsp;
 
-- Canary Wharf Winter Lights Festival, London
+* Future City, Salford
 
-- ZAT, Montepelier France
+* Milton Keynes International Festival
 
-- Freedom Festival, Hull
+* WOMAD, Charlton Park. UK
 
-- Inside Out Festival, Dorset
+* National Theatre Outdoors
 
-- New Scientist Live, Excel Arena, London
+2013 &nbsp;
+
+* &nbsp;Audiograft Oxford (scratch version)
+
+* Town Square Newbury for Corn Exchange Newbury (premiere)
+
+* Place de l’Opera, Lieux Public, Marseilles
+
+* Winchester Hat Fair&nbsp;&nbsp;
+
+* Henley Festival
+
+* Bournemouth Arts Festival
+
+* Constellation Festival Reading
+
+* Festival of Light, Huddersfield
+
+2012 &nbsp; Oxford Castle (scratch version)
 
 **Supported by:**
 
