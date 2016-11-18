@@ -62,6 +62,16 @@ This ‘choir of rotating sirens’ creates an audio visual spectacle that is es
 
 *Siren* was first performed in Hanger 3022 of Upper Heyford Airbase in October 2004.&nbsp;
 
+#### Credits:
+
+supported by Arts Council England, Oxford Brookes University, Oxford Contemporary Music
+
+performers: Ray Lee, Harry Dawes, Mike Rugnetta
+
+produced by: Simon Chatterton
+
+technicians: Stavroula Kounadea, Graham Elstone, Tony James
+
 > #### Mesmerizing - New Yorker
 
 > #### Remarkable work that possesses sculptural, performative, and musical dimensions - ArtIntelligence.net
