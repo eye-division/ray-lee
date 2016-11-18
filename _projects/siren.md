@@ -5,7 +5,7 @@ project_date: 2004-10-28 00:00:00
 project_to_date:
 list: true
 archive: false
-main_image_path: /assets/murmur.jpg
+main_image_path: /assets/ray ladder crop landscape.jpg
 video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/f3gPhKR4j8k?rel=0" frameborder="0" allowfullscreen></iframe>'
 images:
   - image_path: /assets/siren7.jpg
