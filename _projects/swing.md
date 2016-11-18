@@ -25,7 +25,6 @@ images:
   - image_path: /assets/swing schematic.jpg
     description:
 tags:
-  - home
 order: 6
 ---
 
