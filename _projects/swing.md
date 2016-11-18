@@ -4,7 +4,7 @@ description: 'Swing is a sound performance installation that consists of an arra
 project_date: 1994-10-30 00:00:00
 project_to_date: 2006-12-01 00:00:00
 list: true
-archive: false
+archive: true
 main_image_path: /assets/swing1.jpg
 video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/fDPiPD6fyNI?rel=0" frameborder="0" allowfullscreen></iframe>'
 images:
@@ -26,7 +26,7 @@ images:
     description:
 tags:
   - home
-order: 9
+order: 6
 ---
 
 
