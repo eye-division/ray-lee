@@ -52,7 +52,7 @@ order: 3
 
 *Siren* is a spectacular performance piece that takes place within an installation of large sound sculptures; metal tripods with rotating arms that emit electronic drones. Two performers move with the mass of swirling metal, tuning the drones to create a hypnotic composition and controlling the machinery to create a stunning audio visual spectacle.&nbsp;
 
-It has recently been reconfigured into a computer controlled kinetic installation that can run automatically for months with minimal maintenance.
+It has recently been reconfigured into a computer controlled kinetic installation that can run automatically for months with minimal maintenance. &nbsp;&nbsp;
 
 The work can be equally at home as part of contemporary music events, live art, visual theatre, and contemporary visual art. It fuses elements of kinetic art, electronic music and live art performance in a theatrical context. Originally developed as an installation in a former US Air Force base in North Oxfordshire *Siren*&nbsp;has gone on to become a major international ‘hit’, touring around the world to widespread critical and audience acclaim.At its sold out performances in the Edinburgh Fringe 2007, *Siren*&nbsp;attracted 5\* reviews and was awarded a Herald Angel award. Since then the work has been toured to over 12 countries including the USA, Canada, Australia, New Zealand and all over Europe, where it has been presented at major arts festivals in partnership with the British Council. The performances last 45 minutes and performances can be repeated a number of times during a day / evening slot. Audience capacity per performance depends largely on the venue but can be up to 300 per performance in larger spaces.
 
@@ -86,51 +86,51 @@ This ‘choir of rotating sirens’ creates an audio visual spectacle that is es
 
 **2011** - Theatre Trafo, Budapest, Hungary
 
-- Straw Theatre, Tallinn, Estonia
+* Straw Theatre, Tallinn, Estonia
 
-- LAB 30 Festival, Augsburg, Germany
+* LAB 30 Festival, Augsburg, Germany
 
 **2010** - WOMADelaide, Australia.
 
 **2009** - Under the Radar festival, New York, USA
 
-- PUSH International Festival, Vancouver, Canada
+* PUSH International Festival, Vancouver, Canada
 
-- Walker Arts Center, Minneapolis, USA
+* Walker Arts Center, Minneapolis, USA
 
-- Wexner Arts Center, Columbus, Ohio, USA
+* Wexner Arts Center, Columbus, Ohio, USA
 
-- Auckland International Festival, New Zealand
+* Auckland International Festival, New Zealand
 
-- 10 Days Festival, Tasmania, Australia
+* 10 Days Festival, Tasmania, Australia
 
-- Melbourne International Festival, Australia
+* Melbourne International Festival, Australia
 
-- Sleepless Night Festival, Miami, USA
+* Sleepless Night Festival, Miami, USA
 
 **2008**- Kontejner, Zagreb, Croatia
 
-- LEV Festival, Laboral, Gijon, Spain
+* LEV Festival, Laboral, Gijon, Spain
 
-- Circulo, Tenerife (automated version V1)
+* Circulo, Tenerife (automated version V1)
 
-- International Festival of Arts and Ideas, New Haven, USA
+* International Festival of Arts and Ideas, New Haven, USA
 
-- Gaudeamus Music Festival, Amsterdam, Netherlands
+* Gaudeamus Music Festival, Amsterdam, Netherlands
 
-- Ignite Festival, Royal Opera House, London
+* Ignite Festival, Royal Opera House, London
 
 **2007** - Shunt, London Bridge.
 
-- Victoria Baths, Manchester, Futuresonic Festival
+* Victoria Baths, Manchester, Futuresonic Festival
 
-- British Council International Showcase, Edinburgh
+* British Council International Showcase, Edinburgh
 
-- Ars Electronica Festival, Linz, Austria
+* Ars Electronica Festival, Linz, Austria
 
-- Ponctuation Grande Bretagne, Angers, France
+* Ponctuation Grande Bretagne, Angers, France
 
-- Festival les Urbaines, Lausanne, Switzerland
+* Festival les Urbaines, Lausanne, Switzerland
 
 **2005** - Festival A/D Werf, Utrecht
 
