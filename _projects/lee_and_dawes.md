@@ -1,8 +1,8 @@
 ---
 title: Lee and Dawes
 description: The World Stylophone Quartet (from The Modulation) - Ray Lee and Harry Dawes 1994
-project_date: 2006-11-01 00:00:00
-project_to_date: 2006-12-01 00:00:00
+project_date: 1994-01-01 00:00:00
+project_to_date:
 list: true
 archive: true
 main_image_path: /assets/loud and clear photo.JPG
