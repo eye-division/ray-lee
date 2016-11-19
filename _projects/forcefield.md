@@ -5,7 +5,7 @@ project_date: 2007-11-01 00:00:00
 project_to_date:
 list: true
 archive: true
-main_image_path: /assets/forcefield1.jpg
+main_image_path: /assets/forcefield crop2.jpg
 video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/NqkkcfYt1MY?rel=0" frameborder="0" allowfullscreen></iframe>'
 images:
   - image_path: /assets/forcefield1.jpg
