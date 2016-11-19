@@ -1,16 +1,16 @@
 ---
-title: "Electric"
-description: "Join ‘Professor Lee’ for a short conversation about the nature of the hidden force that drives our technologically intense lives."
-project_date: 2006-11-01T00:00:00.000Z
-project_to_date: 2006-12-01T00:00:00.000Z
+title: Electric
+description: 'Join ‘Professor Lee’ for a short conversation about the nature of electricity, the invisible force that drives our technologically intense lives.'
+project_date: 2010-07-01 00:00:00
+project_to_date:
 list: true
 archive: true
-main_image_path: "/assets/electric1.jpg"
-video_embed: ''
+main_image_path: /assets/electric2.jpg
+video_embed:
 images:
-  - image_path: "/assets/electric1.jpg"
-    description: 
-  - image_path: "/assets/electric2.jpg"
+  - image_path: /assets/electric1.jpg
+    description:
+  - image_path: /assets/electric2.jpg
     description:
 tags:
 order: 4
