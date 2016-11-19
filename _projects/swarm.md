@@ -17,7 +17,7 @@ images:
     description: 'Swarm (V1) Atrium of Muziek Centrum Nederlands, Amsterdam 2008. photo: Ray Lee'
   - image_path: /assets/siren1.jpg
     description: 'Swarm (V2) Atrium of FACT, Liverpool 2008. photo: Ray Lee'
-  - image_path: /assets/swarm1.jpg
+  - image_path: /assets/swarm spinning.jpg
     description: 'Swarm 2008. photo: Ray Lee'
 tags:
 order: 5
