@@ -1,7 +1,7 @@
 ---
 title: Murmur
 description: A spatial composition for an ensemble of kinetic sound machines.
-project_date: 2006-11-01 00:00:00
+project_date: 2010-09-01 00:00:00
 project_to_date:
 list: true
 archive: true
