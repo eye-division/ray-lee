@@ -1,7 +1,7 @@
 ---
 title: Cold Storage
 description: What would it be like to go to sleep and wake up in one thousand years time?
-project_date: 2006-11-01 00:00:00
+project_date: 2011-03-01 00:00:00
 project_to_date:
 list: true
 archive: true
