@@ -1,24 +1,44 @@
 ---
-title: "Circles of ether"
-description: "A spatial composition for an ensemble of kinetic sound machines."
-project_date: 2006-11-01T00:00:00.000Z
-project_to_date: 2006-12-01T00:00:00.000Z
+title: Circles of Ether
+description: A spatial composition for an ensemble of kinetic sound machines.
+project_date: 2007-03-01 00:00:00
+project_to_date:
 list: true
 archive: true
-main_image_path: "/assets/circles-of-ether1.jpg"
+main_image_path: /assets/circles-of-ether1.jpg
 video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/sBjVvt48Ptk?rel=0" frameborder="0" allowfullscreen></iframe>'
 images:
-  - image_path: "/assets/circles-of-ether1.jpg"
+  - image_path: /assets/circles-of-ether1.jpg
     description:
-  - image_path: "/assets/circles-of-ether2.jpg"
+  - image_path: /assets/circles-of-ether2.jpg
     description:
-  - image_path: "/assets/circles-of-ether3.jpg"
+  - image_path: /assets/circles-of-ether3.jpg
     description:
-  - image_path: "/assets/circles-of-ether4.jpg"
+  - image_path: /assets/circles-of-ether4.jpg
     description:
 tags:
 order: 2
 ---
-A spatial composition for an ensemble of kinetic sound machines.
 
-An automated installation of kinetic sound sculptures. An elaborate system of electro-mechanical sound generators, spinning oscillators, and noise machines creates a complex, multi-layered sound composition and a compelling visual spectacle.
+
+**Description:**
+
+*Circles of Ether* was an automated kinetic installation of sound machines designed and built by Ray Lee. It ran for two weeks as a solo show in the upper gallery of the Kinetica Museum in the Old Spitalfields market. The work used and added to the machines used in *The Theremin Lesson*. Over the fifteen minute sequence the machines were activated creating a visual and sonic narrative.
+
+&nbsp;**Technical:**
+
+The installation was driven by a MIDI sequence programmed into a computer and the devices were controlled via a MIDI relay driver. Eleven siren type devices were employed. To enable the slow increase and decrease in speed to be controlled automatically soft starter voltage controllers were designed and built by Graham Calvert. He also designed and built double tone generating oscillators that could be triggered by the rotation of the tripod’s arm.
+
+Once set in motion by the computer sequence the sound would be triggered automatically and would stop only as the arm stopped moving.
+
+**Performance/Composition:**
+
+The sequence of the automatic installation was composed as a MIDI sequence in SONAR and activated the instruments in groups to create a constantly changing sonic texture that was intended to move the audience around the space by activating instruments in different parts of the gallery.&nbsp;
+
+**Credits:**
+
+Additional technical assistance: Graham Calvert
+
+**Supported by:**
+
+Kinetica Museum, Oxford Brookes University
