@@ -1,20 +1,40 @@
 ---
-title: "Spin"
+title: Spin
 description: "Spin' develops and extends the research work begun in 'The Theremin Lesson'."
-project_date: 2006-11-01T00:00:00.000Z
-project_to_date: 2006-12-01T00:00:00.000Z
+project_date: 2001-03-01 00:00:00
+project_to_date:
 list: true
 archive: true
-main_image_path: "/assets/spin.jpg"
-video_embed: 
+main_image_path: /assets/spin.jpg
+video_embed:
 images:
-  - image_path: "/assets/spin.jpg"
+  - image_path: /assets/spin.jpg
     description:
 tags:
 order: 12
 ---
-'Spin', Sensitive Skin season of new performance. Future Factory Nottingham. 2001
 
-'Spin' develops and extends the research work begun in 'The Theremin Lesson'. In 'Spin', the machines and devices developed in the research process at Masson Mill are reworked for a contemporary art gallery space. The performance aimed to evoke the sense of industrial processes, the latent obsolescence of technology and the invisible forces of magnetism and electro-magnetic fields.
+
+'Spin', Sensitive Skin season of new performance. Future Factory, Bonington Gallery, Nottingham. 2001
 
 > "Mad for magnetism, radio waves, Theremins and the fertile ruins of twentieth century technology" The Wire
+
+*Spin* restaged and developed *The Theremin Lesson* in a gallery context. New devices were added to the collection of sound machines. The form of the original work was retained with an installation area separated from the audience by the use of a metal post and rope barrier. The performances lasted twenty-four minutes during which time the audience were free to move around the space.
+
+**Technical:**
+
+In addition to the devices made for *The Theremin Lesson*, *Spin*added three more spinning sirens, and ventilator which was turned into a kinetic sculpture, with the resulting sound amplified and processed, creating an amplified mechanical breath.&nbsp;
+
+The new spinning sirens used car windscreen wiper motors while the original sirens from *The Theremin Lesson* had used 230v AC motors. A development in the work was the use of variable voltage DC power supplies so that the speed of rotation of the sirens could be controlled from a slow start to maximum speed and down again.
+
+**Performance/Composition:**
+
+The composition reused the structure of *The Theremin Lesson*. After an opening Theremin passage the individual devices were activated and added to or subtracted from the overall sonic mix.
+
+**Supported by:**
+
+Nottingham Trent University, Future Factory
+
+**References:**
+
+*Invisible-Forces: Listening to Ray Lee*, Robert Ayers, Far Ahead Publications, Nottingham 2001
