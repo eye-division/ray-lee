@@ -1,20 +1,24 @@
 ---
 title: Swarm
 description: Swarm is a kinetic sound work designed for atrium spaces consisting of a series of suspended motors from each of which are hung three loudspeakers.
-project_date: 2006-11-01 00:00:00
-project_to_date: 2006-12-01 00:00:00
+project_date: 2008-12-01 00:00:00
+project_to_date:
 list: true
 archive: true
 main_image_path: /assets/swarm1.jpg
 video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/GCOW1GEl8qk?rel=0" frameborder="0" allowfullscreen></iframe>'
 video_embed2: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/4jOxk-HhYH8?rel=0" frameborder="0" allowfullscreen></iframe>'
 images:
-  - image_path: /assets/swarm1.jpg
-    description:
+  - image_path: /assets/DSCN0081.JPG
+    description: 'Swarm (V2) Atrium of FACT, Liverpool 2008. photo: Ray Lee'
   - image_path: /assets/swarm2.jpg
-    description:
+    description: 'Swarm (V1) Atrium of Muziek Centrum Nederlands, Amsterdam 2008. photo: Ray Lee'
   - image_path: /assets/swarm-amsterdam.jpg
-    description:
+    description: 'Swarm (V1) Atrium of Muziek Centrum Nederlands, Amsterdam 2008. photo: Ray Lee'
+  - image_path: /assets/siren1.jpg
+    description: 'Swarm (V2) Atrium of FACT, Liverpool 2008. photo: Ray Lee'
+  - image_path: /assets/swarm1.jpg
+    description: 'Swarm 2008. photo: Ray Lee'
 tags:
 order: 5
 ---
