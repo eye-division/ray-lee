@@ -10,6 +10,16 @@ video_embed:
 images:
   - image_path: /assets/spin.jpg
     description:
+  - image_path: /assets/spin1.jpg
+    description:
+  - image_path: /assets/spinwideshot.jpg
+    description:
+  - image_path: /assets/spin4.jpg
+    description:
+  - image_path:
+    description:
+  - image_path:
+    description:
 tags:
 order: 12
 ---
@@ -23,7 +33,7 @@ order: 12
 
 **Technical:**
 
-In addition to the devices made for *The Theremin Lesson*, *Spin*added three more spinning sirens, and ventilator which was turned into a kinetic sculpture, with the resulting sound amplified and processed, creating an amplified mechanical breath.&nbsp;
+In addition to the devices made for *The Theremin Lesson*, *Spin&nbsp;*added three more spinning sirens, and ventilator which was turned into a kinetic sculpture, with the resulting sound amplified and processed, creating an amplified mechanical breath.&nbsp;
 
 The new spinning sirens used car windscreen wiper motors while the original sirens from *The Theremin Lesson* had used 230v AC motors. A development in the work was the use of variable voltage DC power supplies so that the speed of rotation of the sirens could be controlled from a slow start to maximum speed and down again.
 
