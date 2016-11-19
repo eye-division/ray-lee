@@ -5,7 +5,7 @@ project_date: 2000-10-01 00:00:00
 project_to_date:
 list: true
 archive: true
-main_image_path: /assets/thereminlesson.jpg
+main_image_path: /assets/aura for kinetica blue.jpg
 video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/AGaNFEwHL2Y?rel=0" frameborder="0" allowfullscreen></iframe>'
 images:
   - image_path: /assets/thereminlesson.jpg
@@ -18,6 +18,10 @@ images:
     description: 'Photo: Ray Lee'
   - image_path: /assets/aura for kinetica blue.jpg
     description: 'Photo: Ray Lee'
+  - image_path: /assets/motorsblue.jpg
+    description: 'Photo: Ray Lee'
+  - image_path: /assets/1.jpg
+    description:
 tags:
 order: 15
 ---
