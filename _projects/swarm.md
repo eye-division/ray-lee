@@ -5,7 +5,7 @@ project_date: 2008-12-01 00:00:00
 project_to_date:
 list: true
 archive: true
-main_image_path: /assets/swarm1.jpg
+main_image_path: /assets/swarm spinning.jpg
 video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/GCOW1GEl8qk?rel=0" frameborder="0" allowfullscreen></iframe>'
 video_embed2: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/4jOxk-HhYH8?rel=0" frameborder="0" allowfullscreen></iframe>'
 images:
