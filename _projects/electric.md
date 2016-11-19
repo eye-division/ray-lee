@@ -9,9 +9,9 @@ main_image_path: /assets/electric2.jpg
 video_embed:
 images:
   - image_path: /assets/electric1.jpg
-    description:
+    description: 'photo: Ray Lee'
   - image_path: /assets/electric2.jpg
-    description:
+    description: 'photo: Ray Lee'
 tags:
 order: 4
 ---
