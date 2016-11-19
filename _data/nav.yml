@@ -3,32 +3,34 @@
   subcategories:
     - subtitle: View all projects
       subhref: /projects
-    - subtitle: Siren
-      subhref: /projects/siren/
-    - subtitle: Swarm
-      subhref: /projects/swarm/
-    - subtitle: Murmur
-      subhref: /projects/murmur/
-    - subtitle: Forcefield
-      subhref: /projects/forcefield/
+    - subtitle: Chorus
+      subhref: /projects/chorus/
     - subtitle: Ethometric museum
       subhref: /projects/ethometric_museum/
-    - subtitle: Electric
-      subhref: /projects/electric/
-    - subtitle: Detectors
-      subhref: /projects/detectors/
-    - subtitle: Cold storage
-      subhref: /projects/cold_storage/
+    - subtitle: Siren
+      subhref: /projects/siren/
     - subtitle: Swing
       subhref: /projects/swing/
+    - subtitle: Swarm
+      subhref: /projects/swarm/
+    - subtitle: Forcefield
+      subhref: /projects/forcefield/
+    - subtitle: Murmur
+      subhref: /projects/murmur/
     - subtitle: Circles of ether
       subhref: /projects/circles_of_ether/
+    - subtitle: Electric
+      subhref: /projects/electric/
+    - subtitle: The Theremin lesson
+      subhref: /projects/theremin_lesson/
+    - subtitle: Detectors
+      subhref: /projects/detectors/
     - subtitle: Choir
       subhref: /projects/choir/
     - subtitle: Spin
       subhref: /projects/spin/
-    - subtitle: The Theremin lesson
-      subhref: /projects/theremin_lesson/
+    - subtitle: Cold storage
+      subhref: /projects/cold_storage/
     - subtitle: Lee and Dawes
       subhref: /projects/lee_and_dawes/
     - subtitle: Sound hunter
@@ -37,8 +39,6 @@
       subhref: /projects/the_archive/
     - subtitle: Five sound works for Cluj
       subhref: /projects/five_works_for_cluj/
-    - subtitle: Chorus
-      subhref: /projects/chorus/
     - subtitle: World Theremin Quartet
       subhref: /projects/world_theremin-quartet/
     - subtitle:
