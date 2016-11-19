@@ -22,6 +22,8 @@ images:
     description: 'Photo: Ray Lee'
   - image_path: /assets/1.jpg
     description:
+  - image_path: /assets/drawing s 4.jpg
+    description: 'Drawing: Ray Lee'
 tags:
 order: 15
 ---
