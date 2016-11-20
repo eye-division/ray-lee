@@ -30,7 +30,7 @@ In *Choir* the fascination changed from the spinning of sound influenced by the 
 
 **Technical:**
 
-*Choir* used the same oscillator circuit as in *Spin* and *The Theremin Lesson*. The bass drone was generated using a tone generator and the tone amplified and replayed through loudspeakers. The new tripods built for *Choir* used 12v windscreen wiper motors. The installation followed the format established in *The Theremin Lesson* and *Spin*of having a defined installation area surrounded by a purpose made metal post and rope barrier to ensure that the audience could move around the installation, without being in danger from the rotating arms. Each metal post was topped with a small light.
+*Choir* used the same oscillator circuit as in *Spin* and *The Theremin Lesson*. The bass drone was generated using a tone generator and the tone amplified and replayed through loudspeakers. The new tripods built for *Choir* used 12v windscreen wiper motors. The installation followed the format established in *The Theremin Lesson* and *Spin&nbsp;*of having a defined installation area surrounded by a purpose made metal post and rope barrier to ensure that the audience could move around the installation, without being in danger from the rotating arms. Each metal post was topped with a small light.
 
 **Performance/Composition:**
 
