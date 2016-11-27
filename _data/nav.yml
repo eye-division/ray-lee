@@ -33,14 +33,8 @@
       subhref: /projects/cold_storage/
     - subtitle: Lee and Dawes
       subhref: /projects/lee_and_dawes/
-    - subtitle: Sound hunter
-      subhref: /projects/sound_hunter/
-    - subtitle: The archive
-      subhref: /projects/the_archive/
     - subtitle: World Theremin Quartet
       subhref: /projects/world_theremin-quartet/
-    - subtitle:
-      subhref:
 - title: About
   href: /about/
 - title: Info
