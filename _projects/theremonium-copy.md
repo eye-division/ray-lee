@@ -9,7 +9,9 @@ main_image_path: /assets/detector.JPG
 video_embed:
 video_description:
 images:
-  - image_path: /assets/theremonium.jpg
+  - image_path: /assets/metal.JPG
+    description:
+  - image_path: /assets/detector.JPG
     description:
 tags:
 order: 16
