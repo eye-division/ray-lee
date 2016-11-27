@@ -3,8 +3,8 @@ title: Sound hunter
 description: 'Seeking out electro-magnetic noise, The Sound Hunter creates a complex texture of electronic sound'
 project_date: 2006-11-01 00:00:00
 project_to_date:
-list: true
-archive: true
+list: false
+archive: false
 main_image_path: /assets/sound hunter crop 4b.jpg
 video_embed:
 images:
