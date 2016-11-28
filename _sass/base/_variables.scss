@@ -46,6 +46,8 @@ $form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
 $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
 
 // Screen sizes
+$tiny: 420px;
+$small: 570px;
 $mobile: 640px;
 $tablet: 960px;
 
@@ -54,7 +56,9 @@ $medium-screen: $mobile;
 $large-screen: $tablet;
 
 // header height
-$header-height: 4em;
+$header-height-tiny: 12em;
+$header-height-small: 7em;
+$header-height: 6em;
 $header-height-mobile: 9em;
 
 // navigation

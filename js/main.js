@@ -6,6 +6,8 @@
     // hljs.initHighlightingOnLoad();
 
     // Header
+    /*
+
     var menuToggle = $('#js-mobile-menu').unbind();
     $('#js-navigation-menu').removeClass("show");
     menuToggle.on('click', function(e) {
@@ -16,7 +18,9 @@
         }
       });
     });
+    */
 
+    // drop down list
     $(function() {
       $('#menu__button').on('click touchstart', function(e) {
         e.preventDefault();

@@ -22,15 +22,29 @@ body {
 .navigation, .site-footer {
     @include flex(none);
 }
-
+.navigation {
+    flex: 0 0 auto;
+    @include display(flex);
+}
+.logo {
+    flex: 2 2 5em;
+}
+nav {
+    flex: 2 2 5em;
+}
 
 main, .page {
-    padding-top: $header-height-mobile;
-    @include media ($mobile) {
+
+    padding-top: $header-height-small;
+
+    @include media ($tiny) {
+        padding-top: $header-height-mobile;
+    }
+    @include media ($tablet) {
         padding-top: $header-height;
     }
     display: block;
-    @include flex(1 0 auto);
+    @include flex(1 0 auto); // flex column
 }
 
 
@@ -104,51 +118,46 @@ blockquote p {
 *	Navigation
 */
 .navigation {
+
     padding: 0 1em;
+
+    @include media($tiny) {
+        height: $header-height-mobile;
+    }
+
     @include media ($tablet) {
         padding: 0;
+        height: $header-height;
     }
     margin: 0;
     z-index: 100;
-    position: fixed;
+    position: fixed; // sticky header
     width: 100%;
     background-color: $black;
+
 }
 /*
 *   Navigation Menu - http://refills.bourbon.io/unstyled/ (see "Navigation")
-*   Flattened out SASS as per Bourbon's recommendations - no nesting below two levels preferred
 */
-// Mobile view
-.navigation-menu-button {
-    display: block;
-    float: right;
-    margin: 0;
-    font-size: 1.5em;
-    padding-top: 0.5em;
-    padding-right: 0.5em;
-    .icon {
-        fill: $white;
-    }
-    @include media ($tablet) {
-        display: none;
-    }
-}
+
 // Nav menu
+//
 .navigation-wrapper {
-    @include outer-container;
+    //@include outer-container; // constrain width
     @include clearfix;
     position: relative;
 }
+
 // logo
 .logo {
-    float: left;
-    width: 90%;
-    height: $header-height-mobile;
+    //float: left;
+    //width: 90%;
+
     line-height: 2em;
     padding-top: 1em;
+
     @include media($mobile) {
         width: initial;
-        height: $header-height;
     }
     @include media ($tablet) {
         padding-left: $em-base;
@@ -184,16 +193,16 @@ blockquote p {
 // nav menus
 //
 nav {
-    float: none;
+    //float: none;
     padding-top: 1em;
     @include media ($tablet) {
-        float: right;
+        //float: right;
         line-height: 1.5em;
     }
 }
+
 ul.navigation-menu {
-    clear: both;
-    display: none;
+    //display: none;
     margin: 0 auto;
     overflow: visible;
     padding: 0;
@@ -203,23 +212,21 @@ ul.navigation-menu {
         margin: 0;
         padding: 0;
     }
-    &.show {
-        display: block;
-    }
 }
 // Nav items
 li.nav-link {
-    display: block;
-    width: 100%;
+    //display: block;
+    //width: 100%;
     padding: 0.25em 0;
-    @include media ($tablet) {
-        background: transparent;
+    background: transparent;
         display: inline;
         text-decoration: none;
         width: auto;
+    @include media ($tablet) {
+
     }
     > a {
-        padding: 0.5em;
+        padding: 0.5em 1em 0.5em 0;
         display: inline-block;
         @include media ($tablet) {
             padding-right: 1.5em;
@@ -235,33 +242,13 @@ li.nav-link {
         //}
     }
 }
-
-// Sub menus
-/*li.more.nav-link {
-    padding-right: 0;
-
-    //@include media ($tablet) {
-      //padding-right: $navigation-submenu-padding;
-    //}
-
-    > ul > li:first-child a  {
-      padding-top: 1em;
-    }
-
+li.active {
     a {
-      margin-right: $navigation-submenu-padding;
+        text-decoration: none;
+        color: $white;
     }
+}
 
-    > a {
-      padding-right: 0.6em;
-    }
-
-    > a::after {
-      @include position(absolute, auto -0.4em auto auto);
-      font-family: "helvetica, arial, sans-serif";
-      content: "\25BE";
-    }
-}*/
 
 li.more {
     overflow: visible;
@@ -337,6 +324,7 @@ ul.submenu {
             background-color: $navigation-background;
             display: inline-block;
             width: 100%;
+            padding: 0.2em;
             transition: all 0.2s ease-in-out;
             text-decoration: none;
             @include media ($tablet) {
@@ -383,6 +371,7 @@ ul.submenu {
     //color: #333;
   }
 }
+
 /*
 *	Body
 */
