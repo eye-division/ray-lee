@@ -40,12 +40,21 @@
 
     $('.flexslider').flexslider({
       animation: "fade",
-      //controlNav: false,
+      controlNav: false,
       directionNav: true,
+      randomize: true,
       slideshowSpeed: 5000,
       animationSpeed: 600,
       touch: true
     });
+
+    // Instafeed
+    var feed = new Instafeed({
+      get: 'user',
+      userId: '505489356',
+      clientId: 'e125663693f24d41981f622bd6305f32'
+    });
+    feed.run();
 
   });
 

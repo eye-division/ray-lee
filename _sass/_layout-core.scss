@@ -217,11 +217,12 @@ ul.navigation-menu {
 li.nav-link {
     //display: block;
     //width: 100%;
+    font-weight: bold;
     padding: 0.25em 0;
     background: transparent;
-        display: inline;
-        text-decoration: none;
-        width: auto;
+    display: inline;
+    text-decoration: none;
+    width: auto;
     @include media ($tablet) {
 
     }

@@ -140,39 +140,41 @@
     iframe {
         max-width: 100%;
     }
-    .media {
-        .image-gallery {
-            img {
-                float: left;
-                margin: 5px;
-                transition: box-shadow 0.5s ease;
-            }
-            a:hover img, a:focus img {
 
-            }
-        }
-    }
     @include media($tablet) {
         #content {
             @include clearfix;
         }
-
-        .with-media {
-            box-sizing: border-box;
-            width: 50%;
-            float: left;
-            padding-right: 20px;
-        }
-
-        .media {
-            box-sizing: border-box;
-            width: 50%;
-            float: right;
-        }
-
     }
 }
+// reduce specificity here
+.media {
+    .image-gallery {
+        img {
+            float: left;
+            margin: 5px;
+            transition: box-shadow 0.5s ease;
+        }
+        a:hover img, a:focus img {
 
+        }
+    }
+}
+@include media($tablet) {
+    .with-media {
+        box-sizing: border-box;
+        width: 50%;
+        float: left;
+        padding-right: 20px;
+    }
+
+    .media {
+        box-sizing: border-box;
+        width: 50%;
+        float: right;
+    }
+
+}
 /*
  * Lightbox
  */

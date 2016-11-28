@@ -7,49 +7,6 @@ layout: default
   {% assign with_media = true %}
 {% endif %}
 
-<!-- print out previous and next links for Pages / other Collections -->
-{% for c in site.projects %}
-{% if c.title == page.title %}
-  {% assign thisPost = c %}
-  {% if forloop.index == 1 %}
-    {% assign prevflag = 0 %}
-    {% assign nextflag = 1 %}
-  {% elsif forloop.index == forloop.length %}
-    {% assign prevflag = 1 %}
-    {% assign nextflag = 0 %}
-  {% else %}
-    {% assign prevflag = 1 %}
-    {% assign nextflag = 1 %}
-  {% endif %}
-{% endif %}
-{% endfor %}
-
-{% for c in site.projects %}
-  {% if c.title == page.title %}
-    {% assign prevflag = 0 %}
-  {% endif %}
-  {% if prevflag == 1 %}
-    {% assign prevPost = c %}
-    {% assign page.previous = c %}
-  {% endif %}
-{% endfor %}
-
-{% if nextflag == 1 %}
-  {% for c in site.projects %}
-    {% if foundPost == 1 %}
-      {% assign getNext = 1 %}
-    {% endif %}
-    {% if c.title == page.title %}
-      {% assign foundPost = 1 %}
-    {% endif %}
-    {% if getNext == 1%}
-      {% assign nextPost = c %}
-      {% assign page.next = c %}
-      {% assign foundPost = 0 %}
-      {% assign getNext = 0 %}
-    {% endif %}
-  {% endfor %}
-{% endif %}
 
 <header id="content-header">
   <section id="page-title">
@@ -61,18 +18,7 @@ layout: default
   <section class="main-content {% if with_media %}with-media{% endif %}">
     {{ content }}
   <footer>
-  {% if prevPost.url %}
-  <a class="prev" href="{{prevPost.url}}">
-    <svg class="icon"><use xlink:href="#icon-chevron_left" /></svg> {{prevPost.title}}
-  </a>
-  {% endif %}
-  {% if nextPost.url %}
 
-  {% if nextPost.url and prePost.url %} | {% endif %}
-  <a class="next" href="{{nextPost.url}}">
-      {{nextPost.title}} <svg class="icon"><use xlink:href="#icon-chevron_right" /></svg>
-  </a>
-  {% endif %}
   </footer>
   </section>
 
