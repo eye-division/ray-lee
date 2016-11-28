@@ -61,8 +61,7 @@ _comments:
             {% if slides.link %}
               <a href="{{ site.baseurl }}{{ slides.link }}" title="View project">
             {% endif %}
-            {% include img.html src=slides.image width=761 height=508 %}
-            <img src="{{ slides.image }}" />
+              {% include img.html src=slides.image width=761 height=508 %}
             {% if slides.link %}
               </a>
             {% endif %}
