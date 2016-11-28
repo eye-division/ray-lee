@@ -1,16 +1,24 @@
 ---
-layout: page
+layout: project
 title: About
 permalink: /about/
 ---
 
 
-![](/uploads/versions/ray-siren-crop---x443-0-1516-1497-1098-1084x---.jpg "Ray Lee"){: .profile}
+***Ray Lee*** is an award-winning sound artist and composer. He creates spinning, whirling, and pendulous sound installations and performances that explore “circles of ether,” the invisible forces that surround us.
 
-Ray Lee is an artist, composer, and performer. His work investigates his fascination with the hidden world of electro-magnetic radiation and in particular how sound can be used as evidence of invisible phenomena He is interested in the way that science and philosophy represent the universe, and his work questions the orthodoxies that emerge, and submerge, according to the currently fashionable trends. He creates spinning, whirling, and pendulous sound installations and performances that explore “[circles of ether](/projects/circles_of_ether/),” the invisible forces that surround us.
+His immersive and mesmerising works such as the world-wide hit ***Siren***, **E*thometric Museum***&nbsp;and his monumental outdoor work ***Chorus*** aim to make contemporary music accessible and engaging for a wide audience. ***Siren*** toured the world with significant British Council support.
 
-His large scale installation and performance ‘[Siren](/projects/siren/)’ was a hit at the 2007 Edinburgh Fringe winning a Herald Angel Award and receiving 5 star reviews. ‘Siren’ was featured at the 2007 Ars Electronica Festival in Austria and has gone to tour the world with performances in 12 countries including the USA, Canada, New Zealand, Australia and several countries in Europe.
+***Ethometric Museum***&nbsp;won him the 2012 British Composer of the Year for Sonic Art. ***Force Field***&nbsp;was awarded an honorary mention in the 2008 Prix Ars Electronica. He is a Professor of Sound Art at Oxford Brookes University. Ray is an associate artist of OCM (Oxford Contemporary Music).
 
-His recent work ‘[Force Field](/projects/forcefield/)’ received an award at the 2008 Prix Ars Electronica for Digital Music.
+![](/uploads/versions/electric1---x----1983-1417x---.jpg)
 
-He lectures in contemporary arts and music at Oxford Brookes University.
+“As an artist I explore my fascinations with the world. I am fascinated by themes that include the emergence of the scientific method, the development of technology, and the way science represents our view of the universe. I have a childlike fascination with radios, radio waves, magnetism. There is a magic in the act of turning on a radio and receiving signals through the Ether or in holding two magnets in your hands and feeling this invisible force pulling your hands together or pushing them apart.
+
+Physicality is essential to the work and it is inherent in both the structures I build and the sound that is created. I build machines that make sound. The fact that they often move means that the sound itself is being modulated by the movement. In my approach, it is not possible for me to have the sound in any way separate to the physical structure, object, or machine that produces the sound.
+
+Live performance is an important part of what I do. I am intrigued by the relationship that emerges between the performers as operators and workers of the machine and the machines themselves. As humans, we relate to other humans more than we relate to machines, but we also want to breathe life into inanimate objects. Combining kinetic machines with performers who work with, look after, monitor, control these devices enables the audience to start creating their own narrative about the work.
+
+I tend not to have a proscribed meaning for the work. It’s a physical experience created by the movement of sound, machines and light. I hope that through this the audience can find a space for wonderment, for contemplation, a space that takes you outside of your everyday existence even momentarily; a space where we don’t have to understand, or categorise or explain, but where we can let our extraordinary minds free for a few moments and drift among imaginary stars and unknown worlds of experience and perception.
+
+Making work for outdoor contexts gives me the possibility of reaching many more people and something interesting happens when you take an audience outside of traditional art venues. We stop being so governed by the protocols of these spaces, from the hushed silence of the concert hall to the studious reverence of the art gallery and we can see the artwork as being part of our actual lives not as something removed from it.” &nbsp;*Ray Lee*
