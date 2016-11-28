@@ -9,7 +9,7 @@ main_image_path: "/assets/chorus.jpg"
 </section>
 
 {% assign projects = site.projects %}
-{% assign current = site.projects | where: "list",true | where:"archive",false | sort: "project_date" %}
+{% assign current = site.projects | where: "list",true | where:"archive",false | sort: "order" %}
 
 {% assign past = site.projects | where: "list",true | where:"archive",true | sort: "order" %}
 

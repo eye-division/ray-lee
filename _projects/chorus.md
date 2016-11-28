@@ -6,14 +6,8 @@ project_to_date: 2006-12-01 00:00:00
 list: true
 archive: false
 main_image_path: /assets/chorus.jpg
-video_embed: >-
-  <iframe src="https://player.vimeo.com/video/99467393" width="640" height="360"
-  frameborder="0" webkitallowfullscreen mozallowfullscreen
-  allowfullscreen></iframe>
-
-  <p><a href="https://vimeo.com/99467393">Ray Lee Chorus at Newbury Market Square
-  April 2013</a> from <a href="https://vimeo.com/invisibleforces">ray lee</a> on
-  <a href="https://vimeo.com">Vimeo</a>.</p>
+video_embed: '<iframe src="https://player.vimeo.com/video/99467393" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
+  allowfullscreen></iframe>'
 video_embed2: 'https://vimeo.com/99467393'
 images:
   - image_path: /assets/chorus.jpg
@@ -42,7 +36,7 @@ images:
     description:
 tags:
   - home
-order: -1
+order: 1
 ---
 
 

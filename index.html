@@ -61,6 +61,7 @@ _comments:
             {% if slides.link %}
               <a href="{{ site.baseurl }}{{ slides.link }}" title="View project">
             {% endif %}
+            {% include img.html src=slides.image width=761 height=508 %}
             <img src="{{ slides.image }}" />
             {% if slides.link %}
               </a>
@@ -82,10 +83,12 @@ _comments:
         <div class="about">
           <div class="rayphoto">
             {% if page.about_image_path %}
+
               {% include img.html src=page.about_image_path width=200 %}
 
             {% else %}
-              <a href="{{ site.baseurl }}/about/" title="Read more about Ray Lee"><img src="{{ site.baseurl }}/assets/ray-portrait.jpg" alt="Ray Lee photograph" /></a>
+              {% include img.html src={{ site.baseurl }}/assets/ray-portrait.jpg width=200 %}
+
             {% endif %}
             </div>
           <div class="text editable"><p><strong><em>Ray Lee</em> </strong>is an award-winning sound artist and composer. He creates spinning, whirling, and pendulous sound installations and performances that explore &ldquo;circles of ether,&rdquo; the invisible forces that surround us. His immersive and mesmerising works such as the world-wide hit <em>Siren</em>, <em>Ethometric Museum</em> and his monumental outdoor work <em>Chorus</em> aim to make contemporary music accessible and engaging for a wide audience. <em>Siren</em> toured the world with significant British Council support. <em>Ethometric Museum</em> won him the 2012 British Composer of the Year for Sonic Art. <em>Force Field</em> was awarded an honorary mention in the 2008 Prix Ars Electronica. He is a Professor of Sound Art at Oxford Brookes University.</p><p><a class="readmore" href="/about/">Read more . . .</a></p></div>
@@ -111,15 +114,13 @@ _comments:
       -->
       <a class="twitter-timeline" data-height="400" data-theme="dark" data-link-color="#31C6E0" href="https://twitter.com/invisibleforces">Tweets by invisibleforces</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-      <div id="instafeed"></div>
-
     </div>
 
   </div>
 
 </section>
 
-{% assign projects = site.projects | where: "list",true | sort: "project_date" %}
+{% assign projects = site.projects | where: "list",true | where:"archive",false | sort: "order" %}
 
 {% if projects %}
 
@@ -132,27 +133,25 @@ _comments:
       <article class="project {% cycle 'alpha', '', 'last' %}">
 
         <a href="{{project.url}}" title="{{project.title}}">
+        {% if project.main_image_path %}
+        {% include img.html src=project.main_image_path width=400 height=300 %}
+        {% else %}
+        {% include img.html src="/siteicon.png" width=400 height=300 %}
+        {% endif %}
 
-            {% if project.main_image_path %}
-              {% include img.html src=project.main_image_path width=400 height=300 %}
-            {% else %}
-              {% include img.html src="/siteicon.png" width=400 height=300 %}
-            {% endif %}
+    <div class="title">
+        <h3 class="">{{project.title}}</h3>
 
-            <span class="title">
-                <h3>{{project.title}}</h3>
-            </span>
-
-           {% if project.description %}
-              <span class="caption">
-                <span class="blur"></span>
-                <span class="caption-text">
-                  <p><a href="{{project.url}}" title="{{project.title}}">{{project.description}}</a></p>
-                </span>
-              </span>
-            {% endif %}
-
-          </a>
+    </div>
+   {% if project.description %}
+    <div class="caption">
+      <div class="blur"></div>
+      <div class="caption-text">
+        <p><a href="{{project.url}}" title="{{project.title}}">{{project.description}}</a></p>
+      </div>
+    </div>
+    {% endif %}
+    </a>
 
       </article>
     {% endif %}
