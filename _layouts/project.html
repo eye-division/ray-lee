@@ -3,18 +3,18 @@ layout: default
 ---
 
 {% assign with_media = false %}
-{% if page.video_embed or page.images[0].image_path %}
+{% if page.video_embed or page.images[0].image_path or page.main_image_path %}
   {% assign with_media = true %}
 {% endif %}
 
 
-<header id="content-header">
-  <section id="page-title">
+<header class="content-header">
+  <section class="page-title">
     <h1>{{ page.title }} {% if page.project_date %} <span class="date">[{{ page.project_date | date: '%Y' }}]</span>{% endif %}</h1>
   </section>
 </header>
 
-<article id="content">
+<article class="content">
   <section class="main-content {% if with_media %}with-media{% endif %}">
     {{ content }}
   <footer>
@@ -29,6 +29,11 @@ layout: default
     <section class="video-embed">
       {{ page.video_embed }}
     </section>
+    {% elsif page.main_image_path %}
+    <figure>
+      {% include img.html src=page.main_image_path width=400 alt=page.main_image_description %}
+      <figcaption>{{ page.main_image_description}}</figcaption>
+    </figure>
     {% endif %}
 
     {% if page.images %}

@@ -13,11 +13,11 @@ $modular-scale-ratio: $minor-third;
 
 // Line height
 $base-line-height: 1.8;
-$heading-line-height: 1.8;
+$heading-line-height: 1.6;
 
 // Other Sizes
 $base-border-radius: 3px;
-$base-spacing: $base-line-height * $em-base;
+$base-spacing: $em-base;// $base-line-height * $em-base;
 $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
@@ -30,6 +30,29 @@ $background-grey: #373535;
 $white: #fff;
 $black: #111111;
 
+/* SASS / Social Media Brand Colors */
+
+$twitter: #00aced;
+$facebook: #3b5998;
+$googleplus: #dd4b39;
+$pinterest: #cb2027;
+$linkedin: #007bb6;
+$youtube: #bb0000;
+$vimeo: #1ab7ea;
+$tumblr: #32506d;
+$instagram: #bc2a8d;
+$flickr: #ff0084;
+$dribbble: #ea4c89;
+$quora: #a82400;
+$foursquare: #0072b1;
+$forrst: #5B9A68;
+$vk: #45668e;
+$wordpress: #21759b;
+$stumbleupon: #EB4823;
+$yahoo: #7B0099;
+$blogger: #fb8f3d;
+$soundcloud: #ff3a00;
+
 // Font Colors
 $header-color: #00798E;
 $base-background-color: #fff;
@@ -38,7 +61,7 @@ $action-color: $blue;
 $highlight-color: tint($action-color, 33%);
 
 // Border
-$base-border-color: $light-gray;
+$base-border-color: $blue;
 $base-border: 1px solid $base-border-color;
 
 // Forms

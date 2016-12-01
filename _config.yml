@@ -22,8 +22,8 @@ email: ray@invisible-forces.com
 # Build settings
 markdown: kramdown
 paginate: 5
-paginate_path: "/page:num/"
-inter_post_navigation: false
+paginate_path: "/in-development/page:num/"
+inter_post_navigation: true
 permalink: pretty
 
 # Image CDN

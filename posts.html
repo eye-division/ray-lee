@@ -1,7 +1,7 @@
 ---
-layout: post
-title: Posts
-permalink: /posts/
+layout: page
+title: In development
+permalink: /in-development/
 ---
 
 <ul class="post-list">
@@ -10,8 +10,14 @@ permalink: /posts/
     <h2>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h2>
+    {% if post.main_image_path %}
+    <section class="post-featuredimage">
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{% include img.html src=post.main_image_path width=920 height=300 %}</a>
+    </section>
+    {% endif %}
     <section class="post-excerpt" itemprop="description">
       <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+      <p><a class="readmore" href="{{ post.url | prepend: site.baseurl }}">Read more . . . <svg class="icon icon--readmore"><use xlink:href="#icon-double_angle_right" /></svg></a></p>
     </section>
     <section class="post-meta">
       <div class="post-date">{{ post.date | date: "%B %-d, %Y" }}</div>
@@ -32,36 +38,35 @@ permalink: /posts/
   {% endfor %}
 </ul>
 
+
 <nav class="pagination" role="navigation">
   <p>
     {% if paginator.next_page %}
     <a class="newer-posts" href="{{ site.baseurl }}/page{{paginator.next_page}}">
-      <span class="fa-stack fa-lg">
-        <i class="fa fa-square fa-stack-2x"></i>
-        <i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
-      </span>
+      <svg class="icon">
+        <use xlink:href="#icon-double_angle_left" />
+      </svg>
     </a>
     {% else %}
-    <span class="fa-stack fa-lg">
-      <i class="fa fa-square fa-stack-2x"></i>
-      <i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
-    </span>
+    <svg class="icon">
+      <use xlink:href="#icon-double_angle_left" />
+    </svg>
+
     {% endif %}
     <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
     {% if paginator.previous_page %}
       {% if paginator.page == 2 %}
       <a class="newer-posts" href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-square fa-stack-2x"></i>
-          <i class="fa fa-angle-double-right fa-stack-1x fa-inverse"></i>
-        </span>
+        <svg class="icon">
+          <use xlink:href="#icon-double_angle_right" />
+        </svg>
+
       </a>
       {% else %}
       <a class="newer-posts" href="{{ site.baseurl }}/page{{paginator.previous_page}}">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-square fa-stack-2x"></i>
-          <i class="fa fa-angle-double-right fa-stack-1x fa-inverse"></i>
-        </span>
+        <svg class="icon">
+          <use xlink:href="#icon-double_angle_right" />
+        </svg>
       </a>
       {% endif %}
     {% else %}
@@ -71,7 +76,6 @@ permalink: /posts/
     </span>
     {% endif %}
   </p>
-  <p>
-    <a href="{{ site.baseurl }}/posts">View All Posts by Category</a>
-  </p>
+
+
 </nav>

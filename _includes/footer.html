@@ -1,6 +1,6 @@
 <footer class="site-footer">
 
-  <div class="wrapper">
+  <div class="footer-wrapper">
 
     <div class="site-contact">
 
@@ -16,7 +16,7 @@
           {% if social.url != null %}
           <li>
             <a href="{{ social.url }}" title="{{ social.desc }}">
-              <svg class="icon"><use xlink:href="#{{ social.icon }}" /></svg>
+              <svg class="icon {{ social.icon }}"><use xlink:href="#{{ social.icon }}" /></svg>
             </a>
           </li>
           {% endif %}

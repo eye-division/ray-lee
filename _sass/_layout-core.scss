@@ -22,16 +22,6 @@ body {
 .navigation, .site-footer {
     @include flex(none);
 }
-.navigation {
-    flex: 0 0 auto;
-    @include display(flex);
-}
-.logo {
-    flex: 2 2 5em;
-}
-nav {
-    flex: 2 2 5em;
-}
 
 main, .page {
 
@@ -56,6 +46,12 @@ ul.default {
     @extend %default-ul;
 }
 
+figure {
+    margin: 5px;
+}
+figcaption {
+
+}
 code {
     background-color: #eee;
     display: inline-block;
@@ -66,9 +62,29 @@ code {
 /* SVG icons */
 .icon {
     display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+a:hover .icon { /* hover colour */
+    fill: #2eb6cd;
+}
+.icon--readmore {
+    fill: $white;
+    margin-bottom: -5px;
     width: 20px;
     height: 20px;
 }
+.icon--post {
+    fill: $action-color;
+    margin-bottom: -5px;
+    width: 20px;
+    height: 20px;
+}
+.icon-facebook_sign { fill: $facebook; }
+.icon-twitter_sign { fill: $twitter; }
+.icon-youtube { fill: $youtube; }
+.icon-soundcloud { fill: $soundcloud; }
+.icon-vimeo_square { fill: $vimeo; }
 
 blockquote {
   color: darken($action-color,20%);
@@ -91,6 +107,11 @@ blockquote:before {
 blockquote p {
   display: inline;
 }
+h1 {
+  @include media ($mobile) {
+    line-height: $heading-line-height;
+  }
+}
 // Buttons
 
 .readmore,
@@ -103,10 +124,6 @@ blockquote p {
         @include transition (background 0.2s ease-in-out);
         text-decoration: none;
 
-  }
-  .icon {
-    fill: $white;
-    margin-bottom: -5px;
   }
 }
 .next {
@@ -143,7 +160,7 @@ blockquote p {
 // Nav menu
 //
 .navigation-wrapper {
-    //@include outer-container; // constrain width
+    @include outer-container; // constrain width
     @include clearfix;
     position: relative;
 }
@@ -160,6 +177,7 @@ blockquote p {
         width: initial;
     }
     @include media ($tablet) {
+        @include span-columns(6);
         padding-left: $em-base;
     }
     img {
@@ -197,6 +215,7 @@ nav {
     padding-top: 1em;
     @include media ($tablet) {
         //float: right;
+        @include span-columns(6);
         line-height: 1.5em;
     }
 }
@@ -252,8 +271,8 @@ li.active {
 
 
 li.more {
-    overflow: visible;
-    padding-right: 0;
+    overflow: auto;
+    padding-right: 1em;
 
     a {
       //padding-right: 0.8em;
@@ -263,18 +282,22 @@ li.more {
         //padding-right: 1.6em;
         position: relative;
         transition: all 0.2s ease-in-out;
+        //background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xMzk1IDczNnEwIDEzLTEwIDIzbC00NjYgNDY2cS0xMCAxMC0yMyAxMHQtMjMtMTBsLTQ2Ni00NjZxLTEwLTEwLTEwLTIzdDEwLTIzbDUwLTUwcTEwLTEwIDIzLTEwdDIzIDEwbDM5MyAzOTMgMzkzLTM5M3ExMC0xMCAyMy0xMHQyMyAxMGw1MCA1MHExMCAxMCAxMCAyM3oiIGZpbGw9IiNmZmYiLz48L3N2Zz4=");
         @include media ($tablet) {
             //margin-right: $navigation-submenu-padding;
         }
 
         &::after {
-            //content: "›";
+            content: "›";
             font-size: 1.2em;
             position: absolute;
 
+            width: 20px;
+            height: 20px;
             right: -1em;
-            font-family: "helvetica, arial, sans-serif";
+            /* font-family: "helvetica, arial, sans-serif";
             content: "\25BE";
+            */
             @include media ($tablet) {
                 right: 0;
             }
@@ -301,7 +324,12 @@ li.more {
 
 ul.submenu {
     padding-left: 0;
-
+    @include outer-container;
+    @include media ($tablet) {
+        .column {
+            @include span-columns(6);
+        }
+    }
     @include media ($tablet) {
       left: -9em;
       position: absolute;
@@ -316,7 +344,6 @@ ul.submenu {
     li {
         display: block;
         padding-right: 0;
-        line-height: 2em;
         &:last-child > a {
             padding-bottom: 0.7em;
         }
@@ -376,11 +403,12 @@ ul.submenu {
 /*
 *	Body
 */
-#content-header {
+.content-header {
     @include outer-container;
+    padding: 0 1em 1em 1em;
 }
 
-#content {
+.content {
     @include outer-container;
     padding: 0 1em 1em 1em;
 }
@@ -404,14 +432,11 @@ img {
  * Headers
  */
 
-#content-header {
-    padding: 0;
-}
 
-#page-title {
+.page-title {
     padding-top: 1em;
     h1, p {
-        padding: 0 0 0 $em-base;
+        /*padding: 0 0 0 $em-base;*/
         margin-bottom: 0;
     }
     h1 {
@@ -491,6 +516,7 @@ section footer {
     //$link-color: $white;
     padding: 1em 1em 2em 1em;
     background-color: $white;
+    border-top: 1px #000 solid;
     a {
         color: $black;
         transition: all 0.25s ease-in-out;
@@ -498,18 +524,16 @@ section footer {
             color: $action-color;
         }
     }
-    .wrapper {
-        border-top: 1px #000 solid;
-        @include outer-container;
-    }
-    .footer-heading {
 
-    }
     h3 {
         font-size: 18px;
     }
 }
-
+.footer-wrapper {
+    @include media ($tablet) {
+        @include outer-container;
+    }
+}
 .widget {
     border-top: 1px solid $action-color;
     padding-top: 1em;
@@ -524,7 +548,6 @@ section footer {
 */
 .site-contact {
     @include span-columns(12);
-
     li {
         float: left;
         padding-right: 0.5em;
@@ -573,68 +596,5 @@ section footer {
     }
     img {
         max-width: 300px;
-    }
-}
-/*
-*	Posts
-*/
-.post {
-    ul {
-        margin-bottom: 1em;
-    }
-    .post-header-container {
-        .scrim {
-            padding: 2em 1em 1em 1em;
-        }
-    }
-    .post-meta {
-        padding-bottom: 1em;
-    }
-    .post-content {
-        padding: 1em 0;
-    }
-    .tags {
-        font-size: 0.9em;
-    }
-    .rss {
-        margin: 1em 0 0 0;
-        @include span-columns(12);
-        @include media ($tablet) {
-            margin: 1em 0;
-            @include span-columns(6);
-        }
-    }
-    .share {
-        font-weight: bold;
-        margin: 0 0 1em 0;
-        @include span-columns(12);
-        @include media ($tablet) {
-            @include span-columns(6);
-            margin: 1em 0;
-            text-align: right;
-        }
-        a {
-            width: 1em;
-            padding: 0 0.25em;
-            text-decoration: none;
-        }
-    }
-    .post-navigation {
-        font-size: 0.9em;
-        display: block;
-        width: auto;
-        .prev-post {
-            display: block;
-            width: 50%;
-            float: left;
-            margin: 1em 0;
-        }
-        .next-post {
-            display: block;
-            width: 50%;
-            float: left;
-            margin: 1em 0;
-            text-align: right;
-        }
     }
 }

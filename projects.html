@@ -14,7 +14,7 @@ main_image_path: "/assets/chorus.jpg"
 {% assign past = site.projects | where: "list",true | where:"archive",true | sort: "order" %}
 
 {% if current %}
-<section class="project-list projects-current">
+<section class="projects-current">
   <h2>Current projects</h2>
   {% for project in current %}
   <article class="project {% cycle 'alpha', '', 'last' %}">
@@ -44,16 +44,16 @@ main_image_path: "/assets/chorus.jpg"
 {% endif %}
 
 {% if past  %}
-<section class="project-list projects-past">
+<section class="projects-past">
   <h2>Archive</h2>
 
   {% for project in past %}
   <article class="project {% cycle 'alpha', '', 'last' %}">
     <a href="{{project.url}}" title="{{project.title}}">
         {% if project.main_image_path %}
-        {% include img.html src=project.main_image_path width=400 height=300 %}
+          {% include img.html src=project.main_image_path width=400 height=300 %}
         {% else %}
-        {% include img.html src="/siteicon.png" width=400 height=300 %}
+          {% include img.html src="/siteicon.png" width=400 height=300 %}
         {% endif %}
 
     </a>

@@ -1,13 +1,12 @@
 ---
-layout: default
+layout: project
 ---
 <article>
-    <header id="content-header">
-        <section id="page-title">
+    <header class="post-header">
+        <!-- <section class="page-title">
             <h1>{{ page.title }}</h1>
-            <p class="info">by <strong>{{ page.author }}</strong></p>
-        </section>
-        <section class="post-meta">
+        </section> -->
+        <section class="post-meta--header">
             <div class="post-date">{{ page.date | date: "%B %-d, %Y" }}</div>
             <div class="post-categories">
                 {% if page.categories.size > 0 %}in {% for cat in page.categories %}
@@ -17,9 +16,45 @@ layout: default
         </section>
     </header>
 
-    <section id="content">
+    <section class="post-content">
         <div class="main-text">
+            <!-- featured image -->
+            {% if page.main_image_path %}
+              {% include img.html src=page.main_image_path width=920 %}
+            {% endif %}
             {{ content }}
+
+             {% if site.inter_post_navigation == true %}
+            <section class="post-navigation">
+                <div class="prev-post">
+                    {% if page.previous.url %}
+                    <a href="{{page.previous.url | prepend: site.baseurl}}">
+                        <svg class="icon icon--post">
+                          <use xlink:href="#icon-double_angle_left" />
+                        </svg>
+                        <span class="page-number">{{page.previous.title}}</span>
+                    </a>
+                    {% endif %}
+                </div>
+                <div class="view-all">
+                  <p>
+                    <a class="readmore" href="{{ site.baseurl }}/in-development">View all posts</a>
+                  </p>
+                </div>
+
+                <div class="next-post">
+                    {% if page.next.url %}
+                    <a href="{{page.next.url | prepend: site.baseurl}}">
+                        <span class="page-number">{{page.next.title}}</span>
+                        <svg class="icon icon--post">
+                          <use xlink:href="#icon-double_angle_right" />
+                        </svg>
+                    </a>
+                    {% endif %}
+                </div>
+            </section>
+            {% endif %}
+
         </div>
         <aside>
             <section class="rss">
@@ -27,73 +62,48 @@ layout: default
             </section>
 
             <section class="share">
-                <span>Share: </span>
+                <h3>Share</h3>
                 {% for social in site.social %}
                 {% capture full_url %}{{ site.url }}{{ site.baseurl }}{{ page.url }}{% endcapture %}
                 {% if social.name == "Twitter" and social.share == true %}
                 <a href="//twitter.com/share?text={{ page.title | cgi_escape }}&url={{ full_url }}&via={{social.username}}"
                    onclick="window.open(this.href, '{{ social.icon }}- share', 'width = 550, height = 255');return false;">
-                    <i class="fa fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
+                    <svg class="icon {{ social.icon }}"><use xlink:href="#{{ social.icon }}" /></svg>
                 </a>
                 {% endif %}
                 {% if social.name == "Facebook" and social.share == true %}
                 <a href="//www.facebook.com/sharer.php?t={{ page.title | cgi_escape }}&u={{ full_url }}"
                    onclick="window.open(this.href, '{{ social.icon }}- share', 'width = 550, height = 255');return false;">
-                    <i class="fa fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
+                    <svg class="icon {{ social.icon }}"><use xlink:href="#{{ social.icon }}" /></svg>
                 </a>
                 {% endif %}
                 {% if social.name == "Google+" and social.share == true %}
                 <a href="//plus.google.com/share?title={{ page.title | cgi_escape }}&url={{ full_url }}"
                    onclick="window.open(this.href, '{{ social.icon }}- share', 'width = 550, height = 255');return false;">
-                    <i class="fa fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
+                    <svg class="icon {{ social.icon }}"><use xlink:href="#{{ social.icon }}" /></svg>
                 </a>
                 {% endif %}
                 {% if social.name == "LinkedIn" and social.share == true %}
                 <a href="//www.linkedin.com/shareArticle?mini=true&url={{ full_url }}"
                    onclick="window.open(this.href, '{{ social.icon }}- share', 'width = 550, height = 255');return false;">
-                    <i class="fa fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
+                    <svg class="icon {{ social.icon }}"><use xlink:href="#{{ social.icon }}" /></svg>
                 </a>
                 {% endif %}
                 {% if social.name == "Pinterest" and social.share == true %}
                 <a href="//www.pinterest.com/pin/create/button/?description={{ page.title | cgi_escape }}&url={{ full_url }}&media={{ site.url }}{% if page.cover %}{{ page.cover | prepend: site.baseurl  }}{% elsif site.cover %}{{ site.cover | prepend: site.baseurl }}{% else %}{{ site.logo | prepend: site.baseurl }}{% endif %}"
                    onclick="window.open(this.href, '{{ social.icon }}- share', 'width = 550, height = 255');return false;">
-                    <i class="fa fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
+                    <svg class="icon {{ social.icon }}"><use xlink:href="#{{ social.icon }}" /></svg>
                 </a>
                 {% endif %}
                 {% if social.name == "Reddit" and social.share == true %}
                 <a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent('{{ full_url }}') + ' & title={{page.title}}'; return false">
-                    <i class="fa fa-{{ social.icon | remove_first: '-square' }}-square fa-lg"></i>
+                    <svg class="icon {{ social.icon }}"><use xlink:href="#{{ social.icon }}" /></svg>
                 </a>
                 {% endif %}
                 {% endfor %}
             </section>
 
-            {% if site.inter_post_navigation == true %}
-            <section class="post-navigation">
-                <span class="prev-post">
-                    {% if page.previous.url %}
-                    <a href="{{page.previous.url | prepend: site.baseurl}}">
-                        <span class="fa-stack fa-lg">
-                            <i class="fa fa-square fa-stack-2x"></i>
-                            <i class="fa fa-angle-double-left fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <span class="page-number">{{page.previous.title}}</span>
-                    </a>
-                    {% endif %}
-                </span>
-                <span class="next-post">
-                    {% if page.next.url %}
-                    <a href="{{page.next.url | prepend: site.baseurl}}">
-                        <span class="page-number">{{page.next.title}}</span>
-                        <span class="fa-stack fa-lg">
-                            <i class="fa fa-square fa-stack-2x"></i>
-                            <i class="fa fa-angle-double-right fa-stack-1x fa-inverse"></i>
-                        </span>
-                    </a>
-                    {% endif %}
-                </span>
-            </section>
-            {% endif %}
+
 
             {% if site.disqus_shortname %}
             {% unless page.disqus_disabled %}

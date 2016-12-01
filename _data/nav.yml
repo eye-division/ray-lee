@@ -1,14 +1,18 @@
 - title: Projects
   href: /projects/
   subcategories:
-    - subtitle: View all projects
-      subhref: /projects
     - subtitle: Chorus
       subhref: /projects/chorus/
+      display: true
     - subtitle: Ethometric museum
       subhref: /projects/ethometric_museum/
+      display: true
     - subtitle: Siren
       subhref: /projects/siren/
+      display: true
+    - subtitle: View all projects
+      subhref: /projects
+      display: true
     - subtitle: Swing
       subhref: /projects/swing/
     - subtitle: Swarm
@@ -40,4 +44,4 @@
 - title: Info
   href: /info/
 - title: In Development
-  href: /posts/
+  href: /in-development/

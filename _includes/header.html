@@ -11,9 +11,10 @@
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
 
-       {% for link in site.data.nav %}
 
-          {% if link.subcategories != null %}
+      {% for link in site.data.nav %}
+
+        {% if link.subcategories != null %}
 
           <li class="nav-link menu__container more" id="menu__container">
 
@@ -22,22 +23,32 @@
             <div id="menuclick" class="menuclick">
 
               <ul class="submenu">
+                {% assign count = 0 %}
+                {% assign current = link.subcategories | where:"display",true %}
+                {% for subcategory in current %}
 
-                {% for subcategory in link.subcategories %}
+                  {% if count == 0 or count == 10 %}
+                     <div class="column">
+                  {% endif %}
 
                      <li><a href="{{ subcategory.subhref | prepend: site.baseurl }}" class="{% if page.url == link.href %}active{% endif %}">{{ subcategory.subtitle }}</a></li>
 
-                {% endfor %}
+                  {% if count == 9 %}
+                    </div>
+                  {% endif %}
 
+                  {% assign count = count | plus: 1 %}
+
+                 {% endfor %}
               </ul>
             </div>
           </li>
 
           {% else %}
 
-          <li class="nav-link{% if page.url == link.href %} active{% endif %}">
-            <a href="{{ link.href | prepend: site.baseurl }}">{{ link.title }}</a>
-          </li>
+              <li class="nav-link{% if page.url == link.href %} active{% endif %}">
+                <a href="{{ link.href | prepend: site.baseurl }}">{{ link.title }}</a>
+              </li>
 
           {% endif %}
 
