@@ -19,8 +19,8 @@ layout: project
     <section class="post-content">
         <div class="main-text">
             <!-- featured image -->
-            {% if page.main_image_path %}
-              {% include img.html src=page.main_image_path width=920 %}
+            {% if page.featured_image_path %}
+              {% include img.html src=page.featured_image_path width=920 alt=page.featured_image_description %}
             {% endif %}
             {{ content }}
 
@@ -56,6 +56,7 @@ layout: project
             {% endif %}
 
         </div>
+
         <aside>
             <section class="rss">
                 <p class="rss-subscribe text"><strong>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></strong></p>

@@ -11,7 +11,7 @@ For technical information on one of Ray Lee’s projects please email [raylee.in
 
 ### [Chorus](/projects/chorus/)
 
-Download [C](/assets/chorus touring info  DRAFT v1.pdf)horus Press Pack pdf
+Download [Chorus Press Pack pdf](/assets/chorus touring info  DRAFT v1.pdf)
 
 High Res images:
 

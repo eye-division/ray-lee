@@ -4,13 +4,12 @@
       {% if site.logo %}
       <img src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title }}">
       {% else %}
-      <span class="title">{{ site.title }}</span> <svg class="icon"><use xlink:href="#icon-chevron_right" /></svg> <span class="subtitle">{{ site.subtitle }}</span>
+      <span class="title">{{ site.title }}</span> <svg class="icon icon--logo"><use xlink:href="#icon-chevron_right" /></svg> <span class="subtitle">{{ site.subtitle }}</span>
       {% endif %}
     </a>
 
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
-
 
       {% for link in site.data.nav %}
 

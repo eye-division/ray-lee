@@ -6,6 +6,7 @@ project_to_date: 2006-12-01 00:00:00
 list: true
 archive: false
 main_image_path: /assets/chorus.jpg
+main_image_description:
 video_embed: '<iframe src="https://player.vimeo.com/video/99467393" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>'
 video_embed2: 'https://vimeo.com/99467393'

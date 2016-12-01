@@ -148,7 +148,7 @@
     }
 
     @include media($tablet) {
-        #content {
+        .content {
             @include clearfix;
         }
     }
@@ -166,18 +166,13 @@
         }
     }
 }
-@include media($tablet) {
+@include media($mobile) {
+    /* contained within .content outer-container already */
     .with-media {
-        box-sizing: border-box;
-        width: 50%;
-        float: left;
-        padding-right: 20px;
+        @include span-columns(6);
     }
-
     .media {
-        box-sizing: border-box;
-        width: 50%;
-        float: right;
+        @include span-columns(6);
     }
 
 }

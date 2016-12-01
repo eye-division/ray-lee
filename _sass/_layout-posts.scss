@@ -70,7 +70,7 @@
         text-align: left;
     }
 }
-.prev-post, .next-post, .view-all {
+.prev-post, .next-post, .view-all, .page-number {
     margin: 1em 0;
     @include media ($mobile) {
         @include span-columns(4);
@@ -84,16 +84,11 @@
 }
 @include media($mobile) {
     .main-text {
-        box-sizing: border-box;
-        width: 80%;
-        float: left;
-        padding-right: 20px;
+        @include span-columns(10);
     }
 
     aside {
-        box-sizing: border-box;
-        width: 20%;
-        float: right;
+        @include span-columns(2);
     }
 
 }

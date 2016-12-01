@@ -1,0 +1,267 @@
+/*
+*   Navigation Menu - http://refills.bourbon.io/unstyled/ (see "Navigation")
+*/
+
+/*
+*   Navigation
+*/
+
+// Nav menu
+//
+.navigation-wrapper {
+    @include outer-container; // constrain width
+    @include clearfix;
+    position: relative;
+}
+
+// logo
+.logo {
+    display: block;
+
+    line-height: 2em;
+    padding-top: 1em;
+
+    @include media($mobile) {
+        width: initial;
+    }
+    @include media ($tablet) {
+        @include span-columns(7);
+        padding-left: $em-base;
+    }
+
+    .title {
+        margin-right: 10px;
+        font-size: modular-scale(3);
+    }
+    .subtitle {
+        line-height: 1em;
+        display: inline-block;
+        text-transform: uppercase;
+        font-size: modular-scale(5);
+        @include media ($mobile) {
+            margin-left: 10px;
+            display: inline;
+        }
+    }
+    &:hover {
+        text-decoration: none;
+    }
+    .icon--logo {
+        fill: $blue;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+// nav menus
+//
+//
+.navigation {
+
+    padding: 0 1em;
+    height: $header-height;
+    @include media ($mobile) {
+        height: $header-height-mobile;
+    }
+
+    @include media ($tablet) {
+        padding: 0;
+        text-align: right;
+    }
+    margin: 0;
+    z-index: 100;
+    position: fixed; // sticky header
+    width: 100%;
+    background-color: $black;
+
+}
+nav {
+    @include media ($tablet) {
+        padding-top: 1em;
+        @include span-columns(5);
+        line-height: 1.5em;
+    }
+}
+.navigation a {
+    color: $action-color;
+}
+ul.navigation-menu {
+    //display: none;
+    margin: 0 auto;
+    overflow: visible;
+    padding: 0;
+    width: 100%;
+    @include media ($tablet) {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+}
+// Nav items
+li.nav-link {
+    //display: block;
+    //width: 100%;
+    font-weight: bold;
+    padding: 0.25em 0;
+    background: transparent;
+    display: inline;
+    text-decoration: none;
+    width: auto;
+    @include media ($tablet) {
+
+    }
+    > a {
+        padding: 0.5em 1em 0.5em 0;
+        display: inline-block;
+        @include media ($tablet) {
+            padding-right: 1.5em;
+        }
+        &:hover, &:focus {
+            text-decoration: none;
+            color: $white;
+        }
+    }
+    &:last-child a {
+        //@include media ($tablet) {
+            //padding-right: 1em;
+        //}
+    }
+}
+li.active {
+    a {
+        text-decoration: none;
+        color: $white;
+    }
+}
+
+
+li.more {
+    overflow: auto;
+    padding-right: 1em;
+
+    a {
+      //padding-right: 0.8em;
+    }
+
+    > a {
+        //padding-right: 1.6em;
+        position: relative;
+        transition: all 0.2s ease-in-out;
+        //background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xMzk1IDczNnEwIDEzLTEwIDIzbC00NjYgNDY2cS0xMCAxMC0yMyAxMHQtMjMtMTBsLTQ2Ni00NjZxLTEwLTEwLTEwLTIzdDEwLTIzbDUwLTUwcTEwLTEwIDIzLTEwdDIzIDEwbDM5MyAzOTMgMzkzLTM5M3ExMC0xMCAyMy0xMHQyMyAxMGw1MCA1MHExMCAxMCAxMCAyM3oiIGZpbGw9IiNmZmYiLz48L3N2Zz4=");
+        @include media ($tablet) {
+            //margin-right: $navigation-submenu-padding;
+        }
+
+        &::after {
+            content: "›";
+            font-size: 1.2em;
+            position: absolute;
+
+            width: 20px;
+            height: 20px;
+            right: -1em;
+            /* font-family: "helvetica, arial, sans-serif";
+            content: "\25BE";
+            */
+            @include media ($tablet) {
+                right: 0;
+            }
+        }
+    }
+    /*
+     > a::after {
+      @include position(absolute, auto 0em auto auto);
+      font-family: "helvetica, arial, sans-serif";
+      content: "\25BE";
+    }
+    */
+
+    &:focus > .submenu,
+    &:hover > .submenu {
+      display: block;
+    }
+
+    @include media ($tablet) {
+      //padding-right: 0.8em;
+      position: relative;
+    }
+}   // end li.more
+
+ul.submenu {
+    padding-left: 0;
+    @include outer-container;
+    @include media ($tablet) {
+        .column {
+            @include span-columns(6);
+        }
+    }
+    @include media ($tablet) {
+      left: -9em;
+      position: absolute;
+      top: 1.4em;
+    }
+    .submenu {
+        @include media ($tablet) {
+            left: $navigation-submenu-width - 0.2em;
+            top: 0;
+        }
+    }
+    li {
+        display: block;
+        padding-right: 0;
+        &:last-child > a {
+            padding-bottom: 0.7em;
+        }
+
+        a {
+            background-color: $navigation-background;
+            display: inline-block;
+            width: 100%;
+            padding: 0.2em;
+            transition: all 0.2s ease-in-out;
+            text-decoration: none;
+            @include media ($tablet) {
+              padding-left: 1em;
+              text-align: left;
+              width: $navigation-submenu-width;
+            }
+            &:hover,
+            &:active,
+            &:focus {
+                transition: all 0.2s ease-in-out;
+                background-color: $white;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.menu__container {
+    display: inline-block;
+}
+
+.menuclick {
+  display: none;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+
+  .menu__container.is-active &,
+  .menu__container.is-hovered & {
+    display: block;
+    @include media ($tablet) {
+        display: inline-block;
+    }
+  }
+
+}
+
+.menu__button {
+  font-weight: 700;
+  &:hover {
+    opacity: 0.8;
+  }
+  .menu__container.is-active & {
+    //color: #333;
+  }
+}

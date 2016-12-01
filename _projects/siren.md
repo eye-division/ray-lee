@@ -72,19 +72,19 @@ produced by: Simon Chatterton
 
 technicians: Stavroula Kounadea, Graham Elstone, Tony James
 
-> #### Mesmerizing - New Yorker
+> Mesmerizing - New Yorker
 
-> #### Remarkable work that possesses sculptural, performative, and musical dimensions - ArtIntelligence.net
+> Remarkable work that possesses sculptural, performative, and musical dimensions - ArtIntelligence.net
 
-> #### We are literally watching sound as it moves through space - The Age, Melbourne
+> We are literally watching sound as it moves through space - The Age, Melbourne
 
-> #### Taking in Sirens is a bit like ingesting a mild hallucinogen, then waiting for the buzz to hit. And it does hit…- PLANK Magazine, Vancouver
+> Taking in Sirens is a bit like ingesting a mild hallucinogen, then waiting for the buzz to hit. And it does hit…- PLANK Magazine, Vancouver
 
-> #### A precise piece of theatre - The Glasgow Herald \*\*\*\*\* Herald Angel Winner at Edinburgh Fringe 07
+> A precise piece of theatre - The Glasgow Herald \*\*\*\*\* Herald Angel Winner at Edinburgh Fringe 07
 
-> #### a choir of rotating sirens, their individually strident voices congealing into a thick mutating chord that transfixed listeners in its sticky flux - David Toop, The Wire
+> a choir of rotating sirens, their individually strident voices congealing into a thick mutating chord that transfixed listeners in its sticky flux - David Toop, The Wire
 
-> #### The work was called ‘Siren’ because I made thirty spinning sirens that rotate, emitting pulsing electronic tones. I liked the sense of danger that the word conveys, together with the idea of the siren call, luring people towards it. In Hanger 3022, the sirens had inevitable echoes of the site’s history, but for me the work had an elegiac quality. The sound of my sirens is more like an ethereal choir rather than the warning air raid tones you expect from the word siren - Ray Lee
+> The work was called ‘Siren’ because I made thirty spinning sirens that rotate, emitting pulsing electronic tones. I liked the sense of danger that the word conveys, together with the idea of the siren call, luring people towards it. In Hanger 3022, the sirens had inevitable echoes of the site’s history, but for me the work had an elegiac quality. The sound of my sirens is more like an ethereal choir rather than the warning air raid tones you expect from the word siren - Ray Lee
 
 #### touring and re-staging:
 

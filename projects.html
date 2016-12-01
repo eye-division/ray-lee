@@ -20,9 +20,9 @@ main_image_path: "/assets/chorus.jpg"
   <article class="project {% cycle 'alpha', '', 'last' %}">
     <a href="{{project.url}}" title="{{project.title}}">
         {% if project.main_image_path %}
-        {% include img.html src=project.main_image_path width=400 height=300 %}
+        {% include img.html src=project.main_image_path width=400 height=300 alt=project.main_image_description %}
         {% else %}
-        {% include img.html src="/siteicon.png" width=400 height=300 %}
+        {% include img.html src="/siteicon.png" width=400 height=300 alt="Ray Lee" %}
         {% endif %}
 
     <div class="title">
@@ -51,9 +51,9 @@ main_image_path: "/assets/chorus.jpg"
   <article class="project {% cycle 'alpha', '', 'last' %}">
     <a href="{{project.url}}" title="{{project.title}}">
         {% if project.main_image_path %}
-          {% include img.html src=project.main_image_path width=400 height=300 %}
+          {% include img.html src=project.main_image_path width=400 height=300 alt=project.main_image_description %}
         {% else %}
-          {% include img.html src="/siteicon.png" width=400 height=300 %}
+          {% include img.html src="/siteicon.png" width=400 height=300 alt="Ray Lee" %}
         {% endif %}
 
     </a>

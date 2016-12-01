@@ -17,9 +17,7 @@ layout: default
 <article class="content">
   <section class="main-content {% if with_media %}with-media{% endif %}">
     {{ content }}
-  <footer>
 
-  </footer>
   </section>
 
 {% if with_media %}
@@ -31,7 +29,9 @@ layout: default
     </section>
     {% elsif page.main_image_path %}
     <figure>
-      {% include img.html src=page.main_image_path width=400 alt=page.main_image_description %}
+      <a href="{% include imgpath.html src=page.main_image_path width=1280 %}" data-lightbox="gallery" data-title="{{ page.main_image_description }}">
+      {% include img.html src=page.main_image_path width=400 alt=page.main_image_description alt=page.main_image_description %}
+      </a>
       <figcaption>{{ page.main_image_description}}</figcaption>
     </figure>
     {% endif %}
