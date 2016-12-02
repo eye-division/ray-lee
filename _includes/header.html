@@ -7,7 +7,9 @@
       <span class="title">{{ site.title }}</span> <svg class="icon icon--logo"><use xlink:href="#icon-chevron_right" /></svg> <span class="subtitle">{{ site.subtitle }}</span>
       {% endif %}
     </a>
-
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
+      <svg class="icon icon--logo"><use xlink:href="#icon-reorder" /></svg>
+    </a>
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
 
@@ -27,7 +29,7 @@
                 {% for subcategory in current %}
 
                   {% if count == 0 or count == 10 %}
-                     <div class="column">
+                     <div class="menu-column">
                   {% endif %}
 
                      <li><a href="{{ subcategory.subhref | prepend: site.baseurl }}" class="{% if page.url == link.href %}active{% endif %}">{{ subcategory.subtitle }}</a></li>

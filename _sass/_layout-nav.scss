@@ -17,7 +17,7 @@
 // logo
 .logo {
     display: block;
-
+    float: left;
     line-height: 2em;
     padding-top: 1em;
 
@@ -46,13 +46,16 @@
     &:hover {
         text-decoration: none;
     }
-    .icon--logo {
-        fill: $blue;
-        width: 20px;
-        height: 20px;
+
+}
+nav {
+    float: none;
+    padding: 1.25em 0;
+    @include media ($tablet) {
+        float: right;
+        line-height: 1.5em;
     }
 }
-
 
 // nav menus
 //
@@ -68,6 +71,7 @@
     @include media ($tablet) {
         padding: 0;
         text-align: right;
+        height: $header-height-tablet;
     }
     margin: 0;
     z-index: 100;
@@ -86,8 +90,9 @@ nav {
 .navigation a {
     color: $action-color;
 }
-ul.navigation-menu {
-    //display: none;
+ul.navigation-menu { // mobile
+    clear: both;
+    display: none;
     margin: 0 auto;
     overflow: visible;
     padding: 0;
@@ -97,19 +102,26 @@ ul.navigation-menu {
         margin: 0;
         padding: 0;
     }
+    &.show {
+        display: block;
+    }
 }
 // Nav items
 li.nav-link {
-    //display: block;
-    //width: 100%;
+    display: block;
+    width: 100%;
     font-weight: bold;
-    padding: 0.25em 0;
-    background: transparent;
-    display: inline;
+    padding: 0.25em 1em;
+    background: $black;
+    //display: inline;
     text-decoration: none;
     width: auto;
     @include media ($tablet) {
-
+        //background: transparent;
+        padding: 0.25em 0;
+        display: inline;
+        text-decoration: none;
+        width: auto;
     }
     > a {
         padding: 0.5em 1em 0.5em 0;
@@ -148,34 +160,26 @@ li.more {
         //padding-right: 1.6em;
         position: relative;
         transition: all 0.2s ease-in-out;
-        //background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xMzk1IDczNnEwIDEzLTEwIDIzbC00NjYgNDY2cS0xMCAxMC0yMyAxMHQtMjMtMTBsLTQ2Ni00NjZxLTEwLTEwLTEwLTIzdDEwLTIzbDUwLTUwcTEwLTEwIDIzLTEwdDIzIDEwbDM5MyAzOTMgMzkzLTM5M3ExMC0xMCAyMy0xMHQyMyAxMGw1MCA1MHExMCAxMCAxMCAyM3oiIGZpbGw9IiNmZmYiLz48L3N2Zz4=");
         @include media ($tablet) {
             //margin-right: $navigation-submenu-padding;
         }
 
         &::after {
             content: "›";
+            //content: "\25BE";
             font-size: 1.2em;
-            position: absolute;
+            @include position(absolute, auto -0.4em auto auto);
 
-            width: 20px;
-            height: 20px;
-            right: -1em;
+            //width: 20px;
+            //height: 20px;
             /* font-family: "helvetica, arial, sans-serif";
             content: "\25BE";
             */
-            @include media ($tablet) {
-                right: 0;
-            }
+            //@include media ($tablet) {
+           //     right: 0;
+            //}
         }
     }
-    /*
-     > a::after {
-      @include position(absolute, auto 0em auto auto);
-      font-family: "helvetica, arial, sans-serif";
-      content: "\25BE";
-    }
-    */
 
     &:focus > .submenu,
     &:hover > .submenu {
@@ -188,14 +192,16 @@ li.more {
     }
 }   // end li.more
 
+.menu-column {
+    //@include media ($tablet) {
+    //    @include span-columns(6);
+    //}
+}
+
 ul.submenu {
     padding-left: 0;
-    @include outer-container;
-    @include media ($tablet) {
-        .column {
-            @include span-columns(6);
-        }
-    }
+    //@include outer-container;
+
     @include media ($tablet) {
       left: -9em;
       position: absolute;
@@ -218,7 +224,7 @@ ul.submenu {
             background-color: $navigation-background;
             display: inline-block;
             width: 100%;
-            padding: 0.2em;
+            padding: 0.5em;
             transition: all 0.2s ease-in-out;
             text-decoration: none;
             @include media ($tablet) {
@@ -264,4 +270,16 @@ ul.submenu {
   .menu__container.is-active & {
     //color: #333;
   }
+}
+
+// Mobile view
+.navigation-menu-button {
+    display: block;
+    float: right;
+    margin: 0;
+    font-size: 1.5em;
+    padding-top: 0.5em;
+    @include media ($tablet) {
+        display: none;
+    }
 }

@@ -25,10 +25,13 @@ body {
 
 main, .page {
 
-    padding-top: $header-height + 3em;
+    padding-top: $header-height;
 
     @include media ($mobile) {
-        padding-top: $header-height-mobile + 3em;
+        padding-top: $header-height-mobile;
+    }
+    @include media ($tablet) {
+        padding-top: $header-height-tablet;
     }
     display: block;
     @include flex(1 0 auto); // flex column
@@ -79,6 +82,11 @@ a:hover .icon { /* hover colour */
 }
 .icon--inactive {
     fill: $medium-gray;
+}
+.icon--logo {
+    fill: $blue;
+    width: 20px;
+    height: 20px;
 }
 .icon-facebook_sign { fill: $facebook; }
 .icon-twitter_sign { fill: $twitter; }
