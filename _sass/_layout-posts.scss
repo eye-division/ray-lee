@@ -54,6 +54,9 @@
 
 .post-content {
     padding: 1em 0;
+    @include media ($mobile) {
+        @include outer-container;
+    }
 }
 .post-date {
     display: inline-block;
@@ -64,24 +67,34 @@
 }
 /* navigation */
 .post-navigation {
-    @include outer-container;
     text-align: center;
+    margin: 1em 0;
+    padding: 1em 0 2em;
+    border-top: 1px solid $action-color;
+    border-bottom: 1px solid $action-color;
+}
+.prev-post, .next-post {
+    margin: 1em;
+    line-height: 1em;
     @include media ($mobile) {
+        margin: 0;
+        @include span-columns(5);
         text-align: left;
     }
 }
-.prev-post, .next-post, .view-all, .page-number {
-    margin: 1em 0;
+.view-all {
+    line-height: 1em;
     @include media ($mobile) {
-        @include span-columns(4);
+        margin: 0;
+        @include span-columns(2);
     }
 }
-.view-all {
-
-}
 .next-post {
-
+    @include media ($mobile) {
+        text-align: right;
+    }
 }
+
 @include media($mobile) {
     .main-text {
         @include span-columns(10);
@@ -90,5 +103,4 @@
     aside {
         @include span-columns(2);
     }
-
 }

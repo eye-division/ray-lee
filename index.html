@@ -122,25 +122,26 @@ _comments:
       <article class="project {% cycle 'alpha', '', 'last' %}">
 
         <a href="{{project.url}}" title="{{project.title}}">
-        {% if project.main_image_path %}
-        {% include img.html src=project.main_image_path width=400 height=300 %}
-        {% else %}
-        {% include img.html src="/siteicon.png" width=400 height=300 %}
-        {% endif %}
 
-    <div class="title">
-        <h3 class="">{{project.title}}</h3>
+          {% if project.main_image_path %}
+            {% include img.html src=project.main_image_path width=400 height=300 %}
+          {% else %}
+            {% include img.html src="/siteicon.png" width=400 height=300 %}
+          {% endif %}
 
-    </div>
-   {% if project.description %}
-    <div class="caption">
-      <div class="blur"></div>
-      <div class="caption-text">
-        <p><a href="{{project.url}}" title="{{project.title}}">{{project.description}}</a></p>
-      </div>
-    </div>
-    {% endif %}
-    </a>
+          <div class="project-caption">
+            {% if project.description %}
+              <p>{{project.description}}</p>
+            {% endif %}
+          </div>
+
+        </a>
+
+        <a href="{{project.url}}" title="{{project.title}}">
+          <div class="project-title">
+              <h3>{{project.title}}</h3>
+          </div>
+        </a>
 
       </article>
     {% endif %}

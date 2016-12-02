@@ -32,20 +32,20 @@ layout: project
                         <svg class="icon icon--post">
                           <use xlink:href="#icon-double_angle_left" />
                         </svg>
-                        <span class="page-number">{{page.previous.title}}</span>
+                        {{page.previous.title}}
                     </a>
                     {% endif %}
                 </div>
                 <div class="view-all">
                   <p>
-                    <a class="readmore" href="{{ site.baseurl }}/in-development">View all posts</a>
+                    <a class="" href="{{ site.baseurl }}/in-development">View all posts</a>
                   </p>
                 </div>
 
                 <div class="next-post">
                     {% if page.next.url %}
                     <a href="{{page.next.url | prepend: site.baseurl}}">
-                        <span class="page-number">{{page.next.title}}</span>
+                        {{page.next.title}}
                         <svg class="icon icon--post">
                           <use xlink:href="#icon-double_angle_right" />
                         </svg>

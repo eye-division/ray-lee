@@ -34,23 +34,6 @@
     margin-bottom: 1em;
     overflow: hidden;
 
-    //@include padding(null 0.5em);
-
-
-    .title {
-        display: block;
-        @include position(absolute, null 0 8px 0);
-        z-index: 20;
-
-        background-color: rgba($action-color,.8);
-        width: 100%;
-        padding: 0.1rem 0;
-
-        text-align: center;
-        a:hover, a:focus {
-            text-decoration: none;
-        }
-    }
     .subtitle {
         text-transform: uppercase;
     }
@@ -63,46 +46,6 @@
         }
         @include media($tablet) {
             line-height: 1.8em;
-        }
-    }
-    .caption {
-        display: block;
-        //@include ellipsis;
-        @include position(absolute, 0 0 8px 0);
-        opacity: 0;
-        cursor: pointer;
-        transition: all 0.45s ease-in-out;
-    }
-    .blur {
-        display: block;
-        background-color: $action-color;
-        height: 100%;
-        width: 100%;
-        z-index: 5;
-        position: absolute;
-    }
-    .caption-text {
-        display: block;
-        line-height: 1.2em;
-        font-size: 1.4em;
-        z-index: 10;
-        width: 90%;
-        height: 100%;
-        text-align: center;
-        @include position(absolute, 10px 0 0 5%);
-        @include media($mobile) {
-            font-size: 1.1em;
-            top: 10px;
-        }
-        @include media($tablet) {
-            top: 30px;
-            font-size: 1.2em;
-        }
-        a {
-            color: $white;
-            &:hover,&:focus {
-                text-decoration: none;
-            }
         }
     }
 
@@ -124,8 +67,63 @@
 
 }
 
-@include media($tablet) {
-    .project:hover .caption {
+.project-title {
+    display: block;
+    @include position(absolute, null 0 8px 0);
+    z-index: 10;
+    background-color: rgba($action-color,.8);
+    width: 100%;
+    padding: 0.1rem 0;
+    text-align: center;
+    a:hover, a:focus {
+        text-decoration: none;
+    }
+}
+.project-caption {
+    display: block;
+    //@include ellipsis;
+    @include position(absolute, 0 0 8px 0);
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.45s ease-in-out;
+    background-color: $action-color;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+    line-height: 1.2em;
+    font-size: 1.4em;
+    text-align: center;
+    p {
+        width: 90%;
+        height: 100%;
+        color: $white;
+        @include position(absolute, 10px 0 0 5%);
+        @include media($mobile) {
+            font-size: 1.1em;
+            top: 10px;
+        }
+        @include media($tablet) {
+            top: 20px;
+            font-size: 1em;
+        }
+        a {
+            color: $white;
+            &:hover,&:focus {
+                text-decoration: none;
+            }
+        }
+    }
+}
+.project:hover .project-caption {
+    opacity: 1;
+}
+@include media($mobile) {   // no hover on smaller
+    .project:hover .project-caption {
+        opacity: 0;
+    }
+}
+@include media($tablet) {   // back on for large
+    .project:hover .project-caption {
         opacity: 1;
     }
 }
