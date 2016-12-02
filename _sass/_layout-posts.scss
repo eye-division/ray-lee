@@ -1,0 +1,106 @@
+/*
+*	Posts
+*/
+
+.post-list {
+    @extend %default-ul;
+}
+.post {
+    ul {
+        margin-bottom: 1em;
+    }
+
+    .tags {
+        font-size: 0.9em;
+    }
+    .rss {
+        margin: 1em 0 0 0;
+        @include span-columns(12);
+        @include media ($tablet) {
+            margin: 1em 0;
+            @include span-columns(6);
+        }
+    }
+}
+
+.share {
+    font-weight: bold;
+    margin: 0 0 1em 0;
+    @include span-columns(12);
+    /*@include media ($tablet) {
+        @include span-columns(6);
+        margin: 1em 0;
+        text-align: right;
+    }*/
+    a {
+        width: 1em;
+        padding: 0 0.25em;
+        text-decoration: none;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    .icon {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.post-header-container {
+    .scrim {
+        padding: 2em 1em 1em 1em;
+    }
+}
+
+.post-content {
+    padding: 1em 0;
+    @include media ($mobile) {
+        @include outer-container;
+    }
+}
+.post-date {
+    display: inline-block;
+}
+.post-categories {
+    display: inline-block;
+    font-style: italic;
+}
+/* navigation */
+.post-navigation {
+    text-align: center;
+    margin: 1em 0;
+    padding: 1em 0 2em;
+    border-top: 1px solid $action-color;
+    border-bottom: 1px solid $action-color;
+}
+.prev-post, .next-post {
+    margin: 1em;
+    line-height: 1em;
+    @include media ($mobile) {
+        margin: 0;
+        @include span-columns(5);
+        text-align: left;
+    }
+}
+.view-all {
+    line-height: 1em;
+    @include media ($mobile) {
+        margin: 0;
+        @include span-columns(2);
+    }
+}
+.next-post {
+    @include media ($mobile) {
+        text-align: right;
+    }
+}
+
+@include media($mobile) {
+    .main-text {
+        @include span-columns(10);
+    }
+
+    aside {
+        @include span-columns(2);
+    }
+}

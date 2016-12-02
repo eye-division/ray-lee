@@ -1,0 +1,286 @@
+/*
+*   Navigation Menu - http://refills.bourbon.io/unstyled/ (see "Navigation")
+*/
+
+/*
+*   Navigation
+*/
+
+// Nav menu
+//
+.navigation-wrapper {
+    @include outer-container; // constrain width
+    @include clearfix;
+    position: relative;
+}
+
+// logo
+.logo {
+    display: block;
+    text-align: left;
+    float: left;
+    line-height: 2em;
+    padding-top: 1em;
+
+    @include media($mobile) {
+        width: initial;
+    }
+    @include media ($tablet) {
+        @include span-columns(7);
+        padding-left: $em-base;
+    }
+
+    .title {
+        margin-right: 10px;
+        font-size: modular-scale(3);
+    }
+    .subtitle {
+        line-height: 1em;
+        display: inline-block;
+        text-transform: uppercase;
+        font-size: modular-scale(5);
+        @include media ($mobile) {
+            margin-left: 10px;
+            display: inline;
+        }
+    }
+    &:hover {
+        text-decoration: none;
+    }
+
+}
+nav {
+    float: none;
+    padding: 1.25em 0;
+    @include media ($tablet) {
+        float: right;
+        line-height: 1.5em;
+    }
+}
+
+// nav menus
+//
+//
+.navigation {
+
+    padding: 0 1em;
+    height: $header-height;
+    @include media ($mobile) {
+        height: $header-height-mobile;
+    }
+
+    @include media ($tablet) {
+        padding: 0;
+        text-align: right;
+        height: $header-height-tablet;
+    }
+    margin: 0;
+    z-index: 100;
+    position: fixed; // sticky header
+    width: 100%;
+    background-color: $black;
+
+}
+nav {
+    @include media ($tablet) {
+        padding-top: 1em;
+        @include span-columns(5);
+        line-height: 1.5em;
+    }
+}
+.navigation a {
+    color: $action-color;
+}
+ul.navigation-menu { // mobile
+    clear: both;
+    display: none;
+    margin: 0 auto;
+    overflow: visible;
+    padding: 0;
+    width: 100%;
+    @include media ($tablet) {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    &.show {
+        display: block;
+    }
+}
+// Nav items
+li.nav-link {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    padding: 0.25em 1em;
+    background: $black;
+    //display: inline;
+    text-decoration: none;
+    width: auto;
+    @include media ($tablet) {
+        //background: transparent;
+        padding: 0.25em 0;
+        display: inline;
+        text-decoration: none;
+        width: auto;
+    }
+    > a {
+        padding: 0.5em 1em 0.5em 0;
+        display: inline-block;
+        @include media ($tablet) {
+            padding-right: 1.5em;
+        }
+        &:hover, &:focus {
+            text-decoration: none;
+            color: $white;
+        }
+    }
+    &:last-child a {
+        //@include media ($tablet) {
+            //padding-right: 1em;
+        //}
+    }
+}
+li.active {
+    a {
+        text-decoration: none;
+        color: $white;
+    }
+}
+
+
+li.more {
+    overflow: auto;
+    padding-right: 1em;
+
+    a {
+      //padding-right: 0.8em;
+    }
+
+    > a {
+        //padding-right: 1.6em;
+        position: relative;
+        transition: all 0.2s ease-in-out;
+        @include media ($tablet) {
+            //margin-right: $navigation-submenu-padding;
+        }
+
+        &::after {
+            content: "›";
+            //content: "\25BE";
+            font-size: 1.2em;
+            @include position(absolute, auto -0.4em auto auto);
+
+            //width: 20px;
+            //height: 20px;
+            /* font-family: "helvetica, arial, sans-serif";
+            content: "\25BE";
+            */
+            //@include media ($tablet) {
+           //     right: 0;
+            //}
+        }
+    }
+
+    &:focus > .submenu,
+    &:hover > .submenu {
+      display: block;
+    }
+
+    @include media ($tablet) {
+      //padding-right: 0.8em;
+      position: relative;
+    }
+}   // end li.more
+
+.menu-column {
+    //@include media ($tablet) {
+    //    @include span-columns(6);
+    //}
+}
+
+ul.submenu {
+    padding-left: 0;
+    //@include outer-container;
+
+    @include media ($tablet) {
+      left: -9em;
+      position: absolute;
+      top: 1.4em;
+    }
+    .submenu {
+        @include media ($tablet) {
+            left: $navigation-submenu-width - 0.2em;
+            top: 0;
+        }
+    }
+    li {
+        display: block;
+        padding-right: 0;
+        &:last-child > a {
+            padding-bottom: 0.7em;
+        }
+
+        a {
+            background-color: $navigation-background;
+            display: inline-block;
+            width: 100%;
+            padding: 0.5em;
+            transition: all 0.2s ease-in-out;
+            text-decoration: none;
+            @include media ($tablet) {
+              padding-left: 1em;
+              text-align: left;
+              width: $navigation-submenu-width;
+            }
+            &:hover,
+            &:active,
+            &:focus {
+                transition: all 0.2s ease-in-out;
+                background-color: $white;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.menu__container {
+    display: inline-block;
+}
+
+.menuclick {
+  display: none;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+
+  .menu__container.is-active &,
+  .menu__container.is-hovered & {
+    display: block;
+    @include media ($tablet) {
+        display: inline-block;
+    }
+  }
+
+}
+
+.menu__button {
+  font-weight: 700;
+  &:hover {
+    opacity: 0.8;
+  }
+  .menu__container.is-active & {
+    //color: #333;
+  }
+}
+
+// Mobile view
+.navigation-menu-button {
+    display: block;
+    float: right;
+    margin: 0;
+    font-size: 1.5em;
+    padding-top: 0.5em;
+    @include media ($tablet) {
+        display: none;
+    }
+}

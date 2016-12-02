@@ -1,19 +1,21 @@
 ---
-title: "The archive"
-description: "First displayed at Battersea Arts Centre, London May 2010, ‘The Archive’ contains a collection of rare and obscure instruments made by Ethometric Instruments Ltd."
-project_date: 2006-11-01T00:00:00.000Z
-project_to_date: 2006-12-01T00:00:00.000Z
-list: true
-main_image_path: "/assets/archive-stav-1.jpg"
-video_embed: ''
+title: The archive
+description: 'First displayed at Battersea Arts Centre, London May 2010, ‘The Archive’ contains a collection of rare and obscure instruments made by Ethometric Instruments Ltd.'
+project_date: 2006-11-01 00:00:00
+project_to_date: 2006-12-01 00:00:00
+list: false
+archive: true
+main_image_path: /assets/archive-stav-1.jpg
+video_embed:
 images:
-  - image_path: "/assets/archive-stav-1.jpg"
+  - image_path: /assets/archive-stav-1.jpg
     description:
-  - image_path: "/assets/archive-stav-3.jpg"
+  - image_path: /assets/archive-stav-3.jpg
     description:
-  - image_path: "/assets/archive4.jpg"
+  - image_path: /assets/archive4.jpg
     description:
-
+tags:
+order: 14
 ---
 First displayed at Battersea Arts Centre, London May 2010, ‘The Archive’ contains a collection of rare and obscure instruments made by Ethometric Instruments Ltd.
 

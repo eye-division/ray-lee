@@ -9,33 +9,66 @@ main_image_path: "/assets/chorus.jpg"
 </section>
 
 {% assign projects = site.projects %}
+{% assign current = site.projects | where: "list",true | where:"archive",false | sort: "order" %}
 
-{% if projects %}
-<section class="project-list">
+{% assign past = site.projects | where: "list",true | where:"archive",true | sort: "order" %}
 
-  {% for project in projects %}
+{% if current %}
+<section class="projects-current">
+
+  <h2>Current projects</h2>
+
+  {% for project in current %}
+
   <article class="project {% cycle 'alpha', '', 'last' %}">
     <a href="{{project.url}}" title="{{project.title}}">
-        {% if project.main_image_path %}
-        {% include img.html src=project.main_image_path width=400 height=300 %}
-        {% else %}
-        {% include img.html src="/siteicon.png" width=400 height=300 %}
-        {% endif %}
-
-    </a>
-    <div class="title">
-      <a href="{{project.url}}" title="{{project.title}}">
-        <h3 class="">{{project.title}}</h3>
-      </a>
-    </div>
-   {% if project.description %}
-    <div class="caption">
-      <div class="blur"></div>
-      <div class="caption-text">
-        <p><a href="{{project.url}}" title="{{project.title}}">{{project.description}}</a></p>
-      </div>
-    </div>
+      {% if project.main_image_path %}
+          {% include img.html src=project.main_image_path width=400 height=300 %}
+      {% else %}
+          {% include img.html src="/siteicon.png" width=400 height=300 %}
       {% endif %}
+      <div class="project-caption">
+          {% if project.description %}
+            <p>{{project.description}}</p>
+          {% endif %}
+      </div>
+    </a>
+
+    <a href="{{project.url}}" title="{{project.title}}">
+      <div class="project-title">
+          <h3>{{project.title}}</h3>
+      </div>
+    </a>
+
+  </article>
+  {% endfor %}
+</section>
+{% endif %}
+
+{% if past  %}
+<section class="projects-past">
+  <h2>Archive</h2>
+
+  {% for project in past %}
+    <article class="project {% cycle 'alpha', '', 'last' %}">
+    <a href="{{project.url}}" title="{{project.title}}">
+      {% if project.main_image_path %}
+          {% include img.html src=project.main_image_path width=400 height=300 %}
+      {% else %}
+          {% include img.html src="/siteicon.png" width=400 height=300 %}
+      {% endif %}
+      <div class="project-caption">
+          {% if project.description %}
+            <p>{{project.description}}</p>
+          {% endif %}
+      </div>
+    </a>
+
+    <a href="{{project.url}}" title="{{project.title}}">
+      <div class="project-title">
+          <h3>{{project.title}}</h3>
+      </div>
+    </a>
 
   </article>
   {% endfor %}

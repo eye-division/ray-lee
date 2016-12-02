@@ -1,43 +1,47 @@
-- title: "Projects"
-  href: "/projects/"
+- title: Projects
+  href: /projects/
   subcategories:
-    - subtitle: "View all projects"
-      subhref: "/projects"
-    - subtitle: "Siren"
-      subhref: "/projects/siren/"
-    - subtitle: "Swarm"
-      subhref: "/projects/swarm/"
-    - subtitle: "Murmur"
-      subhref: "/projects/murmur/"
-    - subtitle: "Forcefield"
-      subhref: "/projects/forcefield/"
-    - subtitle: "Ethometric museum"
-      subhref: "/projects/ethometric_museum/"
-    - subtitle: "Theremonium"
-      subhref: "/projects/theremonium/"
-    - subtitle: "Electric"
-      subhref: "/projects/electric/"
-    - subtitle: "Cold storage"
-      subhref: "/projects/cold_storage/"
-    - subtitle: "Swing"
-      subhref: "/projects/swing/"
-    - subtitle: "Circles of ether"
-      subhref: "/projects/circles_of_ether/"
-    - subtitle: "Choir"
-      subhref: "/projects/choir/"
-    - subtitle: "Spin"
-      subhref: "/projects/spin/"
-    - subtitle: "The Theremin lesson"
-      subhref: "/projects/theremin_lesson/"
-    - subtitle: "Lee and Dawes"
-      subhref: "/projects/lee_and_dawes/"
-    - subtitle: "Sound hunter"
-      subhref: "/projects/sound_hunter/"
-    - subtitle: "The archive"
-      subhref: "/projects/the_archive/"
-    - subtitle: "Five sound works for Cluj"
-      subhref: "/projects/five_works_for_cluj/"
-    - subtitle: "Chorus"
-      subhref: "/projects/chorus/"
-- title: "About"
-  href: "/about/"
+    - subtitle: Chorus
+      subhref: /projects/chorus/
+      display: true
+    - subtitle: Ethometric museum
+      subhref: /projects/ethometric_museum/
+      display: true
+    - subtitle: Siren
+      subhref: /projects/siren/
+      display: true
+    - subtitle: View all projects
+      subhref: /projects
+      display: true
+    - subtitle: Swing
+      subhref: /projects/swing/
+    - subtitle: Swarm
+      subhref: /projects/swarm/
+    - subtitle: Forcefield
+      subhref: /projects/forcefield/
+    - subtitle: Murmur
+      subhref: /projects/murmur/
+    - subtitle: Circles of ether
+      subhref: /projects/circles_of_ether/
+    - subtitle: Electric
+      subhref: /projects/electric/
+    - subtitle: The Theremin lesson
+      subhref: /projects/theremin_lesson/
+    - subtitle: Detectors
+      subhref: /projects/detectors/
+    - subtitle: Choir
+      subhref: /projects/choir/
+    - subtitle: Spin
+      subhref: /projects/spin/
+    - subtitle: Cold storage
+      subhref: /projects/cold_storage/
+    - subtitle: Lee and Dawes
+      subhref: /projects/lee_and_dawes/
+    - subtitle: World Theremin Quartet
+      subhref: /projects/world_theremin-quartet/
+- title: About
+  href: /about/
+- title: Info
+  href: /info/
+- title: In Development
+  href: /in-development/

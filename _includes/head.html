@@ -9,14 +9,11 @@
   <meta name="author" content="{{ site.name }}">
   <meta name="copyright" content="&copy; {{ site.name }} {{ site.time | date: '%Y' }}">
   {% endif %}
-
-  <!-- External libraries -->
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-  <!--<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/styles/monokai_sublime.min.css">-->
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
   <!-- Typekit -->
   <script src="https://use.typekit.net/cbt2zdh.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  <!-- External libraries -->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
   <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
   <link rel="shortcut icon" href="{{ "/assets/icons/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
   <link rel="icon" href="{{ "/assets/icons/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
@@ -74,13 +71,16 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
-
   <!-- Scripts -->
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 <!--<script defer src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>-->
 <script defer src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js"></script>
+<script src="/js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="/js/instafeed.min.js"></script>
 <script defer src="/js/main.js"></script>
+
+{% include svg/symbol-defs.svg %}
 
 {% if site.ga_tracking_id %}
 <!-- Google Analytics -->

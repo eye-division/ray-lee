@@ -6,6 +6,8 @@
     // hljs.initHighlightingOnLoad();
 
     // Header
+
+
     var menuToggle = $('#js-mobile-menu').unbind();
     $('#js-navigation-menu').removeClass("show");
     menuToggle.on('click', function(e) {
@@ -17,6 +19,8 @@
       });
     });
 
+
+    // drop down list
     $(function() {
       $('#menu__button').on('click touchstart', function(e) {
         e.preventDefault();
@@ -32,6 +36,19 @@
 
     // fitvid on embed
     $('.media').fitVids();
+
+
+    $('.flexslider').flexslider({
+      animation: "fade",
+      controlNav: false,
+      directionNav: true,
+      randomize: true,
+      slideshowSpeed: 5000,
+      animationSpeed: 600,
+      touch: true
+    });
+
+
 
   });
 

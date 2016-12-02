@@ -22,6 +22,8 @@ h1 {
 	font-size: modular-scale(5);
   color: $header-color;
   font-weight: normal;
+  line-height: 1.3em;
+
 }
 h2 {
 	font-size: modular-scale(3);
@@ -44,14 +46,14 @@ p {
 }
 
 a {
-  color: $action-color;
+  color: darken($action-color, 20%);
   text-decoration: none;
   // transition: color 0.1s linear;
 
   &:active,
   &:focus,
   &:hover {
-    color: darken($action-color, 10%);
+    color: darken($action-color, 40%);
     text-decoration: underline;
   }
 

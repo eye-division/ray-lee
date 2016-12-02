@@ -4,18 +4,18 @@
       {% if site.logo %}
       <img src="{{ site.logo | prepend: site.baseurl }}" alt="{{ site.title }}">
       {% else %}
-      <span class="title">{{ site.title }}</span> &gt; <span class="subtitle">{{ site.subtitle }}</span>
+      <span class="title">{{ site.title }}</span> <svg class="icon icon--logo"><use xlink:href="#icon-chevron_right" /></svg> <span class="subtitle">{{ site.subtitle }}</span>
       {% endif %}
     </a>
     <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
-      <i class="fa fa-bars"></i>
+      <svg class="icon icon--logo"><use xlink:href="#icon-reorder" /></svg>
     </a>
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
 
-       {% for link in site.data.nav %}
+      {% for link in site.data.nav %}
 
-          {% if link.subcategories != null %}
+        {% if link.subcategories != null %}
 
           <li class="nav-link menu__container more" id="menu__container">
 
@@ -24,22 +24,32 @@
             <div id="menuclick" class="menuclick">
 
               <ul class="submenu">
+                {% assign count = 0 %}
+                {% assign current = link.subcategories | where:"display",true %}
+                {% for subcategory in current %}
 
-                {% for subcategory in link.subcategories %}
+                  {% if count == 0 or count == 10 %}
+                     <div class="menu-column">
+                  {% endif %}
 
                      <li><a href="{{ subcategory.subhref | prepend: site.baseurl }}" class="{% if page.url == link.href %}active{% endif %}">{{ subcategory.subtitle }}</a></li>
 
-                {% endfor %}
+                  {% if count == 9 %}
+                    </div>
+                  {% endif %}
 
+                  {% assign count = count | plus: 1 %}
+
+                 {% endfor %}
               </ul>
             </div>
           </li>
 
           {% else %}
 
-          <li class="nav-link{% if page.url == link.href %} active{% endif %}">
-            <a href="{{ link.href | prepend: site.baseurl }}">{{ link.title }}</a>
-          </li>
+              <li class="nav-link{% if page.url == link.href %} active{% endif %}">
+                <a href="{{ link.href | prepend: site.baseurl }}">{{ link.title }}</a>
+              </li>
 
           {% endif %}
 

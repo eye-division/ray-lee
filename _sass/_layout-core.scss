@@ -23,14 +23,18 @@ body {
     @include flex(none);
 }
 
-
 main, .page {
-    padding-top: $header-height-mobile;
+
+    padding-top: $header-height;
+
     @include media ($mobile) {
-        padding-top: $header-height;
+        padding-top: $header-height-mobile;
+    }
+    @include media ($tablet) {
+        padding-top: $header-height-tablet;
     }
     display: block;
-    @include flex(1 0 auto);
+    @include flex(1 0 auto); // flex column
 }
 
 
@@ -42,6 +46,12 @@ ul.default {
     @extend %default-ul;
 }
 
+figure {
+    margin: 5px;
+}
+figcaption {
+
+}
 code {
     background-color: #eee;
     display: inline-block;
@@ -49,6 +59,40 @@ code {
     padding: 0 3px;
 }
 
+/* SVG icons */
+.icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+a:hover .icon { /* hover colour */
+    fill: #2eb6cd;
+}
+.icon--readmore {
+    fill: $white;
+    margin-bottom: -5px;
+    width: 20px;
+    height: 20px;
+}
+.icon--post {
+    fill: $action-color;
+    margin-bottom: -5px;
+    width: 20px;
+    height: 20px;
+}
+.icon--inactive {
+    fill: $medium-gray;
+}
+.icon--logo {
+    fill: $blue;
+    width: 20px;
+    height: 20px;
+}
+.icon-facebook_sign { fill: $facebook; }
+.icon-twitter_sign { fill: $twitter; }
+.icon-youtube { fill: $youtube; }
+.icon-soundcloud { fill: $soundcloud; }
+.icon-vimeo_square { fill: $vimeo; }
 
 blockquote {
   color: darken($action-color,20%);
@@ -71,304 +115,39 @@ blockquote:before {
 blockquote p {
   display: inline;
 }
+h1 {
+  @include media ($mobile) {
+    line-height: $heading-line-height;
+  }
+}
 // Buttons
 
-.button {
+.readmore,
+.prev, .next {
     @extend button;
-    @include bbb-flat-style($action-color, $white);
+    @include bbb-flat-style(darken($action-color, 20%), $white);
     &:hover:not(:disabled) {
         color: $white;
-        background: darken($action-color, 20%);
+        background: darken($action-color, 40%);
+        @include transition (background 0.2s ease-in-out);
         text-decoration: none;
+
   }
 }
-
-
-/*
-*	Navigation
-*/
-.navigation {
-    padding: 0 1em;
-    @include media ($tablet) {
-        padding: 0;
-    }
-    margin: 0;
-    z-index: 100;
-    position: fixed;
-    width: 100%;
-    background-color: $black;
-}
-/*
-*   Navigation Menu - http://refills.bourbon.io/unstyled/ (see "Navigation")
-*   Flattened out SASS as per Bourbon's recommendations - no nesting below two levels preferred
-*/
-// Mobile view
-.navigation-menu-button {
-    display: block;
+.next {
     float: right;
-    margin: 0;
-    font-size: 1.5em;
-    padding-top: 0.5em;
-    padding-right: 0.5em;
-    @include media ($tablet) {
-        display: none;
-    }
-}
-// Nav menu
-.navigation-wrapper {
-    @include outer-container;
-    @include clearfix;
-    position: relative;
-}
-// logo
-.logo {
-    float: left;
-    width: 90%;
-    height: $header-height-mobile;
-    line-height: 2em;
-    padding-top: 1em;
-    @include media($mobile) {
-        width: initial;
-        height: $header-height;
-    }
-    @include media ($tablet) {
-        padding-left: $em-base;
-    }
-    img {
-        max-height: 2.75em;
-        margin-top: 0.25em;
-        padding-right: 1em;
-    }
-    .title {
-        margin-right: 10px;
-        font-size: modular-scale(3);
-    }
-    .subtitle {
-        line-height: 1em;
-        display: inline-block;
-        text-transform: uppercase;
-        font-size: modular-scale(5);
-        @include media ($mobile) {
-            margin-left: 10px;
-            display: inline;
-        }
-    }
-    &:hover {
-        text-decoration: none;
-    }
 }
 
 
-// nav menus
-//
-nav {
-    float: none;
-    padding-top: 1em;
-    @include media ($tablet) {
-        float: right;
-        line-height: 1.5em;
-    }
-}
-ul.navigation-menu {
-    clear: both;
-    display: none;
-    margin: 0 auto;
-    overflow: visible;
-    padding: 0;
-    width: 100%;
-    @include media ($tablet) {
-        display: block;
-        margin: 0;
-        padding: 0;
-    }
-    &.show {
-        display: block;
-    }
-}
-// Nav items
-li.nav-link {
-    display: block;
-    width: 100%;
-    padding: 0.25em 0;
-    @include media ($tablet) {
-        background: transparent;
-        display: inline;
-        text-decoration: none;
-        width: auto;
-    }
-    > a {
-        padding: 0.5em;
-        display: inline-block;
-        @include media ($tablet) {
-            padding-right: 1.5em;
-        }
-        &:hover, &:focus {
-            text-decoration: none;
-            color: $white;
-        }
-    }
-    &:last-child a {
-        //@include media ($tablet) {
-            //padding-right: 1em;
-        //}
-    }
-}
-
-// Sub menus
-/*li.more.nav-link {
-    padding-right: 0;
-
-    //@include media ($tablet) {
-      //padding-right: $navigation-submenu-padding;
-    //}
-
-    > ul > li:first-child a  {
-      padding-top: 1em;
-    }
-
-    a {
-      margin-right: $navigation-submenu-padding;
-    }
-
-    > a {
-      padding-right: 0.6em;
-    }
-
-    > a::after {
-      @include position(absolute, auto -0.4em auto auto);
-      font-family: "helvetica, arial, sans-serif";
-      content: "\25BE";
-    }
-}*/
-
-li.more {
-    overflow: visible;
-    padding-right: 0;
-
-    a {
-      //padding-right: 0.8em;
-    }
-
-    > a {
-        //padding-right: 1.6em;
-        position: relative;
-        transition: all 0.2s ease-in-out;
-        @include media ($tablet) {
-            //margin-right: $navigation-submenu-padding;
-        }
-
-        &::after {
-            //content: "›";
-            font-size: 1.2em;
-            position: absolute;
-
-            right: -1em;
-            font-family: "helvetica, arial, sans-serif";
-            content: "\25BE";
-            @include media ($tablet) {
-                right: 0;
-            }
-        }
-    }
-    /*
-     > a::after {
-      @include position(absolute, auto 0em auto auto);
-      font-family: "helvetica, arial, sans-serif";
-      content: "\25BE";
-    }
-    */
-
-    &:focus > .submenu,
-    &:hover > .submenu {
-      display: block;
-    }
-
-    @include media ($tablet) {
-      //padding-right: 0.8em;
-      position: relative;
-    }
-}   // end li.more
-
-ul.submenu {
-    padding-left: 0;
-
-    @include media ($tablet) {
-      left: -9em;
-      position: absolute;
-      top: 1.4em;
-    }
-    .submenu {
-        @include media ($tablet) {
-            left: $navigation-submenu-width - 0.2em;
-            top: 0;
-        }
-    }
-    li {
-        display: block;
-        padding-right: 0;
-        line-height: 2em;
-        &:last-child > a {
-            padding-bottom: 0.7em;
-        }
-
-        a {
-            background-color: $navigation-background;
-            display: inline-block;
-            width: 100%;
-            transition: all 0.2s ease-in-out;
-            text-decoration: none;
-            @include media ($tablet) {
-              padding-left: 1em;
-              text-align: left;
-              width: $navigation-submenu-width;
-            }
-            &:hover,
-            &:active,
-            &:focus {
-                transition: all 0.2s ease-in-out;
-                background-color: $white;
-                text-decoration: none;
-            }
-        }
-    }
-}
-
-.menu__container {
-    display: inline-block;
-}
-
-.menuclick {
-  display: none;
-  position: relative;
-  transition: all 0.2s ease-in-out;
-
-  .menu__container.is-active &,
-  .menu__container.is-hovered & {
-    display: block;
-    @include media ($tablet) {
-        display: inline-block;
-    }
-  }
-
-}
-
-.menu__button {
-  font-weight: 700;
-  &:hover {
-    opacity: 0.8;
-  }
-  .menu__container.is-active & {
-    //color: #333;
-  }
-}
 /*
 *	Body
 */
-#content-header {
+.content-header {
     @include outer-container;
+    padding: 0 1em 1em 1em;
 }
 
-#content {
+.content {
     @include outer-container;
     padding: 0 1em 1em 1em;
 }
@@ -392,14 +171,11 @@ img {
  * Headers
  */
 
-#content-header {
-    padding: 0;
-}
 
-#page-title {
+.page-title {
     padding-top: 1em;
     h1, p {
-        padding: 0 0 0 $em-base;
+        /*padding: 0 0 0 $em-base;*/
         margin-bottom: 0;
     }
     h1 {
@@ -433,8 +209,9 @@ img {
 }
 .photo {
     .rayphoto {
-        @include span-columns(2);
+        float: none;
         @include media ($mobile) {
+
             @include span-columns(4);
         }
         @include media ($tablet) {
@@ -467,7 +244,10 @@ img {
 }
 
 
-
+section footer {
+    padding: 1em 0;
+    clear: both;
+}
 
 /*
 *	Footer
@@ -476,6 +256,7 @@ img {
     //$link-color: $white;
     padding: 1em 1em 2em 1em;
     background-color: $white;
+    border-top: 1px #000 solid;
     a {
         color: $black;
         transition: all 0.25s ease-in-out;
@@ -483,18 +264,16 @@ img {
             color: $action-color;
         }
     }
-    .wrapper {
-        border-top: 1px #000 solid;
-        @include outer-container;
-    }
-    .footer-heading {
 
-    }
     h3 {
         font-size: 18px;
     }
 }
-
+.footer-wrapper {
+    @include media ($tablet) {
+        @include outer-container;
+    }
+}
 .widget {
     border-top: 1px solid $action-color;
     padding-top: 1em;
@@ -509,7 +288,6 @@ img {
 */
 .site-contact {
     @include span-columns(12);
-
     li {
         float: left;
         padding-right: 0.5em;
@@ -558,68 +336,5 @@ img {
     }
     img {
         max-width: 300px;
-    }
-}
-/*
-*	Posts
-*/
-.post {
-    ul {
-        margin-bottom: 1em;
-    }
-    .post-header-container {
-        .scrim {
-            padding: 2em 1em 1em 1em;
-        }
-    }
-    .post-meta {
-        padding-bottom: 1em;
-    }
-    .post-content {
-        padding: 1em 0;
-    }
-    .tags {
-        font-size: 0.9em;
-    }
-    .rss {
-        margin: 1em 0 0 0;
-        @include span-columns(12);
-        @include media ($tablet) {
-            margin: 1em 0;
-            @include span-columns(6);
-        }
-    }
-    .share {
-        font-weight: bold;
-        margin: 0 0 1em 0;
-        @include span-columns(12);
-        @include media ($tablet) {
-            @include span-columns(6);
-            margin: 1em 0;
-            text-align: right;
-        }
-        a {
-            width: 1em;
-            padding: 0 0.25em;
-            text-decoration: none;
-        }
-    }
-    .post-navigation {
-        font-size: 0.9em;
-        display: block;
-        width: auto;
-        .prev-post {
-            display: block;
-            width: 50%;
-            float: left;
-            margin: 1em 0;
-        }
-        .next-post {
-            display: block;
-            width: 50%;
-            float: left;
-            margin: 1em 0;
-            text-align: right;
-        }
     }
 }

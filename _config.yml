@@ -22,8 +22,8 @@ email: ray@invisible-forces.com
 # Build settings
 markdown: kramdown
 paginate: 5
-paginate_path: "/page:num/"
-inter_post_navigation: false
+paginate_path: "/in-development/page:num/"
+inter_post_navigation: true
 permalink: pretty
 
 # Image CDN
@@ -46,6 +46,8 @@ defaults:
             type: "projects"
         values:
             layout: "project"
+            _comments:
+            carousel: Update the slide show
 
 
 # Google analytics
@@ -69,14 +71,14 @@ defaults:
 #     share: true                           # Include in the "Share" section of posts
 social:
   - name: Twitter
-    icon: twitter-square
+    icon: icon-twitter_sign
     username: invisibleforces
     url: https://twitter.com/invisibleforces
     desc: Follow us on Twitter
     share: true
 
   - name: Facebook
-    icon: facebook-square
+    icon: icon-facebook_sign
     username: eyedivision
     url:
     desc: Like us on Facebook
@@ -91,7 +93,7 @@ social:
     share: true
 
   - name: YouTube
-    icon: youtube-square
+    icon: icon-youtube
     username: invisibleray
     url: https://www.youtube.com/user/invisibleray
     desc: Subscribe on YouTube
@@ -99,14 +101,14 @@ social:
 
 
   - name: SoundCloud
-    icon: soundcloud
+    icon: icon-soundcloud
     username: invisibleray
     url: https://soundcloud.com/invisibleray/
     desc: Follow me on SoundCloud
     share: false
 
   - name: Vimeo
-    icon: vimeo-square
+    icon: icon-vimeo_square
     username: ray lee
     url: https://vimeo.com/user7947235
     desc: Follow me on Vimeo
