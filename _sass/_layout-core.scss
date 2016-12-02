@@ -209,8 +209,9 @@ img {
 }
 .photo {
     .rayphoto {
-        @include span-columns(2);
+        float: none;
         @include media ($mobile) {
+
             @include span-columns(4);
         }
         @include media ($tablet) {
