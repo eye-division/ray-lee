@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ring Out Development
+title: 'Ring Out #3'
 date: 2016-11-16 08:43:00
 author: Ray Lee
 categories:
