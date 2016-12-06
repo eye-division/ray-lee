@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Ring Out #2'
-date: 2015-04-18 08:43:00
+date: 2016-11-01 08:43:00
 author: Ray
 categories:
 tags:
