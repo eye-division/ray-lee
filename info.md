@@ -1,11 +1,11 @@
 ---
-layout: info
+layout: default
 title: Info
 permalink: /info/
 images:
   - image_path: /assets/choir1.jpg
-    description:
-    download_image_path:
+    description: High res image test
+    download_image_path: /uploads/martin-welds---.jpg
   - image_path: /assets/choir2.jpg
     description:
     download_image_path:
