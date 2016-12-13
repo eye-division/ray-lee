@@ -5,6 +5,8 @@ date: 2015-12-15 08:43:00
 author: Ray
 categories:
 tags:
+featured_image_path:
+featured_image_description:
 ---
 
 

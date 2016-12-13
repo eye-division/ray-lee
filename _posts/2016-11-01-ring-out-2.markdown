@@ -6,6 +6,7 @@ author: Ray
 categories:
 tags:
 featured_image_path:
+featured_image_description:
 ---
 
 

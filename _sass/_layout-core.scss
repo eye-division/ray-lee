@@ -125,15 +125,17 @@ h1 {
 .readmore,
 .prev, .next {
     @extend button;
+    color: $white;
     @include bbb-flat-style(darken($action-color, 20%), $white);
     &:hover:not(:disabled) {
         color: $white;
         background: darken($action-color, 40%);
         @include transition (background 0.2s ease-in-out);
         text-decoration: none;
-
   }
+
 }
+
 .next {
     float: right;
 }
@@ -178,12 +180,7 @@ img {
         /*padding: 0 0 0 $em-base;*/
         margin-bottom: 0;
     }
-    h1 {
 
-    }
-    p {
-
-    }
 }
 
 .reverse-bg {
@@ -191,6 +188,12 @@ img {
     color: $white;
     blockquote {
         color: $action-color;
+    }
+    a {
+        color: $action-color;
+    }
+    a.readmore {
+        color: $white;
     }
 }
 /*
