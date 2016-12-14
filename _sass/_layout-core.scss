@@ -48,10 +48,10 @@ ul.default {
 
 figure {
     margin: 5px;
-}
-figcaption {
 
 }
+
+
 code {
     background-color: #eee;
     display: inline-block;
@@ -251,6 +251,13 @@ section footer {
     padding: 1em 0;
     clear: both;
 }
+
+/* INFO page elements */
+
+.figure__download {
+    text-align: center;
+}
+
 
 /*
 *	Footer
