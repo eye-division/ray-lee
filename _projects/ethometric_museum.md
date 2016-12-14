@@ -42,7 +42,7 @@ order: 2
 ---
 
 
-*The Ethometric Museum* consists of a collection of apparently authentic vintage electronic instruments and devices called ‘Ethometric Instruments’. These arcane devices, of which there are over forty, are displayed on a series of museum or store room shelves and the audience are led into the space and are free to move around as they please. At the beginning of the performance a Curator introduces the collection to the audience, giving a fictional history of the company that made the instruments and of their possible use and function. After this the ‘professor’ enters and activates the instruments, all of which produce a sound. Using these sounds a composition is performed.
+*The Ethometric Museum* consists of a collection of apparently authentic vintage electronic instruments and devices called ‘Ethometric Instruments’. These arcane devices, of which there are over forty, are displayed on a series of museum shelves and the audience are led into the space and are free to move around as they please. At the beginning of the performance a Curator introduces the collection to the audience, giving a fictional history of the company that made the instruments and of their possible use and function. After this the ‘professor’ enters and activates the instruments, all of which produce a sound. Using these sounds a composition is performed.
 
 > Utterly wonderful
 > <br>Sumit Paul-Choudhury, editor New Scientist magazine
@@ -66,7 +66,6 @@ Selected Press
 > If you’re after something different, Ethometric Museum will take your breath away - Three Weeks\*\*\*\*
 
 > A strange, alien, ever changing sound world, at once beguiling and disconcerting - What’s on Stage \*\*\*\*
-> <br>
 
 **Technical:**
 

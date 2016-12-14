@@ -1,0 +1,13 @@
+---
+layout: post
+title: 'Ring Out #1'
+date: 2015-12-15 08:43:00
+author: Ray
+categories:
+tags:
+featured_image_path: /uploads/versions/martin-welds------x----2310-2286x---.jpg
+featured_image_description: Martin works on Ring out
+---
+
+
+Martin works on the first prototype for the swinging mechanism for Ring out at 101 creation space in Newbury.

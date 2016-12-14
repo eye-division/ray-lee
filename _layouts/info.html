@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+{% assign with_media = false %}
+{% if page.images[0].image_path %}
+  {% assign with_media = true %}
+{% endif %}
+
+
+<header class="content-header">
+  <section class="page-title">
+    <h1>{{ page.title }}</h1>
+  </section>
+</header>
+
+<article class="content">
+  <section class="main-content editable {% if with_media %}with-media{% endif %}">
+
+    {{ content }}
+
+  </section>
+
+{% if with_media %}
+  <aside class="media">
+
+    {% if page.images %}
+
+      {% if page.images[0].image_path %}
+      <section class="">
+
+        {% for image in page.images %}
+
+          {% if image.image_path %}
+          <figure class="figure__download">
+
+            <a href="{{ image.image_path }}">
+             {% include img.html src=image.image_path width=240 height=120 alt=image.description %}
+            </a>
+            <figcaption class="figcaption__download">
+              <p>{{ image.description }}</p>
+                <p><a href="{{ image.image_path }}" class="readmore">
+                  <svg class="icon icon--readmore"><use xlink:href="#icon-download_alt" /></svg> Download
+                </a></p>
+            </figcaption>
+
+          </figure>
+
+          {% endif %}
+
+        {% endfor %}
+      </section>
+      {% endif %}
+
+    {% endif %}
+  </aside>
+{% endif %}
+
+</article>

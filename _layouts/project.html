@@ -30,7 +30,7 @@ layout: default
     {% elsif page.main_image_path %}
     <figure>
       <a href="{% include imgpath.html src=page.main_image_path width=1280 %}" data-lightbox="gallery" data-title="{{ page.main_image_description }}">
-      {% include img.html src=page.main_image_path width=400 alt=page.main_image_description alt=page.main_image_description %}
+      {% include img.html src=page.main_image_path width=400 alt=page.main_image_description %}
       </a>
       <figcaption>{{ page.main_image_description}}</figcaption>
     </figure>
