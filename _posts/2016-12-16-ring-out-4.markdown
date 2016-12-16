@@ -1,0 +1,13 @@
+---
+layout: post
+title: 'Ring Out #4'
+date: 2016-12-16 08:43:00
+author: Ray Lee
+categories:
+tags:
+featured_image_path: /assets/ring out test 1.jpg
+featured_image_description: Tony swinging the new Ring Out mechanism
+---
+
+
+Tony makes the new Ring Out cone swing while martin (who made the structure) hangs on...
