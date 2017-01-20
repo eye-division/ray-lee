@@ -42,8 +42,6 @@ order: 2
 ---
 
 
-*The Ethometric Museum* consists of a collection of apparently authentic vintage electronic instruments and devices called ‘Ethometric Instruments’. These arcane devices, of which there are over forty, are displayed on a series of museum shelves and the audience are led into the space and are free to move around as they please. At the beginning of the performance a Curator introduces the collection to the audience, giving a fictional history of the company that made the instruments and of their possible use and function. After this the ‘professor’ enters and activates the instruments, all of which produce a sound. Using these sounds a composition is performed.
-
 > Utterly wonderful
 > <br>Sumit Paul-Choudhury, editor New Scientist magazine
 
@@ -67,11 +65,7 @@ Selected Press
 
 > A strange, alien, ever changing sound world, at once beguiling and disconcerting - What’s on Stage \*\*\*\*
 
-**Technical:**
-
-The score for *The Ethometric Museum* contains a description of all of the instruments and the sound that they make. The majority of the instruments are 12v DC, with a small number being run off mains voltage. All of the instruments are completely independent of each other and produce their own distinctive sound with integral loudspeakers. The sound generation is produced by a variety of means: pitched electronic tones that can be individually tuned and pulsed; amplified metal plates with built in sound processing; digital sound stores with amplitude control; rotating devices replaying digital sound; sound stores broadcasting the sound through electro-magnetic coils and received and amplified by similar coils.
-
-**Touring and restaging:**
+&nbsp;
 
 2011
 
