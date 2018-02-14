@@ -40,7 +40,6 @@ tags:
 order: 1
 ---
 
-
 **Description:**
 
 *Chorus* consists of fourteen five-meter tall tripods with rotating arms. These structures have been designed to create an immersive sound experience capable of transforming urban or rural environments. The work has been designed to function in outdoor locations in all weather conditions.&nbsp; The *Chorus* machines were designed by Ray Lee with assistance from Charlie Camm and built by Charlie Camm of Scenetec Ltd.
@@ -60,6 +59,16 @@ The *Chorus* machines are 4.5m to 5.5m tall aluminium tripods with motorised, ro
 *Chorus* consists of a composed sequence of tones pitched from the Aeolian mode in concert A440. Over the period of the twenty to thirty minute composition (depending on the context) the twenty-eight discrete parts go through a series of changes in pitch allowing the work to develop from a series of pulses to held drones in various combinations of intervals to a resolution around the tonic.
 
 **Touring and restaging:**
+
+2017
+
+* Hong Kong International Arts Festival
+* Georgetown Festival , Penang, Malaysia
+* Connected Cities and World Culture Forum, Seoul, South Korea
+* The Albany, Deptford (Circulate London Tour)
+* Stratford Circus, London (Circulate London Tour)
+* Millfield Theatre (Circulate London Tour)
+* Bell Square, London (Circulate London Tour)
 
 2016
 
