@@ -8,10 +8,10 @@ archive: false
 main_image_path: /assets/chorus.jpg
 main_image_description:
 video_embed: >-
-  <iframe src="https://player.vimeo.com/video/99467393" width="640" height="360"
-  frameborder="0" webkitallowfullscreen mozallowfullscreen
+  <iframe src="https://player.vimeo.com/video/246294732" width="640"
+  height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
-video_embed2: 'https://vimeo.com/99467393'
+video_embed2: 'https://vimeo.com/246294732'
 images:
   - image_path: /assets/RingOut3.jpg
     description:
