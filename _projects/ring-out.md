@@ -44,84 +44,30 @@ order: 1
 
 **Description:**
 
-*Chorus* consists of fourteen five-meter tall tripods with rotating arms. These structures have been designed to create an immersive sound experience capable of transforming urban or rural environments. The work has been designed to function in outdoor locations in all weather conditions.  The *Chorus* machines were designed by Ray Lee with assistance from Charlie Camm and built by Charlie Camm of Scenetec Ltd.
-
-In *Chorus* each of the tripods emits discrete tones from the loudspeakers situated on the end of the arms. The full fourteen tripod version allows twenty-eight discrete tracks to employed.
-
-*Chorus* aims to bring a contemporary music and visual art spectacle to a very wide audience. By locating the work outdoors and on a monumental scale *Chorus* is able to be experienced by large numbers of people and has the ability to attract people to the work who may have been ‘just passing by’.
+&nbsp;
 
 **Technical:**
 
-The sounds for *Chorus* were produced using Adobe Audition. Saw tooth wave tones were created at specific pitches. The tones were then saved as WAV’s.
-
-The *Chorus* machines are 4.5m to 5.5m tall aluminium tripods with motorised, rotating arms. The audio signal is transferred to the rotating speakers via slip ring technology. The sound is replayed through WAV players and amplified by battery powered 30 watt mono amplifiers generating a sufficiently high volume to create an impact in noisy urban environments. The tripods are all self-contained and powered by high capacity leisure batteries. *Chorus* has been designed to be a weatherproof touring performance installation for outdoor spaces and virtually all weather conditions.
+&nbsp;
 
 **Performance/Composition:**
 
-*Chorus* consists of a composed sequence of tones pitched from the Aeolian mode in concert A440. Over the period of the twenty to thirty minute composition (depending on the context) the twenty-eight discrete parts go through a series of changes in pitch allowing the work to develop from a series of pulses to held drones in various combinations of intervals to a resolution around the tonic.
+&nbsp;
 
 **Touring and restaging:**
 
-2016
-
-* Canary Wharf Winter Lights Festival, London
-
-* ZAT, Montepelier France
-
-* Freedom Festival, Hull
-
-* Inside Out Festival, Dorset
-
-* New Scientist Live, Excel Arena, London
-
-2015
-
-* White Night Melbourne, Australia
-
-* Sibiu International Theatre Festival, Romania
-
-* Warsaw Autumn Festival of Contemporary Music
-
-* In Time Festival, Coventry
-
-2014
-
-* Future City, Salford
-
-* Milton Keynes International Festival
-
-* WOMAD, Charlton Park. UK
-
-* National Theatre Outdoors
-
-2013
-
-* Audiograft Oxford (scratch version)
-
-* Town Square Newbury for Corn Exchange Newbury (premiere)
-
-* Place de l’Opera, Lieux Public, Marseilles
-
-* Winchester Hat Fair
-
-* Henley Festival
-
-* Bournemouth Arts Festival
-
-* Constellation Festival Reading
-
-* Festival of Light, Huddersfield
-
-2012   Oxford Castle (scratch version)
-
-**Supported by:**
-
-*Chorus* was commissioned by Oxford Contemporary Music, and Newbury Corn Exchange in the UK. It was supported by the Sonic Arts Research Unit at Oxford Brookes University and the Arts Council of England.
+&nbsp;
 
 **Credits:**
 
-Tripod fabrication: Charlie Camm, Scenetec Ltd.
+Concept and Design: Ray Lee
+
+Co-design and fabrication: Martin West, 101 Outdoor Arts Creation centre
 
 Produced by Simon Chatterton
 
-Technicians: Martin West, Andy Reader, Edward Collins, Graham Elstone, Christian Weaver, Tony James, Rob Lee, Stavroula Kounadea
+Commissioned by: Oxford Contemporary Music
+
+Funded by: PRSF New Music Biennial 2017, Arts Council England, Oxford Brookes University
+
+Technicians: Martin West, James Ball, Edward Collins, Graham Elstone,&nbsp; Tony James, Rob Lee
