@@ -4,6 +4,8 @@
     - subtitle: Chorus
       subhref: /projects/chorus/
       display: true
+    - subtitle: Ring Out
+      subhref: /projects/ring_out/
     - subtitle: Ethometric museum
       subhref: /projects/ethometric_museum/
       display: true
@@ -39,8 +41,6 @@
       subhref: /projects/lee_and_dawes/
     - subtitle: World Theremin Quartet
       subhref: /projects/world_theremin-quartet/
-    - subtitle: Ring Out
-      subhref: /projects/ring_out/
 - title: About
   href: /about/
 - title: Info
