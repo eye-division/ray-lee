@@ -8,7 +8,7 @@ project_date: 2017-05-28 00:00:00
 project_to_date: 2006-12-01 00:00:00
 list: true
 archive: false
-main_image_path: /assets/chorus.jpg
+main_image_path: /assets/Ring Out 1.jpg
 main_image_description:
 video_embed: >-
   <iframe src="https://player.vimeo.com/video/246294732" width="640"
@@ -51,6 +51,13 @@ A series of giant towers hold suspended bell-like speaker cones. A team of ‘be
 
 **Touring and restaging:**
 
+2017
+
+* Southbank Centre, London
+* Hull City of Culture
+* Market Square, Corn Exchange Newbury
+* Clarendon Quad, Bodleian Library Oxford
+
 **Credits:**
 
 Concept and Design: Ray Lee
@@ -63,4 +70,4 @@ Commissioned by: Oxford Contemporary Music
 
 Funded by: PRSF New Music Biennial 2017, Arts Council England, Oxford Brookes University
 
-Technicians: Martin West, James Ball, Edward Collins, Graham Elstone,  Tony James, Rob Lee
+Technicians: Martin West, James Ball, Edward Collins, Graham Elstone,&nbsp; Tony James, Rob Lee
