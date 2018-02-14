@@ -2,10 +2,8 @@
 title: Ring Out
 description: >-
   A series of giant towers hold suspended bell-like speaker cones. A team of
-  ‘bell-ringers’ start to operate the industrial machinery and make the pendulum
-  arms swing to and fro, gradually swinging higher and higher until each arm
-  soars up over the heads of the audience ringing forth with a peel of
-  electronic tones that combine into a transfixing harmony of pulsing drones.
+  'bell-ringers' make the cones swing higher and higher until each arm soars up
+  over the heads of the audience ringing forth with a peel of electronic tones.
 project_date: 2017-05-28 00:00:00
 project_to_date: 2006-12-01 00:00:00
 list: true
