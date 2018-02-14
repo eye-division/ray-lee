@@ -47,7 +47,6 @@ tags:
 order: 3
 ---
 
-
 > An amazing spectacle - The Daily Telegraph
 
 *Siren* is a spectacular performance piece that takes place within an installation of large sound sculptures; metal tripods with rotating arms that emit electronic drones. Two performers move with the mass of swirling metal, tuning the drones to create a hypnotic composition and controlling the machinery to create a stunning audio visual spectacle.&nbsp;
@@ -87,6 +86,11 @@ technicians: Stavroula Kounadea, Graham Elstone, Tony James
 > The work was called ‘Siren’ because I made thirty spinning sirens that rotate, emitting pulsing electronic tones. I liked the sense of danger that the word conveys, together with the idea of the siren call, luring people towards it. In Hanger 3022, the sirens had inevitable echoes of the site’s history, but for me the work had an elegiac quality. The sound of my sirens is more like an ethereal choir rather than the warning air raid tones you expect from the word siren - Ray Lee
 
 #### touring and re-staging:
+
+**2017 -&nbsp;**Attenborough Arts Centre, Brighton UK
+
+* Matadero, Madrid, Spain (automated version)
+* Coastal Currents Festival, Hastings, UK
 
 **2015** - Alhondiga Gallery, Bilbao, Spain (automated version)
 
