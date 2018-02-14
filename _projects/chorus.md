@@ -48,6 +48,8 @@ In *Chorus* each of the tripods emits discrete tones from the loudspeakers situa
 
 *Chorus* aims to bring a contemporary music and visual art spectacle to a very wide audience. By locating the work outdoors and on a monumental scale *Chorus* is able to be experienced by large numbers of people and has the ability to attract people to the work who may have been ‘just passing by’.
 
+Chorus was shortlisted for the 2014 BASCA British Composer of the Year award for sonic art.
+
 **Technical:**
 
 The sounds for *Chorus* were produced using Adobe Audition. Saw tooth wave tones were created at specific pitches. The tones were then saved as WAV’s.
