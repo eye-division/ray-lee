@@ -1,14 +1,16 @@
 ---
-title: Chorus
-description: Towering above the audience a series of giant metal tripods support rotating arms.
-project_date: 2013-04-01 00:00:00
+title: Ring Out
+description:
+project_date: 2017-05-28 00:00:00
 project_to_date: 2006-12-01 00:00:00
 list: true
 archive: false
 main_image_path: /assets/chorus.jpg
 main_image_description:
-video_embed: '<iframe src="https://player.vimeo.com/video/99467393" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
-  allowfullscreen></iframe>'
+video_embed: >-
+  <iframe src="https://player.vimeo.com/video/99467393" width="640" height="360"
+  frameborder="0" webkitallowfullscreen mozallowfullscreen
+  allowfullscreen></iframe>
 video_embed2: 'https://vimeo.com/99467393'
 images:
   - image_path: /assets/chorus.jpg
@@ -40,10 +42,9 @@ tags:
 order: 1
 ---
 
-
 **Description:**
 
-*Chorus* consists of fourteen five-meter tall tripods with rotating arms. These structures have been designed to create an immersive sound experience capable of transforming urban or rural environments. The work has been designed to function in outdoor locations in all weather conditions.&nbsp; The *Chorus* machines were designed by Ray Lee with assistance from Charlie Camm and built by Charlie Camm of Scenetec Ltd.
+*Chorus* consists of fourteen five-meter tall tripods with rotating arms. These structures have been designed to create an immersive sound experience capable of transforming urban or rural environments. The work has been designed to function in outdoor locations in all weather conditions.  The *Chorus* machines were designed by Ray Lee with assistance from Charlie Camm and built by Charlie Camm of Scenetec Ltd.
 
 In *Chorus* each of the tripods emits discrete tones from the loudspeakers situated on the end of the arms. The full fourteen tripod version allows twenty-eight discrete tracks to employed.
 
@@ -79,11 +80,11 @@ The *Chorus* machines are 4.5m to 5.5m tall aluminium tripods with motorised, ro
 
 * Sibiu International Theatre Festival, Romania
 
-* &nbsp; Warsaw Autumn Festival of Contemporary Music
+* Warsaw Autumn Festival of Contemporary Music
 
-* &nbsp;In Time Festival, Coventry
+* In Time Festival, Coventry
 
-2014&nbsp;
+2014
 
 * Future City, Salford
 
@@ -93,15 +94,15 @@ The *Chorus* machines are 4.5m to 5.5m tall aluminium tripods with motorised, ro
 
 * National Theatre Outdoors
 
-2013 &nbsp;
+2013
 
-* &nbsp;Audiograft Oxford (scratch version)
+* Audiograft Oxford (scratch version)
 
 * Town Square Newbury for Corn Exchange Newbury (premiere)
 
 * Place de l’Opera, Lieux Public, Marseilles
 
-* Winchester Hat Fair&nbsp;&nbsp;
+* Winchester Hat Fair
 
 * Henley Festival
 
@@ -111,13 +112,13 @@ The *Chorus* machines are 4.5m to 5.5m tall aluminium tripods with motorised, ro
 
 * Festival of Light, Huddersfield
 
-2012 &nbsp; Oxford Castle (scratch version)
+2012   Oxford Castle (scratch version)
 
 **Supported by:**
 
 *Chorus* was commissioned by Oxford Contemporary Music, and Newbury Corn Exchange in the UK. It was supported by the Sonic Arts Research Unit at Oxford Brookes University and the Arts Council of England.
 
-**Credits:&nbsp;**
+**Credits:**
 
 Tripod fabrication: Charlie Camm, Scenetec Ltd.
 
