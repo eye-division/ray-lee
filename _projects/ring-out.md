@@ -38,7 +38,7 @@ images:
     description:
 tags:
   - home
-order: 1
+order: 2
 ---
 
 **Description:**
@@ -49,7 +49,7 @@ A series of giant towers hold suspended bell-like speaker cones. A team of ‘be
 
 *Ring Out* has been commissioned by OCM and has received a PRS New Music Biennial award and Arts Council England support with performances scheduled for Hull (City of Culture) and at London South Bank, and will be broadcast on BBC Radio 3. The work has been developed at the Corn Exchange’s 101 Outdoor Art Creation Space at Greenham Common.
 
-See an interview with Ray Lee talking about the project with Kevin Le Gendre here:&nbsp;[https://youtu.be/7RTcTM72Egg](https://youtu.be/7RTcTM72Egg)
+See an interview with Ray Lee talking about the project with Kevin Le Gendre here: [https://youtu.be/7RTcTM72Egg](https://youtu.be/7RTcTM72Egg)
 
 **Touring and restaging:**
 
@@ -72,4 +72,4 @@ Commissioned by: Oxford Contemporary Music
 
 Funded by: PRSF New Music Biennial 2017, Arts Council England, Oxford Brookes University
 
-Technicians: Martin West, James Ball, Edward Collins, Graham Elstone,&nbsp; Tony James, Rob Lee
+Technicians: Martin West, James Ball, Edward Collins, Graham Elstone,  Tony James, Rob Lee
