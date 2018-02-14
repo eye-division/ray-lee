@@ -13,29 +13,25 @@ video_embed: >-
   allowfullscreen></iframe>
 video_embed2: 'https://vimeo.com/99467393'
 images:
-  - image_path: /assets/chorus.jpg
+  - image_path: /assets/RingOut3.jpg
     description:
-  - image_path: /assets/chorus1.jpg
+  - image_path: /assets/20170504_163116.jpg
     description:
-  - image_path: /assets/chorus2.jpg
+  - image_path: /assets/Ring%20Out%201.jpg
     description:
-  - image_path: /assets/chorus3.jpg
+  - image_path: /assets/Ring%20Out%204.jpg
     description:
-  - image_path: /assets/2851_015.jpg
+  - image_path:
     description:
-  - image_path: /assets/12-Chorus-FarrowsCreative.jpg
+  - image_path:
     description:
-  - image_path: /assets/2851_047.jpg
+  - image_path:
     description:
-  - image_path: /assets/chorus in portland.jpg
+  - image_path:
     description:
-  - image_path: /assets/chorus ray lee 2.jpg
+  - image_path:
     description:
-  - image_path: /assets/Chorus_photo credit_FITS-Dragos Dumitru (7).jpg
-    description:
-  - image_path: /assets/2014-08-04 14.41.44.jpg
-    description:
-  - image_path: /assets/20130705_180542.jpg
+  - image_path:
     description:
 tags:
   - home
@@ -44,19 +40,11 @@ order: 1
 
 **Description:**
 
-&nbsp;
-
 **Technical:**
-
-&nbsp;
 
 **Performance/Composition:**
 
-&nbsp;
-
 **Touring and restaging:**
-
-&nbsp;
 
 **Credits:**
 
@@ -70,4 +58,4 @@ Commissioned by: Oxford Contemporary Music
 
 Funded by: PRSF New Music Biennial 2017, Arts Council England, Oxford Brookes University
 
-Technicians: Martin West, James Ball, Edward Collins, Graham Elstone,&nbsp; Tony James, Rob Lee
+Technicians: Martin West, James Ball, Edward Collins, Graham Elstone,  Tony James, Rob Lee
