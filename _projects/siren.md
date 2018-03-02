@@ -7,7 +7,7 @@ description: >-
 project_date: 2004-10-28 00:00:00
 project_to_date:
 list: true
-archive: true
+archive: false
 main_image_path: /assets/ray ladder crop landscape.jpg
 video_embed: >-
   <iframe width="960" height="720"
