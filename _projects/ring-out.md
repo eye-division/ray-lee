@@ -47,9 +47,9 @@ A series of giant towers hold suspended bell-like speaker cones. A team of ‘be
 
 *Ring Out* continues Ray Lee’s distinctive combination of sound and kinetic sculpture that pushes at the boundaries of street art by bringing high quality contemporary composition into the public realm.
 
-*Ring Out* has been commissioned by OCM and has received a PRS New Music Biennial award and Arts Council England support with performances scheduled for Hull (City of Culture) and at London South Bank, and will be broadcast on BBC Radio 3. The work has been developed at the Corn Exchange’s 101 Outdoor Art Creation Space at Greenham Common.
+*Ring Out* was commissioned by OCM, received a PRS New Music Biennial award, Arts Council England funding and support from Oxford Brookes University with performances for Hull (City of Culture) and at London South Bank, and a broadcast on BBC Radio 3. The work was developed at the 101 Outdoor Art Creation Space at Greenham Common, Newbury.
 
-See an interview with Ray Lee talking about the project with Kevin Le Gendre here: [https://youtu.be/7RTcTM72Egg](https://youtu.be/7RTcTM72Egg)
+See an interview with Ray Lee talking about the project with Kevin Le Gendre here:&nbsp;[https://youtu.be/7RTcTM72Egg](https://youtu.be/7RTcTM72Egg)
 
 **Touring and restaging:**
 
@@ -64,7 +64,7 @@ See an interview with Ray Lee talking about the project with Kevin Le Gendre her
 
 Concept and Design: Ray Lee
 
-Co-design and fabrication: Martin West, 101 Outdoor Arts Creation centre
+Co-design and fabrication: Martin West, 101 Outdoor Arts Creation Centre
 
 Produced by Simon Chatterton
 
@@ -72,4 +72,4 @@ Commissioned by: Oxford Contemporary Music
 
 Funded by: PRSF New Music Biennial 2017, Arts Council England, Oxford Brookes University
 
-Technicians: Martin West, James Ball, Edward Collins, Graham Elstone,  Tony James, Rob Lee
+Technicians: Martin West, James Ball, Edward Collins, Graham Elstone,&nbsp; Tony James, Rob Lee
