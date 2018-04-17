@@ -6,6 +6,7 @@
       display: true
     - subtitle: Ring Out
       subhref: /projects/ring_out/
+      display: true
     - subtitle: Ethometric museum
       subhref: /projects/ethometric_museum/
       display: true
@@ -17,30 +18,43 @@
       display: true
     - subtitle: Swing
       subhref: /projects/swing/
+      display: false
     - subtitle: Swarm
       subhref: /projects/swarm/
+      display: false
     - subtitle: Forcefield
       subhref: /projects/forcefield/
+      display: false
     - subtitle: Murmur
       subhref: /projects/murmur/
+      display: false
     - subtitle: Circles of ether
       subhref: /projects/circles_of_ether/
+      display: false
     - subtitle: Electric
       subhref: /projects/electric/
+      display: false
     - subtitle: The Theremin lesson
       subhref: /projects/theremin_lesson/
+      display: false
     - subtitle: Detectors
       subhref: /projects/detectors/
+      display: false
     - subtitle: Choir
       subhref: /projects/choir/
+      display: false
     - subtitle: Spin
       subhref: /projects/spin/
+      display: false
     - subtitle: Cold storage
       subhref: /projects/cold_storage/
+      display: false
     - subtitle: Lee and Dawes
       subhref: /projects/lee_and_dawes/
+      display: false
     - subtitle: World Theremin Quartet
       subhref: /projects/world_theremin-quartet/
+      display: false
 - title: About
   href: /about/
 - title: Info
