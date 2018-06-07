@@ -1,4 +1,4 @@
-- title: Projects
+- title: projects
   href: /projects/
   subcategories:
     - subtitle: Chorus
@@ -55,9 +55,9 @@
     - subtitle: World Theremin Quartet
       subhref: /projects/world_theremin-quartet/
       display: false
-- title: About
+- title: about
   href: /about/
-- title: Info
+- title: info
   href: /info/
 - title: sound and wonder
   href: 'https://ray427.wixsite.com/mysite'
