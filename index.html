@@ -131,6 +131,7 @@ _comments:
 
   <h2>Projects</h2>
 
+
   {% for project in projects %}
     {% if project.tags contains 'home' %}
       <article class="project {% cycle 'alpha', '', 'last' %}">
@@ -160,6 +161,7 @@ _comments:
       </article>
     {% endif %}
   {% endfor %}
+
 
   <footer>
   <p><a href="{{ site.baseurl }}/projects/" class="readmore">View all . . . <svg class="icon icon--readmore"><use xlink:href="#icon-double_angle_right" /></svg></a></p>
