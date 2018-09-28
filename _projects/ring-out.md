@@ -16,11 +16,13 @@ video_embed: >-
   allowfullscreen></iframe>
 video_embed2: 'https://vimeo.com/246294732'
 images:
+  - image_path: /uploads/Ring Out 2.jpg
+    description:
   - image_path: /assets/RingOut3.jpg
     description:
-  - image_path: /assets/20170504_163116.jpg
-    description:
   - image_path: /assets/Ring%20Out%201.jpg
+    description:
+  - image_path: /assets/20170504_163116.jpg
     description:
   - image_path: /assets/Ring%20Out%204.jpg
     description:
@@ -29,8 +31,6 @@ images:
   - image_path: /uploads/IMG_1362.jpg
     description:
   - image_path: /uploads/IMG_1433.jpg
-    description:
-  - image_path: /uploads/Ring Out 2.jpg
     description:
   - image_path:
     description:
@@ -42,7 +42,7 @@ images:
     description:
 tags:
   - home
-order: 2
+order: '2'
 ---
 
 **Description:**
@@ -53,7 +53,7 @@ A series of giant towers hold suspended bell-like speaker cones. A team of ‘be
 
 *Ring Out* was commissioned by OCM, received a PRS New Music Biennial award, Arts Council England funding and support from Oxford Brookes University with performances for Hull (City of Culture) and at London South Bank, and a broadcast on BBC Radio 3. The work was developed at the 101 Outdoor Art Creation Space at Greenham Common, Newbury.
 
-See an interview with Ray Lee talking about the project with Kevin Le Gendre here: [https://youtu.be/7RTcTM72Egg](https://youtu.be/7RTcTM72Egg)
+See an interview with Ray Lee talking about the project with Kevin Le Gendre here:&nbsp;[https://youtu.be/7RTcTM72Egg](https://youtu.be/7RTcTM72Egg)
 
 **Touring and restaging:**
 
@@ -63,6 +63,10 @@ See an interview with Ray Lee talking about the project with Kevin Le Gendre her
 * Hull City of Culture
 * Market Square, Corn Exchange Newbury
 * Clarendon Quad, Bodleian Library Oxford
+
+2018
+
+* LLAWN Llandudno, produced by Soundlands
 
 **Credits:**
 
@@ -76,4 +80,4 @@ Commissioned by: Oxford Contemporary Music
 
 Funded by: PRSF New Music Biennial 2017, Arts Council England, Oxford Brookes University
 
-Technicians: Martin West, James Ball, Edward Collins, Graham Elstone,  Tony James, Rob Lee
+Technicians: Martin West, James Ball, Edward Collins, Graham Elstone,&nbsp; Tony James, Rob Lee
