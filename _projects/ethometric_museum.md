@@ -38,7 +38,7 @@ images:
     description:
 tags:
   - home
-order: 2
+order_number: 2
 ---
 
 

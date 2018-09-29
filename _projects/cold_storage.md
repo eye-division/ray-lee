@@ -15,7 +15,7 @@ images:
   - image_path: /assets/coldstorage-stav-and-danielle.jpg
     description:
 tags:
-order: 3
+order_number: 3
 ---
 
 

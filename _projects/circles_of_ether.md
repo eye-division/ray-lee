@@ -17,7 +17,7 @@ images:
   - image_path: /assets/circles-of-ether4.jpg
     description:
 tags:
-order: 6
+order_number: 6
 ---
 
 

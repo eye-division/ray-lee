@@ -16,7 +16,7 @@ images:
   - image_path: /assets/choir crop1.jpg
     description:
 tags:
-order: 6
+order_number: 6
 ---
 
 

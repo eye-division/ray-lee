@@ -123,7 +123,7 @@ _comments:
 
 </section>
 
-{% assign projects = site.projects | where: "list",true | where:"archive",false | sort: "order" %}
+{% assign projects = site.projects | where: "list",true | where:"archive",false | sort: "order_number" %}
 
 {% if projects %}
 

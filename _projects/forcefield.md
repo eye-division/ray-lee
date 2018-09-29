@@ -15,7 +15,7 @@ images:
   - image_path: /assets/forcefield3.jpg
     description: Forcefield
 tags:
-order: 7
+order_number: 7
 ---
 
 

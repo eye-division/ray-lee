@@ -11,7 +11,7 @@ images:
   - image_path: /assets/cluj.jpg
     description:
 tags:
-order: 6
+order_number: 6
 ---
 
 

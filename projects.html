@@ -9,9 +9,9 @@ main_image_path: "/assets/chorus.jpg"
 </section>
 
 {% assign projects = site.projects %}
-{% assign current = site.projects | where: "list",true | where:"archive",false | sort: "order" %}
+{% assign current = site.projects | where: "list",true | where:"archive",false | sort: "order_number" %}
 
-{% assign past = site.projects | where: "list",true | where:"archive",true | sort: "order" %}
+{% assign past = site.projects | where: "list",true | where:"archive",true | sort: "order_number" %}
 
 {% if current %}
 <section class="projects-current">

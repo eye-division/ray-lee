@@ -20,7 +20,7 @@ images:
   - image_path: /assets/swarm spinning.jpg
     description: 'Swarm 2008. photo: Ray Lee'
 tags:
-order: 5
+order_number: 5
 ---
 
 

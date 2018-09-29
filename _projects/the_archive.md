@@ -15,7 +15,7 @@ images:
   - image_path: /assets/archive4.jpg
     description:
 tags:
-order: 14
+order_number: 14
 ---
 First displayed at Battersea Arts Centre, London May 2010, ‘The Archive’ contains a collection of rare and obscure instruments made by Ethometric Instruments Ltd.
 

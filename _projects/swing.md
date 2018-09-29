@@ -25,7 +25,7 @@ images:
   - image_path: /assets/swing schematic.jpg
     description:
 tags:
-order: 6
+order_number: 6
 ---
 
 

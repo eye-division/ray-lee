@@ -21,7 +21,7 @@ images:
   - image_path:
     description:
 tags:
-order: 12
+order_number: 12
 ---
 
 

@@ -13,7 +13,7 @@ images:
   - image_path: /assets/electric2.jpg
     description: 'photo: Ray Lee'
 tags:
-order: 4
+order_number: 4
 ---
 
 
