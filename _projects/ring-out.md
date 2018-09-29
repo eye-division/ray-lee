@@ -42,7 +42,7 @@ images:
     description:
 tags:
   - home
-order: '2'
+order: 2
 ---
 
 **Description:**
