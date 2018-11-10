@@ -41,9 +41,7 @@ tags:
 order_number: 2
 ---
 
-
-> Utterly wonderful
-> <br>Sumit Paul-Choudhury, editor New Scientist magazine
+> Utterly wonderful<br>Sumit Paul-Choudhury, editor New Scientist magazine
 
 Enter the *Ethometric Museum* and be transported into a parallel universe of cosmic tones and esoteric technology, an Aladdin’s cave of exquisitely hand- crafted contraptions.
 
@@ -92,7 +90,20 @@ Selected Press
 2013
 
 * Ashmolean Museum Oxford
+
+2014
+
 * Science Museum, London
+
+2017
+
+* Charlbury The Shed
+* The Thin Veil, Kinetica 10 year Anniversary Show, Tanner St, London (automatic version)
+
+2018
+
+* Tanner Street, London
+* Junction, Goole
 
 **Supported by:**
 
