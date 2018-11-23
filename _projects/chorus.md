@@ -48,7 +48,7 @@ In *Chorus* each of the tripods emits discrete tones from the loudspeakers situa
 
 *Chorus* aims to bring a contemporary music and visual art spectacle to a very wide audience. By locating the work outdoors and on a monumental scale *Chorus* is able to be experienced by large numbers of people and has the ability to attract people to the work who may have been ‘just passing by’.
 
-Chorus was shortlisted for the 2014 BASCA British Composer of the Year award for sonic art.
+*Chorus* was shortlisted for the 2014 BASCA British Composer of the Year award for sonic art.
 
 **Technical:**
 
@@ -61,6 +61,12 @@ The *Chorus* machines are 4.5m to 5.5m tall aluminium tripods with motorised, ro
 *Chorus* consists of a composed sequence of tones pitched from the Aeolian mode in concert A440. Over the period of the twenty to thirty minute composition (depending on the context) the twenty-eight discrete parts go through a series of changes in pitch allowing the work to develop from a series of pulses to held drones in various combinations of intervals to a resolution around the tonic.
 
 **Touring and restaging:**
+
+2018
+
+* Lakes Alive Festival, Kendal Castle, UK
+* Dimanche de la Canebi&egrave;re, Marseilles
+* Cheriton Lights, Folkestone, Kent, UK
 
 2017
 
@@ -76,7 +82,7 @@ The *Chorus* machines are 4.5m to 5.5m tall aluminium tripods with motorised, ro
 
 * Canary Wharf Winter Lights Festival, London
 
-* ZAT, Montepelier France
+* ZAT, Montpelier France
 
 * Freedom Festival, Hull
 
