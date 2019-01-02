@@ -74,7 +74,7 @@ Concept and Design: Ray Lee
 
 Co-design and fabrication: Martin West, 101 Outdoor Arts Creation Centre
 
-Costume design, volunteer management and advice: Stavroula Kounadea
+Costume design, volunteer ringers training and general help and advice: Stavroula Kounadea
 
 Produced by Simon Chatterton
 
