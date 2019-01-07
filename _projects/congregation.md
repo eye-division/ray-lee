@@ -1,7 +1,19 @@
 ---
 title: Congregation
-description:
-project_date: 2017-05-28 00:00:00
+description: >-
+  Congregation is a participatory outdoor sound art performance piece by Ray Lee
+  suitable for up to 100 participants that can attract and engage a wider
+  audience of thousands. 
+
+
+  The interactive Sonic Spheres will guide the participants to a secret location
+  by using sound alone with groups of spheres starting from a series of
+  different locations in a city, but all being directed to a central undisclosed
+  location. The sphere carriers become part of a sci-fi procession leading to a
+  congregation of musical spheres, joining together to create an electronic
+  musical composition at the final location with the participants being like the
+  orchestral players.
+project_date: 2019-01-02 00:00:00
 project_to_date: 2006-12-01 00:00:00
 list: true
 archive: false
@@ -39,37 +51,16 @@ tags:
 order_number: 2
 ---
 
-*Ring Out* continues Ray Lee’s distinctive combination of sound and kinetic sculpture that pushes at aries of street art by bringing high quality contemporary composition into the public realm.
+&nbsp;
 
-*Ring Out* was commissioned by OCM, received a PRS New Music Biennial award, Arts Council England funding and support from Oxford Brookes University with performances for Hull (City of Culture) and at London South Bank, and a broadcast on BBC Radio 3. The work was developed at the 101 Outdoor Art Creation Space at Greenham Common, Newbury.
+In *Congregation* the audience (of up to 100 per show) arrive at discrete locations in a city where they are given a silver sphere. They are instructed that the sphere will guide them to a location by emitting sounds that guide their journey. Simultaneously other audience members are being met at different locations and also being given similar spheres (see attached). Unknowingly all the participants are being led to one central location. As the audience members walk off holding their sonic spheres they will turn a corner to find more people also carrying spheres until the sphere carrying participants have become a congregation moving inexorably towards their common destination.
 
-See an interview with Ray Lee talking about the project with Kevin Le Gendre here:&nbsp;[https://youtu.be/7RTcTM72Egg](https://youtu.be/7RTcTM72Egg)
+For the public, the sight of one person after another carrying a distinctive silver sonic sphere will create the sense of being in a performance that is taking place all around them, a humming electronic web of sound that will attract and engage thousands of passers-by in a strange processional science fiction ceremony. The mass of ‘singing’ spheres will be used generate an electronic musical composition at the final location with the participants being the orchestral players.
 
-**Touring and restaging:**
+Concept, design and composition: Ray Lee
 
-2017
+Software development, hardware design, and concept development: Steve Symons
 
-* Southbank Centre, London
-* Hull City of Culture
-* Market Square, Corn Exchange Newbury
-* Clarendon Quad, Bodleian Library Oxford
+Additional concept development: Stavroula Kounadea
 
-2018
-
-* LLAWN Llandudno, produced by Soundlands
-
-**Credits:**
-
-Concept and Design: Ray Lee
-
-Co-design and fabrication: Martin West, 101 Outdoor Arts Creation Centre
-
-Costume design, volunteer ringers training and general help and advice: Stavroula Kounadea
-
-Produced by Simon Chatterton
-
-Commissioned by: Oxford Contemporary Music
-
-Funded by: PRSF New Music Biennial 2017, Arts Council England, Oxford Brookes University
-
-Technicians: Martin West, James Ball, Edward Collins, Graham Elstone,&nbsp; Tony James, Rob Lee
+Producer: Simon Chatterton
