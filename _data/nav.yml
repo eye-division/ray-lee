@@ -7,14 +7,14 @@
     - subtitle: Ring Out
       subhref: /projects/ring-out/
       display: true
+    - subtitle: Congregation
+      subhref: /projects/congregation/
+      display: true
     - subtitle: Ethometric museum
       subhref: /projects/ethometric_museum/
       display: true
     - subtitle: Siren
       subhref: /projects/siren/
-      display: true
-    - subtitle: Congregation
-      subhref: /projects/congregation/
       display: true
     - subtitle: View all projects
       subhref: /projects
