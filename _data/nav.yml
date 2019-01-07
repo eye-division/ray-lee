@@ -55,6 +55,9 @@
     - subtitle: World Theremin Quartet
       subhref: /projects/world_theremin-quartet/
       display: false
+    - subtitle: Congregation
+      subhref: /projects/wcongregation/
+      display: true
 - title: about
   href: /about/
 - title: info
