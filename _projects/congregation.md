@@ -22,21 +22,15 @@ main_image_description:
 video_embed:
 video_embed2:
 images:
-  - image_path: /uploads/Ring Out 2.jpg
+  - image_path:
     description:
-  - image_path: /assets/RingOut3.jpg
+  - image_path:
     description:
-  - image_path: /assets/Ring%20Out%201.jpg
+  - image_path:
     description:
-  - image_path: /assets/20170504_163116.jpg
+  - image_path:
     description:
-  - image_path: /uploads/20170709_134241.jpg
-    description:
-  - image_path: /assets/Ring%20Out%204.jpg
-    description:
-  - image_path: /uploads/IMG_1362.jpg
-    description:
-  - image_path: /uploads/IMG_1433.jpg
+  - image_path:
     description:
   - image_path:
     description:
@@ -50,8 +44,6 @@ tags:
   - home
 order_number: 2
 ---
-
-&nbsp;
 
 In *Congregation* the audience (of up to 100 per show) arrive at discrete locations in a city where they are given a silver sphere. They are instructed that the sphere will guide them to a location by emitting sounds that guide their journey. Simultaneously other audience members are being met at different locations and also being given similar spheres (see attached). Unknowingly all the participants are being led to one central location. As the audience members walk off holding their sonic spheres they will turn a corner to find more people also carrying spheres until the sphere carrying participants have become a congregation moving inexorably towards their common destination.
 
