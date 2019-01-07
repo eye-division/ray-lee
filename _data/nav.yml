@@ -13,6 +13,9 @@
     - subtitle: Siren
       subhref: /projects/siren/
       display: true
+    - subtitle: Congregation
+      subhref: /projects/congregation/
+      display: true
     - subtitle: View all projects
       subhref: /projects
       display: true
@@ -55,9 +58,6 @@
     - subtitle: World Theremin Quartet
       subhref: /projects/world_theremin-quartet/
       display: false
-    - subtitle: Congregation
-      subhref: /projects/wcongregation/
-      display: true
 - title: about
   href: /about/
 - title: info
