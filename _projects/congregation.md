@@ -1,18 +1,10 @@
 ---
 title: Congregation
 description: >-
-  Congregation is a participatory outdoor sound art performance piece by Ray Lee
-  suitable for up to 100 participants that can attract and engage a wider
-  audience of thousands. 
-
-
-  The interactive Sonic Spheres will guide the participants to a secret location
-  by using sound alone with groups of spheres starting from a series of
-  different locations in a city, but all being directed to a central undisclosed
-  location. The sphere carriers become part of a sci-fi procession leading to a
-  congregation of musical spheres, joining together to create an electronic
-  musical composition at the final location with the participants being like the
-  orchestral players.
+  Congregation is a participatory outdoor sound art performance piece. The
+  interactive Sonic Spheres will guide the participants to a secret location by
+  using sound alone with groups of spheres starting from a series of different
+  locations in a city, but all being directed to a central undisclosed location.
 project_date: 2019-01-02 00:00:00
 project_to_date: 2006-12-01 00:00:00
 list: true
