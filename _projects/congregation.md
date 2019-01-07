@@ -1,20 +1,14 @@
 ---
-title: Ring Out
-description: >-
-  A series of giant towers hold suspended bell-like speaker cones. A team of
-  'bell-ringers' make the cones swing higher and higher until each arm soars up
-  over the heads of the audience ringing forth with a peel of electronic tones.
+title: Congregation
+description:
 project_date: 2017-05-28 00:00:00
 project_to_date: 2006-12-01 00:00:00
 list: true
 archive: false
-main_image_path: /assets/Ring Out 1.jpg
+main_image_path: /assets/ray congregation.jpg
 main_image_description:
-video_embed: >-
-  <iframe src="https://player.vimeo.com/video/246294732" width="640"
-  height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
-  allowfullscreen></iframe>
-video_embed2: 'https://vimeo.com/246294732'
+video_embed:
+video_embed2:
 images:
   - image_path: /uploads/Ring Out 2.jpg
     description:
@@ -45,11 +39,7 @@ tags:
 order_number: 2
 ---
 
-**Description:**
-
-A series of giant towers hold suspended bell-like speaker cones. A team of ‘bell-ringers’ start to operate the industrial machinery and make the pendulum arms swing to and fro, gradually swinging higher and higher until each arm soars up over the heads of the audience ringing forth with a peel of electronic tones that combine into a transfixing harmony of pulsing drones.
-
-*Ring Out* continues Ray Lee’s distinctive combination of sound and kinetic sculpture that pushes at the boundaries of street art by bringing high quality contemporary composition into the public realm.
+*Ring Out* continues Ray Lee’s distinctive combination of sound and kinetic sculpture that pushes at aries of street art by bringing high quality contemporary composition into the public realm.
 
 *Ring Out* was commissioned by OCM, received a PRS New Music Biennial award, Arts Council England funding and support from Oxford Brookes University with performances for Hull (City of Culture) and at London South Bank, and a broadcast on BBC Radio 3. The work was developed at the 101 Outdoor Art Creation Space at Greenham Common, Newbury.
 
