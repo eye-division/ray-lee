@@ -3,17 +3,25 @@ layout: page
 title: "Projects"
 permalink: /projects/
 main_image_path: "/assets/chorus.jpg"
+_options:
+  layout:
+    hidden: true
+  main_image_path:
+    width: '1600'
+    height: '1600'
+    resize_style: "contain"
+    mime_type: "image/jpeg"
 ---
 <section class="project-intro editable">
 
 </section>
 
 {% assign projects = site.projects %}
+
 {% assign current = site.projects | where: "list",true | where:"archive",false | sort: "order_number" %}
 
 {% assign past = site.projects | where: "list",true | where:"archive",true | sort: "order_number" %}
 
-{% if current %}
 <section class="projects-current">
 
   <h2>Current projects</h2>
@@ -21,7 +29,7 @@ main_image_path: "/assets/chorus.jpg"
   {% for project in current %}
 
   <article class="project {% cycle 'alpha', '', 'last' %}">
-    <a href="{{project.url}}" title="{{project.title}}">
+    <a href="{{ project.url }}" title="{{ project.title }}">
       {% if project.main_image_path %}
           {% include img.html src=project.main_image_path width=400 height=300 %}
       {% else %}
@@ -29,48 +37,55 @@ main_image_path: "/assets/chorus.jpg"
       {% endif %}
       <div class="project-caption">
           {% if project.description %}
-            <p>{{project.description}}</p>
+            <p>{{ project.description }}</p>
           {% endif %}
       </div>
     </a>
 
-    <a href="{{project.url}}" title="{{project.title}}">
+    <a href="{{ project.url }}" title="{{ project.title }}">
       <div class="project-title">
-          <h3>{{project.title}}</h3>
+          <h3>{{ project.title }}</h3>
       </div>
     </a>
 
   </article>
   {% endfor %}
 </section>
-{% endif %}
 
-{% if past  %}
+
+{% if past %}
+
 <section class="projects-past">
+
   <h2>Archive</h2>
 
-  {% for project in past %}
-    <article class="project {% cycle 'alpha', '', 'last' %}">
-    <a href="{{project.url}}" title="{{project.title}}">
-      {% if project.main_image_path %}
-          {% include img.html src=project.main_image_path width=400 height=300 %}
-      {% else %}
-          {% include img.html src="/siteicon.png" width=400 height=300 %}
-      {% endif %}
-      <div class="project-caption">
-          {% if project.description %}
-            <p>{{project.description}}</p>
-          {% endif %}
-      </div>
-    </a>
+  {% for past_project in past %}
 
-    <a href="{{project.url}}" title="{{project.title}}">
-      <div class="project-title">
-          <h3>{{project.title}}</h3>
-      </div>
-    </a>
+    <article class="project-past {% cycle 'alpha', '', 'last' %}">
 
-  </article>
+      <a href="{{ past_project.url }}" title="{{ past_project.title }}">
+        {% if past_project.main_image_path %}
+            {% include img.html src=past_project.main_image_path width=400 height=300 %}
+        {% else %}
+            {% include img.html src="/siteicon.png" width=400 height=300 %}
+        {% endif %}
+        <div class="project-caption">
+            {% if past_project.description %}
+              <p>{{ past_project.description }}</p>
+            {% endif %}
+        </div>
+      </a>
+
+      <a href="{{ past_project.url }}" title="{{ past_project.title }}">
+        <div class="project-title">
+            <h3>{{ past_project.title }}</h3>
+        </div>
+      </a>
+
+    </article>
+
   {% endfor %}
+
 </section>
+
 {% endif %}

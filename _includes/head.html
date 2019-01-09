@@ -13,7 +13,7 @@
   <script src="https://use.typekit.net/cbt2zdh.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
   <!-- External libraries -->
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/lightbox2@2.10.0/dist/css/lightbox.min.css">
   <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
   <link rel="shortcut icon" href="{{ "/assets/icons/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
   <link rel="icon" href="{{ "/assets/icons/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
@@ -72,9 +72,11 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
   <!-- Scripts -->
-<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-<!--<script defer src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>-->
-<script defer src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+<script
+        src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+<script src="//cdn.jsdelivr.net/npm/lightbox2@2.10.0/dist/js/lightbox.min.js" defer></script>
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js"></script>
 <script src="/js/jquery.flexslider-min.js"></script>
 <script defer src="/js/main.js"></script>

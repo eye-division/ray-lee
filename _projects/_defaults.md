@@ -14,4 +14,15 @@ images:
     description:
 tags:
 order_number:
+_options:
+  image_path:
+    width: '1600'
+    height: '1600'
+    resize_style: "contain"
+    mime_type: "image/jpeg"
+  main_image_path:
+    width: '1600'
+    height: '1600'
+    resize_style: "contain"
+    mime_type: "image/jpeg"
 ---

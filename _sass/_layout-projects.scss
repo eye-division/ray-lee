@@ -24,7 +24,7 @@
     color: $blue;
 }
 
-.project {
+.project, .project-past {
 
     @include media($mobile) {
         @include span-columns(4);

@@ -1,9 +1,7 @@
-# External gems
-gems:
-  - jekyll-sitemap
+# External gems - updated to plugins in jekyll v3.6
+plugins:
+   - jekyll-sitemap
 
-exclude:
-  - "/vendor/"
 
 # Site settings
 title: Ray Lee
@@ -15,15 +13,15 @@ description:
 # root of your server.
 baseurl: ""
 # the base hostname & protocol for your site
-url: "http://www.invisible-forces.com"
+url: "https://www.invisible-forces.com"
 logo:
 email: ray@invisible-forces.com
 
 # Build settings
 markdown: kramdown
-paginate: 5
-paginate_path: "/in-development/page:num/"
-inter_post_navigation: true
+#paginate: 5
+#paginate_path: "/in-development/page:num/"
+#inter_post_navigation: true
 permalink: pretty
 
 # Image CDN
