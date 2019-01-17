@@ -8,8 +8,8 @@
 }
 
 .projects-past {
-    @include outer-container;
-    padding: 0;
+    //@include outer-container;
+    //padding: 0;
 }
 .projects-current, .projects-past {
     /// make it a flexbox so items can be aligned vertically
@@ -36,22 +36,16 @@
     color: $blue;
 }
 
-.project--box {
-    padding-bottom: 1em;
-    text-align: center;
-    // Neat 3 version: @include grid-media ($small) {
-    // @include grid-column(2);
-    @include media ($tablet) {
-        flex: 0 1 30%;
-    }
-}
+
 /// Remove widths for grids
 @supports (display: grid) {
-  .project {
+  .project,
+  .project-past {
     width: auto;
   }
 }
-.project, .project-past {
+.project,
+.project-past {
     position: relative;
     @include media ($tablet) {
         flex: 0 1 30%;
@@ -123,7 +117,7 @@
     width: 100%;
     z-index: 5;
     line-height: 1.2em;
-    font-size: 1.4em;
+    font-size: 1.2em;
     text-align: center;
     p {
         width: 90%;
@@ -146,16 +140,19 @@
         }
     }
 }
-.project:hover .project-caption {
+.project:hover .project-caption,
+.project-past:hover .project-caption {
     opacity: 1;
 }
 @include media($mobile) {   // no hover on smaller
-    .project:hover .project-caption {
+    .project:hover .project-caption,
+    .project-past:hover .project-caption {
         opacity: 0;
     }
 }
 @include media($tablet) {   // back on for large
-    .project:hover .project-caption {
+    .project:hover .project-caption,
+    .project-past:hover .project-caption {
         opacity: 1;
     }
 }
