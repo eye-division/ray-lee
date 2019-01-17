@@ -22,9 +22,9 @@ _options:
 
 {% assign past = site.projects | where: "list",true | where:"archive",true | sort: "order_number" %}
 
-<section class="projects-current">
+<h2>Current projects</h2>
 
-  <h2>Current projects</h2>
+<section class="projects-current">
 
   {% for project in current %}
 
@@ -50,14 +50,15 @@ _options:
 
   </article>
   {% endfor %}
+
 </section>
 
 
 {% if past %}
 
-<section class="projects-past">
+<h2>Archive</h2>
 
-  <h2>Archive</h2>
+<section class="projects-past">
 
   {% for past_project in past %}
 

@@ -11,10 +11,22 @@
     @include outer-container;
     padding: 0;
 }
-.projects-current {
-    @include outer-container;
-    padding: 0;
+.projects-current, .projects-past {
+    /// make it a flexbox so items can be aligned vertically
+    clear: both;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+
+    //@include outer-container;
+    //padding: 0;
+    /* 2019 - make it grid */
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
 }
+
 .projects-front {
     @include outer-container;
     padding: 0 1em 1em 1em;
@@ -24,8 +36,27 @@
     color: $blue;
 }
 
+.project--box {
+    padding-bottom: 1em;
+    text-align: center;
+    // Neat 3 version: @include grid-media ($small) {
+    // @include grid-column(2);
+    @include media ($tablet) {
+        flex: 0 1 30%;
+    }
+}
+/// Remove widths for grids
+@supports (display: grid) {
+  .project {
+    width: auto;
+  }
+}
 .project, .project-past {
-
+    position: relative;
+    @include media ($tablet) {
+        flex: 0 1 30%;
+    }
+    /*
     @include media($mobile) {
         @include span-columns(4);
     }
@@ -33,7 +64,7 @@
     position: relative;
     margin-bottom: 1em;
     overflow: hidden;
-
+    */
     .subtitle {
         text-transform: uppercase;
     }
@@ -66,6 +97,7 @@
     }
 
 }
+
 
 .project-title {
     display: block;
