@@ -28,7 +28,7 @@ _options:
 
   {% for project in current %}
 
-  <article class="project {% cycle 'alpha', '', 'last' %}">
+  <article class="project>
     <a href="{{ project.url }}" title="{{ project.title }}">
       {% if project.main_image_path %}
           {% include img.html src=project.main_image_path width=400 height=300 %}
@@ -62,7 +62,7 @@ _options:
 
   {% for past_project in past %}
 
-    <article class="project-past {% cycle 'alpha', '', 'last' %}">
+    <article class="project-past">
 
       <a href="{{ past_project.url }}" title="{{ past_project.title }}">
         {% if past_project.main_image_path %}

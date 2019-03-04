@@ -138,45 +138,47 @@ _comments:
 
 {% if projects %}
 
-<section class="projects-front">
+<section class="front">
 
-  <h2>Projects</h2>
+  <header>
+    <h2>Projects</h2>
+  </header>
 
+  <div class="projects-front">
 
-  {% for project in projects %}
-    {% if project.tags contains 'home' %}
-      <article class="project {% cycle 'alpha', '', 'last' %}">
+    {% for project in projects %}
+      {% if project.tags contains 'home' %}
+        <article class="project {% cycle 'alpha', '', 'last' %}">
 
-        <a href="{{project.url}}" title="{{project.title}}">
+          <a href="{{project.url}}" title="{{project.title}}">
 
-          {% if project.main_image_path %}
-            {% include img.html src=project.main_image_path width=400 height=300 %}
-          {% else %}
-            {% include img.html src="/siteicon.png" width=400 height=300 %}
-          {% endif %}
-
-          <div class="project-caption">
-            {% if project.description %}
-              <p>{{project.description}}</p>
+            {% if project.main_image_path %}
+              {% include img.html src=project.main_image_path width=400 height=300 %}
+            {% else %}
+              {% include img.html src="/siteicon.png" width=400 height=300 %}
             {% endif %}
-          </div>
 
-        </a>
+            <div class="project-caption">
+              {% if project.description %}
+                <p>{{project.description}}</p>
+              {% endif %}
+            </div>
 
-        <a href="{{project.url}}" title="{{project.title}}">
-          <div class="project-title">
-              <h3>{{project.title}}</h3>
-          </div>
-        </a>
+          </a>
 
-      </article>
-    {% endif %}
-  {% endfor %}
+          <a href="{{project.url}}" title="{{project.title}}">
+            <div class="project-title">
+                <h3>{{project.title}}</h3>
+            </div>
+          </a>
 
+        </article>
+      {% endif %}
+    {% endfor %}
+  </div>
 
   <footer>
-  <p><a href="{{ site.baseurl }}/projects/" class="readmore">View all . . . <svg class="icon icon--readmore"><use xlink:href="#icon-double_angle_right" /></svg></a></p>
+    <p><a href="{{ site.baseurl }}/projects/" class="readmore">View all . . . <svg class="icon icon--readmore"><use xlink:href="#icon-double_angle_right" /></svg></a></p>
   </footer>
-
 </section>
 {% endif %}
