@@ -14,6 +14,8 @@ main_image_description: 'Congregation. Image: National Theatre Studio'
 video_embed:
 video_embed2:
 images:
+  - image_path: /uploads/F05C8784.JPG
+    description:
   - image_path: /uploads/congregation NN 1.jpg
     description: 'Image: Norfolk and Norwich Festival'
   - image_path: /uploads/congregation NN 2.jpg
@@ -24,14 +26,12 @@ images:
     description: 'Image: Ray Lee'
   - image_path: /uploads/congregation nn 4.jpg
     description: 'Image: Norfolk and Norwich Festival'
+  - image_path: /uploads/00kendal.jpg
+    description:
+  - image_path: /uploads/OI000146.jpg
+    description:
   - image_path: /uploads/congregation bristol 4.jpg
     description: 'Image: Ray Lee'
-  - image_path:
-    description:
-  - image_path:
-    description:
-  - image_path:
-    description:
   - image_path:
     description:
   - image_path:
