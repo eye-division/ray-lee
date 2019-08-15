@@ -49,6 +49,6 @@ Concept, design and composition: Ray Lee
 
 Software development, hardware design, and concept development: Steve Symons
 
-Additional concept development: Stavroula Kounadea
+Additional concept development and Costume Design: Stavroula Kounadea
 
 Producer: Simon Chatterton
