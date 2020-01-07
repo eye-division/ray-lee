@@ -28,7 +28,7 @@ _options:
 
   {% for project in current %}
 
-  <article class="project>
+  <article class="project">
     <a href="{{ project.url }}" title="{{ project.title }}">
       {% if project.main_image_path %}
           {% include img.html src=project.main_image_path width=400 height=300 %}
