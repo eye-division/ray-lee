@@ -32,9 +32,17 @@ images:
     description:
   - image_path: /uploads/congregation bristol 4.jpg
     description: 'Image: Ray Lee'
-  - image_path:
+  - image_path: /uploads/Congregation - Ray Lee @ Freedom Festival 2019 (3).jpg
     description:
-  - image_path:
+  - image_path: /uploads/Congregation by Ray Lee - Hat Fair 2019 (6).jpg
+    description:
+  - image_path: /uploads/Congregation - Ray Lee @ Freedom Festival 2019 (1).jpg
+    description:
+  - image_path: /uploads/Congregation by Ray Lee - Hat Fair 2019 (7).jpg
+    description:
+  - image_path: /uploads/Congregation by Ray Lee - Hat Fair 2019 (3).jpg
+    description:
+  - image_path: /uploads/Congregation_Ray Lee June 21 20019. D.Flynn-4200.jpg
     description:
 tags:
   - home
