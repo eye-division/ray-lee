@@ -47,6 +47,16 @@ images:
     description:
   - image_path: /uploads/P1070709.JPG
     description:
+  - image_path: /InsideOut160916_RR23.JPG
+    description:
+  - image_path: /InsideOut160916_RR02.JPG
+    description:
+  - image_path: /InsideOut160916_RR08.JPG
+    description:
+  - image_path: /InsideOut170916_RR04.JPG
+    description:
+  - image_path:
+    description:
 tags:
   - home
 order_number: 1
