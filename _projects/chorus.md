@@ -7,16 +7,14 @@ project_date: 2013-04-01 00:00:00
 project_to_date: 2006-12-01 00:00:00
 list: true
 archive: false
-main_image_path: /assets/chorus.jpg
-main_image_description:
+main_image_path: /assets/InsideOut160916_RR18.JPG
+main_image_description: 'Chorus: Inside Out Festival Photo Roy Riley 2016'
 video_embed: >-
   <iframe src="https://player.vimeo.com/video/99467393" width="640" height="360"
   frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
 video_embed2: 'https://vimeo.com/99467393'
 images:
-  - image_path: /assets/chorus ray lee 2.jpg
-    description:
   - image_path: /assets/chorus.jpg
     description:
   - image_path: /assets/chorus1.jpg
@@ -38,6 +36,14 @@ images:
   - image_path: /assets/2014-08-04 14.41.44.jpg
     description:
   - image_path: /assets/20130705_180542.jpg
+    description:
+  - image_path: /uploads/P1070699.JPG
+    description:
+  - image_path: /uploads/P1070703.JPG
+    description:
+  - image_path: /uploads/chorus hk close up.jpg
+    description:
+  - image_path: /uploads/P1070709.JPG
     description:
 tags:
   - home
