@@ -15,6 +15,8 @@ video_embed: >-
   allowfullscreen></iframe>
 video_embed2: 'https://vimeo.com/99467393'
 images:
+  - image_path: /assets/InsideOut160916_RR18.JPG
+    description:
   - image_path: /assets/chorus.jpg
     description:
   - image_path: /assets/chorus1.jpg
@@ -27,21 +29,21 @@ images:
     description:
   - image_path: /assets/12-Chorus-FarrowsCreative.jpg
     description:
+  - image_path: /uploads/chorus hk close up.jpg
+    description:
   - image_path: /assets/2851_047.jpg
     description:
   - image_path: /assets/chorus in portland.jpg
     description:
   - image_path: /assets/Chorus_photo credit_FITS-Dragos Dumitru (7).jpg
     description:
+  - image_path: /uploads/P1070703.JPG
+    description:
   - image_path: /assets/2014-08-04 14.41.44.jpg
     description:
   - image_path: /assets/20130705_180542.jpg
     description:
   - image_path: /uploads/P1070699.JPG
-    description:
-  - image_path: /uploads/P1070703.JPG
-    description:
-  - image_path: /uploads/chorus hk close up.jpg
     description:
   - image_path: /uploads/P1070709.JPG
     description:
