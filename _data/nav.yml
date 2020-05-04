@@ -4,6 +4,9 @@
     - subtitle: Chorus
       subhref: /projects/chorus/
       display: true
+    - subtitle: Points of Departure
+      subhref: projects/points of departure
+      display: true
     - subtitle: Congregation
       subhref: /projects/congregation/
       display: true
@@ -37,11 +40,11 @@
     - subtitle: Electric
       subhref: /projects/electric/
       display: false
-    - subtitle: The Theremin lesson
-      subhref: /projects/theremin_lesson/
-      display: false
     - subtitle: Detectors
       subhref: /projects/detectors/
+      display: false
+    - subtitle: The Theremin lesson
+      subhref: /projects/theremin_lesson/
       display: false
     - subtitle: Choir
       subhref: /projects/choir/
