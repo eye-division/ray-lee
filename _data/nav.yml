@@ -6,7 +6,7 @@
       display: true
     - subtitle: Points of Departure
       subhref: projects/points-of-departure/
-      display: true
+      display: false
     - subtitle: Congregation
       subhref: /projects/congregation/
       display: true
