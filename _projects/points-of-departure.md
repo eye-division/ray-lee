@@ -3,7 +3,7 @@ title: Points of Departure
 description:
 project_date: 2020-05-07 00:00:00
 project_to_date: 2021-05-31 00:00:00
-list: true
+list: false
 archive: false
 main_image_path:
 main_image_desription:
