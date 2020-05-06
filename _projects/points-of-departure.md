@@ -33,9 +33,9 @@ _options:
 
 Description:
 
-Points of Departure, a major commission form Brighton Festival, was scheduled to be open to the public for ten days at Shoreham Port. Due to the Covid-19 pandemic it has been rescheduled for next year.
+*Points of Departure, a major commission from Brighton Festival, was scheduled to be open to the public for ten days at Shoreham Port. Due to the Covid-19 pandemic it has been rescheduled for next year.*
 
-This is how it was described in the Brighton Festival brochure:
+*This is how it was described in the Brighton Festival brochure:*
 
 *World Premiere*
 
