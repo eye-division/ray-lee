@@ -4,11 +4,11 @@
     - subtitle: Chorus
       subhref: /projects/chorus/
       display: true
-    - subtitle: Points of Departure
-      subhref: projects/points-of-departure/
-      display: false
     - subtitle: Congregation
       subhref: /projects/congregation/
+      display: true
+    - subtitle: Points of Departure
+      subhref: projects/points-of-departure/
       display: true
     - subtitle: Ring Out
       subhref: /projects/ring-out/
