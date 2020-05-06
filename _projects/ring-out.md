@@ -45,8 +45,6 @@ tags:
 order_number: 2
 ---
 
-**Description:**
-
 A series of giant towers hold suspended bell-like speaker cones. A team of ‘bell-ringers’ start to operate the industrial machinery and make the pendulum arms swing to and fro, gradually swinging higher and higher until each arm soars up over the heads of the audience ringing forth with a peel of electronic tones that combine into a transfixing harmony of pulsing drones.
 
 *Ring Out* continues Ray Lee’s distinctive combination of sound and kinetic sculpture that pushes at the boundaries of street art by bringing high quality contemporary composition into the public realm.
@@ -54,6 +52,8 @@ A series of giant towers hold suspended bell-like speaker cones. A team of ‘be
 *Ring Out* was commissioned by OCM, received a PRS New Music Biennial award, Arts Council England funding and support from Oxford Brookes University with performances for Hull (City of Culture) and at London South Bank, and a broadcast on BBC Radio 3. The work was developed at the 101 Outdoor Art Creation Space at Greenham Common, Newbury.
 
 See an interview with Ray Lee talking about the project with Kevin Le Gendre here:&nbsp;[https://youtu.be/7RTcTM72Egg](https://youtu.be/7RTcTM72Egg)
+
+***Read more:***
 
 **Touring and restaging:**
 
