@@ -6,7 +6,7 @@ project_to_date:
 list: true
 archive: true
 main_image_path: /assets/coldstorage1.jpg
-video_embed:
+video_embed: 'https://youtu.be/Sk0nxdg7Gjw'
 images:
   - image_path: /assets/coldstorage1.jpg
     description:
@@ -17,7 +17,6 @@ images:
 tags:
 order_number: 3
 ---
-
 
 A Battersea Arts Centre bedroom commission.
 
