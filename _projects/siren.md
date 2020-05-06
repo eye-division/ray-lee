@@ -53,13 +53,11 @@ tags:
 order_number: 3
 ---
 
-> An amazing spectacle - The Daily Telegraph
->
->
-> A precise piece of theatre - The Glasgow Herald \*\*\*\*\* Herald Angel Winner at Edinburgh Fringe 07
->
->
-> We are literally watching sound as it moves through space - The Age, Melbourne
+> An amazing spectacle - *The Daily Telegraph*
+
+> A precise piece of theatre - *The Glasgow Herald \*\*\*\*\* Herald Angel Winner at Edinburgh Fringe 07*
+
+> We are literally watching sound as it moves through space - *The Age, Melbourne*
 
 *Siren* is a spectacular performance piece that takes place within an installation of large sound sculptures; metal tripods with rotating arms that emit electronic drones. Two performers move with the mass of swirling metal, tuning the drones to create a hypnotic composition and controlling the machinery to create a stunning audio visual spectacle.
 
