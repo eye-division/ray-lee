@@ -1,10 +1,9 @@
 ---
 title: Congregation
 description: >-
-  Congregation is a participatory outdoor sound art performance piece. The
-  interactive Sonic Spheres will guide the participants to a secret location by
-  using sound alone with groups of spheres starting from a series of different
-  locations in a city, but all being directed to a central undisclosed location.
+  Congregation is a participatory outdoor sound art performance piece.
+  Interactive Sonic Spheres guide the participants to a secret location by using
+  sound alone.
 project_date: 2019-01-02 00:00:00
 project_to_date: 2006-12-01 00:00:00
 list: true
