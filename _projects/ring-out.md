@@ -14,7 +14,10 @@ video_embed: >-
   <iframe src="https://player.vimeo.com/video/246294732" width="640"
   height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
-video_embed2: 'https://vimeo.com/246294732'
+video_embed2: >-
+  <iframe width="960" height="720"
+  src="https://www.youtube-nocookie.com/embed/7RTcTM72Egg?rel=0" frameborder="0"
+  allowfullscreen></iframe>
 images:
   - image_path: /uploads/Ring Out 2.jpg
     description:
