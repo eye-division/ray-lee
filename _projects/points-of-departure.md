@@ -17,7 +17,7 @@ images:
   - image_path: /uploads/shore-ro-2.jpg
     description: Mock up for Points of Departure
 tags:
-order_number: 1
+order_number: 2
 _options:
   image_path:
     width: '1600'
@@ -37,7 +37,7 @@ Description:
 
 *This is how it was described in the Brighton Festival brochure:*
 
-*World Premiere*
+**World Premiere**
 
 > ‘Mesmerizing’
 
