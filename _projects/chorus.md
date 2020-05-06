@@ -62,15 +62,15 @@ tags:
 order_number: 1
 ---
 
-**Description:**
-
-*Chorus* is a composition for a monumental installation of kinetic sound sculptures.
+*Chorus*\: a monumental installation of kinetic sound sculptures.
 
 Towering above the audience a series of giant metal tripods support rotating arms. At the end of each arm loudspeakers emit precisely tuned musical pitches creating a pulsating, harmonic drone, singing out a hypnotic siren call to all those present. Red lights at the end of the arms create the effect of a whirling swarm of fireflies, or of planets in motion, like mesmerising orbits of colour. These intersecting lights trace rings above the heads of the audience, while the combined chorus of the spinning speakers creates a cohesive harmonious whole, ‘a sticky flux’, that is both uplifting and transfixing.
 
-*Chorus* aims to bring a contemporary music and visual art spectacle to a very wide audience. By locating the work outdoors and on a monumental scale *Chorus* is able to be experienced by large numbers of people and has the ability to attract people to the work who may have been ‘just passing by’.
+*Chorus* aims to bring a contemporary music and visual art spectacle to a very wide audience.&nbsp;*Chorus* was shortlisted for the 2014 BASCA British Composer of the Year award for sonic art.
 
-*Chorus* was shortlisted for the 2014 BASCA British Composer of the Year award for sonic art.
+***read more:***
+
+&nbsp;
 
 **Performance/Composition:**
 
