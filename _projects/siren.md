@@ -54,14 +54,30 @@ order_number: 3
 ---
 
 > An amazing spectacle - The Daily Telegraph
+>
+>
+> A precise piece of theatre - The Glasgow Herald \*\*\*\*\* Herald Angel Winner at Edinburgh Fringe 07
+>
+>
+> We are literally watching sound as it moves through space - The Age, Melbourne
 
 *Siren* is a spectacular performance piece that takes place within an installation of large sound sculptures; metal tripods with rotating arms that emit electronic drones. Two performers move with the mass of swirling metal, tuning the drones to create a hypnotic composition and controlling the machinery to create a stunning audio visual spectacle.
 
 It has recently been reconfigured into a computer controlled kinetic installation that can run automatically for several months with minimal maintenance.
 
-The work can be equally at home as part of contemporary music events, live art, visual theatre, and contemporary visual art. It fuses elements of kinetic art, electronic music and live art performance in a theatrical context. Originally developed as an installation in a former US Air Force base in North Oxfordshire *Siren* has gone on to become a major international ‘hit’, touring around the world to widespread critical and audience acclaim. At its sold out performances in the Edinburgh Fringe 2007, *Siren* attracted 5\* reviews and was awarded a Herald Angel award. Since then the work has been toured to over 12 countries including the USA, Canada, Australia, New Zealand and all over Europe, where it has been presented at major arts festivals in partnership with the British Council. The performances last 45 minutes and performances can be repeated a number of times during a day / evening slot. Audience capacity per performance depends largely on the venue but can be up to 300 per performance in larger spaces.
+The work can be equally at home as part of contemporary music events, live art, visual theatre, and contemporary visual art. It fuses elements of kinetic art, electronic music and live art performance in a theatrical context. Originally developed as an installation in a former US Air Force base in North Oxfordshire *Siren*&nbsp;has gone on to become a major international ‘hit’, touring around the world to widespread critical and audience acclaim. At its sold out performances in the Edinburgh Fringe 2007, *Siren*&nbsp;attracted 5\* reviews and was awarded a Herald Angel award. Since then the work has been toured to over 12 countries including the USA, Canada, Australia, New Zealand and all over Europe, where it has been presented at major arts festivals in partnership with the British Council. The performances last 45 minutes and performances can be repeated a number of times during a day / evening slot. Audience capacity per performance depends largely on the venue but can be up to 300 per performance in larger spaces.
 
-##### the sound world of *siren*:
+##### &nbsp;
+
+##### &nbsp;
+
+##### *Read more about the sound world of Siren and touring dates:*
+
+##### &nbsp;
+
+##### &nbsp;
+
+##### the sound world of *siren*\:
 
 This ‘choir of rotating sirens’ creates an audio visual spectacle that is essentially a live experience. Wherever you stand in the space it sounds different. As the arms rotate, the sound pulses past the listener with a Doppler-like effect, while the cluster of closely tuned oscillators creates a rich and pervasive sound world. A minimalist phasing of the rhythmic pulses emerges as the varying speeds of rotation of the arms makes the pulsing tones phase against each other in a constantly evolving polyrhythmic structure. The closeness of the tuning of the separate tones sets off a series of overtones that evoke the sense of an ethereal choir. background:
 
@@ -85,8 +101,6 @@ technicians: Stavroula Kounadea, Graham Elstone, Tony James
 
 > Taking in Sirens is a bit like ingesting a mild hallucinogen, then waiting for the buzz to hit. And it does hit…- PLANK Magazine, Vancouver
 
-> A precise piece of theatre - The Glasgow Herald \*\*\*\*\* Herald Angel Winner at Edinburgh Fringe 07
-
 > a choir of rotating sirens, their individually strident voices congealing into a thick mutating chord that transfixed listeners in its sticky flux - David Toop, The Wire
 
 > The work was called ‘Siren’ because I made thirty spinning sirens that rotate, emitting pulsing electronic tones. I liked the sense of danger that the word conveys, together with the idea of the siren call, luring people towards it. In Hanger 3022, the sirens had inevitable echoes of the site’s history, but for me the work had an elegiac quality. The sound of my sirens is more like an ethereal choir rather than the warning air raid tones you expect from the word siren - Ray Lee
@@ -100,7 +114,7 @@ technicians: Stavroula Kounadea, Graham Elstone, Tony James
 
 **2015** - Alhondiga Gallery, Bilbao, Spain (automated version)
 
-**2014**- SPILL Festival, Ipswich
+**2014**\- SPILL Festival, Ipswich
 
 **2012** - Galway Festival, Ireland
 
@@ -128,7 +142,7 @@ technicians: Stavroula Kounadea, Graham Elstone, Tony James
 
 * Sleepless Night Festival, Miami, USA
 
-**2008**- Kontejner, Zagreb, Croatia
+**2008**\- Kontejner, Zagreb, Croatia
 
 * LEV Festival, Laboral, Gijon, Spain
 
