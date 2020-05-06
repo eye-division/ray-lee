@@ -6,7 +6,10 @@ project_to_date:
 list: true
 archive: true
 main_image_path: /assets/coldstorage1.jpg
-video_embed: 'https://youtu.be/Sk0nxdg7Gjw'
+video_embed: >-
+  <iframe width="960" height="720"
+  src="https://www.youtube-nocookie.com/embed/Sk0nxdg7Gjw?rel=0" frameborder="0"
+  allowfullscreen></iframe>
 images:
   - image_path: /assets/coldstorage1.jpg
     description:
