@@ -1,10 +1,9 @@
 ---
 title: Points of Departure
 description: >-
-  Against the backdrop of night, take a walk through the atmospheric industrial
-  landscape of Shoreham Port. Brought together for the first time for this
-  one-of-a-kind event Ray Lee's spectacular sculptures emerge from the darkness
-  to a strange but haunting effect
+  Brought together for the first time for this one-of-a-kind event Ray Lee's
+  spectacular sculptures emerge from the darkness of Shoreham Port to a strange
+  but haunting effect
 project_date: 2020-05-07 00:00:00
 project_to_date: 2021-05-31 00:00:00
 list: true
