@@ -53,8 +53,6 @@ A series of giant towers hold suspended bell-like speaker cones. A team of ‘be
 
 See an interview with Ray Lee talking about the project with Kevin Le Gendre here:&nbsp;[https://youtu.be/7RTcTM72Egg](https://youtu.be/7RTcTM72Egg)
 
-&lt;iframe src="https://player.vimeo.com/video/246294732" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
 &nbsp;
 
 ***Read more:***
