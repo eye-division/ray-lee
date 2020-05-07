@@ -51,7 +51,7 @@ A series of giant towers hold suspended bell-like speaker cones. A team of ‘be
 
 *Ring Out* was commissioned by OCM, received a PRS New Music Biennial award, Arts Council England funding and support from Oxford Brookes University with performances for Hull (City of Culture) and at London South Bank, and a broadcast on BBC Radio 3. The work was developed at the 101 Outdoor Art Creation Space at Greenham Common, Newbury.
 
-See an interview with Ray Lee talking about the project with Kevin Le Gendre here:&nbsp;[https://youtu.be/7RTcTM72Egg](https://youtu.be/7RTcTM72Egg)
+See an interview with Ray Lee talking about the project with Kevin Le Gendre here:&nbsp;[https://youtu.be/7RTcTM72Egg](https://youtu.be/7RTcTM72Egg){: target="_blank"}
 
 I have posted a video from *Ring Out* at Llawn06 made by Soundlands on my blog. You can see that here:&nbsp;[https://www.sonaesthetica.com/post/ring-out-in-wales](https://www.sonaesthetica.com/post/ring-out-in-wales){: target="_blank"}
 
