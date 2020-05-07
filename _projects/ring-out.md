@@ -53,6 +53,8 @@ A series of giant towers hold suspended bell-like speaker cones. A team of ‘be
 
 See an interview with Ray Lee talking about the project with Kevin Le Gendre here:&nbsp;[https://youtu.be/7RTcTM72Egg](https://youtu.be/7RTcTM72Egg)
 
+I have posted a video from *Ring Out* at Llawn06 made by Soundlands on my blog. You can see that here:&nbsp;[https://www.sonaesthetica.com/post/ring-out-in-wales](https://www.sonaesthetica.com/post/ring-out-in-wales){: target="_blank"}
+
 &nbsp;
 
 ***Read more:***
