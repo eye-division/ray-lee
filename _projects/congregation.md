@@ -10,7 +10,10 @@ list: true
 archive: false
 main_image_path: /assets/ray congregation.jpg
 main_image_description: 'Congregation. Image: National Theatre Studio'
-video_embed:
+video_embed: >-
+  <iframe width="960" height="720"
+  src="https://www.youtube-nocookie.com/embed/uNFNrYnhSNA?rel=0" frameborder="0"
+  allowfullscreen></iframe>
 video_embed2:
 images:
   - image_path: /uploads/F05C8784.JPG
