@@ -52,7 +52,7 @@ In *Congregation* the audience (of up to 80 per show) arrive at discrete locatio
 
 For the public, the sight of one person after another carrying a distinctive silver sonic sphere will create the sense of being in a performance that is taking place all around them, a humming electronic web of sound that will attract and engage thousands of passers-by in a strange processional science fiction ceremony. The mass of ‘singing’ spheres will be used generate an electronic musical composition at the final location with the participants being the orchestral players.
 
-You can read more about how Congregation was developed on my blog:&nbsp;[https://www.sonaesthetica.com/post/congregation-the-spheres-are-on-the-loose](https://www.sonaesthetica.com/post/congregation-the-spheres-are-on-the-loose)
+You can read more about how Congregation was developed on my blog:&nbsp;[https://www.sonaesthetica.com/post/congregation-the-spheres-are-on-the-loose](https://www.sonaesthetica.com/post/congregation-the-spheres-are-on-the-loose){: target="_blank"}
 
 &nbsp;
 
