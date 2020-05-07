@@ -14,10 +14,7 @@ video_embed: >-
   <iframe src="https://player.vimeo.com/video/246294732" width="640"
   height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
-video_embed2: >-
-  <iframe src="https://player.vimeo.com/video/246294732" width="640"
-  height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
-  allowfullscreen></iframe>
+video_embed2:
 images:
   - image_path: /uploads/Ring Out 2.jpg
     description:
@@ -55,6 +52,10 @@ A series of giant towers hold suspended bell-like speaker cones. A team of ‘be
 *Ring Out* was commissioned by OCM, received a PRS New Music Biennial award, Arts Council England funding and support from Oxford Brookes University with performances for Hull (City of Culture) and at London South Bank, and a broadcast on BBC Radio 3. The work was developed at the 101 Outdoor Art Creation Space at Greenham Common, Newbury.
 
 See an interview with Ray Lee talking about the project with Kevin Le Gendre here:&nbsp;[https://youtu.be/7RTcTM72Egg](https://youtu.be/7RTcTM72Egg)
+
+&lt;iframe src="https://player.vimeo.com/video/246294732" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&nbsp;
 
 ***Read more:***
 
