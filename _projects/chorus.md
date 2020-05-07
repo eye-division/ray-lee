@@ -68,6 +68,8 @@ Towering above the audience a series of giant metal tripods support rotating arm
 
 *Chorus* aims to bring a contemporary music and visual art spectacle to a very wide audience.&nbsp;*Chorus* was shortlisted for the 2014 BASCA British Composer of the Year award for sonic art.
 
+See the Guardian's Richard Williams' blog post about Chorus here:&nbsp;[https://thebluemoment.com/tag/ray-lee/](https://thebluemoment.com/tag/ray-lee/){: target="_blank"}
+
 ***read more:***
 
 &nbsp;
