@@ -65,7 +65,7 @@ I have posted a video from *Ring Out* at Llawn06 made by Soundlands on my blog. 
 
 2018
 
-* Soundlands at Llawn Festival, Holy Trinity Church, LLandudno, Wales
+* Soundlands at Llawn Festival, Holy Trinity Church, Llandudno, Wales
 
 2017
 
