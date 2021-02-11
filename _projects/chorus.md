@@ -81,6 +81,7 @@ See the Guardian’s Richard Williams’ blog post about Chorus here:&nbsp;[http
 2020
 
 * Old Royal Naval College, Greenwich and Docklands International Festival
+* Appetite, Stoke on Trent
 
 2019
 
