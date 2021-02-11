@@ -68,17 +68,19 @@ Towering above the audience a series of giant metal tripods support rotating arm
 
 *Chorus* aims to bring a contemporary music and visual art spectacle to a very wide audience.&nbsp;*Chorus* was shortlisted for the 2014 BASCA British Composer of the Year award for sonic art.
 
-See the Guardian's Richard Williams' blog post about Chorus here:&nbsp;[https://thebluemoment.com/tag/ray-lee/](https://thebluemoment.com/tag/ray-lee/){: target="_blank"}
+See the Guardian’s Richard Williams’ blog post about Chorus here:&nbsp;[https://thebluemoment.com/tag/ray-lee/](https://thebluemoment.com/tag/ray-lee/){: target="_blank"}
 
 ***read more:***
-
-&nbsp;
 
 **Performance/Composition:**
 
 *Chorus* consists of a composed sequence of tones pitched from the Aeolian mode in concert A440. Over the period of the twenty to thirty minute composition (depending on the context) the twenty-eight discrete parts go through a series of changes in pitch allowing the work to develop from a series of pulses to held drones in various combinations of intervals to a resolution around the tonic.
 
 **Touring and restaging:**
+
+2020
+
+* Old Royal Naval College, Greenwich and Docklands International Festival
 
 2019
 
