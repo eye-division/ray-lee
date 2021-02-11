@@ -55,11 +55,17 @@ See an interview with Ray Lee talking about the project with Kevin Le Gendre her
 
 I have posted a video from *Ring Out* at Llawn06 made by Soundlands on my blog. You can see that here:&nbsp;[https://www.sonaesthetica.com/post/ring-out-in-wales](https://www.sonaesthetica.com/post/ring-out-in-wales){: target="_blank"}
 
-&nbsp;
-
 ***Read more:***
 
 **Touring and restaging:**
+
+2020
+
+* Silvertown Square, Royal Docks, London for Greenwich and Docklands International Festival
+
+2018
+
+* Soundlands at Llawn Festival, Holy Trinity Church, Llandudno, Wales
 
 2017
 
