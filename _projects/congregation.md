@@ -66,3 +66,5 @@ Software development, hardware design, and concept development: Steve Symons
 Additional concept development and Costume Design: Stavroula Kounadea
 
 Producer: Simon Chatterton
+
+Supported by Without Walls, Norfolk and Norwich Festival, Out There Festival, Oxford Contemporary Music, Oxford Brookes University, 101 Outdoor Arts Creation Centre
