@@ -50,7 +50,6 @@ tags:
   - home
 order_number: 2
 ---
-
 In *Congregation* the audience (of up to 80 per show) arrive in small groups at a number of discrete locations in a city where they are given a silver sphere. They are instructed that the sphere will guide them to a location by emitting sounds that guide their journey. Simultaneously other audience members are being met at different locations and also being given similar spheres. Unknowingly all the participants are being led to one central location. As the audience members walk off holding their sonic spheres they turn a corner to find more people also carrying spheres until the sphere carrying participants have become a congregation moving inexorably towards their common destination.
 
 For the public, the sight of one person after another carrying a distinctive silver sonic sphere will create the sense of being in a performance that is taking place all around them, a humming electronic web of sound that attracts and engages thousands of passers-by in a strange processional science fiction ceremony. The mass of ‘singing’ spheres generates an electronic musical composition at the final location with the participants being the orchestral players.
@@ -63,7 +62,9 @@ Concept, design and composition: Ray Lee
 
 Software development, hardware design, and concept development: Steve Symons
 
-Additional concept development and Costume Design: Stavroula Kounadea
+Concept and script development: Stavroula Kounadea
+
+Costume Design: Stavroula Kounadea
 
 Producer: Simon Chatterton
 
