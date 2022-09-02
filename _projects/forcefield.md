@@ -1,12 +1,20 @@
 ---
 title: Forcefield
-description: 'Force field is a 30 minute performance for MIDI Theremin and sound machines. By interacting with the electro-magnetic ‘force field’ that surrounds the Theremin, Lee activates and controls a series of kinetic sound machines creating music and movement from the Ether.'
+description: >-
+  Force field is a 30 minute performance for MIDI Theremin and sound machines.
+  By interacting with the electro-magnetic ‘force field’ that surrounds the
+  Theremin, Lee activates and controls a series of kinetic sound machines
+  creating music and movement from the Ether.
 project_date: 2007-11-01 00:00:00
 project_to_date:
 list: true
 archive: true
 main_image_path: /assets/forcefield crop2.jpg
-video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/NqkkcfYt1MY?rel=0" frameborder="0" allowfullscreen></iframe>'
+video_embed: >-
+  <iframe width="560" height="315"
+  src="https://www.youtube.com/embed/O6HxYdGDmcY" title="YouTube video player"
+  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 images:
   - image_path: /assets/forcefield1.jpg
     description: Forcefield
@@ -17,11 +25,9 @@ images:
 tags:
 order_number: 7
 ---
-
-
 *Force Field* was a thirty-minute performance for MIDI Theremin and sound machines. Using a MIDI theremin and interacting with the instrument’s electro-magnetic ‘force field’ an orchestra of kinetic sound machines designed and built by Ray Lee were activated and controlled.
 
-*Force Field* was described in publicity by Ray Lee as being ‘somewhere between a Victorian illusion, a performance of electronic music and a scientific demonstration...an exploration of invisible forces made tangible, audible and physical.’
+*Force Field* was described in publicity by Ray Lee as being ‘somewhere between a Victorian illusion, a performance of electronic music and a scientific demonstration…an exploration of invisible forces made tangible, audible and physical.’
 
 *Force Field* won an Honorary Mention at the 2008 Prix Ars Electronica, Linz, Austria. *Force Field* was a realisation of the original premise for *The Theremin Lesson.*
 
@@ -39,7 +45,7 @@ Over the thirty minute performance a composition was developed that utilised the
 
 2008 - Science Gallery, Dublin. Co-presented with Kinetica Museum
 
-- Bishopsgate Institute, London. Co-presented with Kinetica Museum
+* Bishopsgate Institute, London. Co-presented with Kinetica Museum
 
 **Supported by:**
 
