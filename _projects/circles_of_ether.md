@@ -6,7 +6,11 @@ project_to_date:
 list: true
 archive: true
 main_image_path: /assets/circles-of-ether1.jpg
-video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/sBjVvt48Ptk?rel=0" frameborder="0" allowfullscreen></iframe>'
+video_embed: >-
+  <iframe width="560" height="315"
+  src="https://www.youtube.com/embed/afwdrXgaET0" title="YouTube video player"
+  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 images:
   - image_path: /assets/circles-of-ether1.jpg
     description:
@@ -19,13 +23,11 @@ images:
 tags:
 order_number: 6
 ---
-
-
 **Description:**
 
 *Circles of Ether* was an automated kinetic installation of sound machines designed and built by Ray Lee. It ran for two weeks as a solo show in the upper gallery of the Kinetica Museum in the Old Spitalfields market. The work used and added to the machines used in *The Theremin Lesson*. Over the fifteen minute sequence the machines were activated creating a visual and sonic narrative.
 
- **Technical:**
+&nbsp;**Technical:**
 
 The installation was driven by a MIDI sequence programmed into a computer and the devices were controlled via a MIDI relay driver. Eleven siren type devices were employed. To enable the slow increase and decrease in speed to be controlled automatically soft starter voltage controllers were designed and built by Graham Calvert. He also designed and built double tone generating oscillators that could be triggered by the rotation of the tripod’s arm.
 
