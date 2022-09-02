@@ -1,15 +1,23 @@
 ---
 title: The Theremin Lesson
-description: 'Hand built, early electronic circuitry powers spinning sirens, rotating loudspeakers, mechanical arms and machines.'
+description: >-
+  Hand built, early electronic circuitry powers spinning sirens, rotating
+  loudspeakers, mechanical arms and machines.
 project_date: 2000-10-01 00:00:00
 project_to_date:
 list: true
 archive: true
 main_image_path: /assets/aura for kinetica blue.jpg
-video_embed: '<iframe width="960" height="720" src="https://www.youtube-nocookie.com/embed/AGaNFEwHL2Y?rel=0" frameborder="0" allowfullscreen></iframe>'
+video_embed: >-
+  <iframe width="560" height="315"
+  src="https://www.youtube.com/embed/vx-xOXDwLi0" title="YouTube video player"
+  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 images:
   - image_path: /assets/thereminlesson.jpg
-    description: "The Theremin Lesson \nPhoto: Ray Lee"
+    description: |-
+      The Theremin Lesson 
+      Photo: Ray Lee
   - image_path: /assets/6.jpg
     description:
   - image_path: /assets/metal.JPG
@@ -27,8 +35,6 @@ images:
 tags:
 order_number: 15
 ---
-
-
 > "Using the industrial heritage of Masson Mill in Derbyshire as inspiration, sonic artist Ray Lee made a series of extraordinary sound generating machines that hummed, whirred and crackled in the vast top floor of the mill" YOTA
 
 The disused top floor of Masson Mill was turned into a ‘factory of sound’, filling the space with an elaborate system of electro-mechanical sound machines: spinning sirens, rotating loudspeakers, mechanical arms and devices. In this kinetic sound installation, the audience witnessed thirty-minute performances during which the machines were activated and controlled creating a composition for sound machines and Theremins.
