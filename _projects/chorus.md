@@ -13,7 +13,7 @@ video_embed: >-
   <iframe src="https://player.vimeo.com/video/99467393" width="640" height="360"
   frameborder="0" webkitallowfullscreen mozallowfullscreen
   allowfullscreen></iframe>
-video_embed2: 'https://vimeo.com/99467393'
+video_embed2: https://vimeo.com/99467393
 images:
   - image_path: /assets/InsideOut160916_RR18.JPG
     description:
@@ -61,8 +61,7 @@ tags:
   - home
 order_number: 1
 ---
-
-*Chorus*\: a monumental installation of kinetic sound sculptures.
+*Chorus*: a monumental installation of kinetic sound sculptures.
 
 Towering above the audience a series of giant metal tripods support rotating arms. At the end of each arm loudspeakers emit precisely tuned musical pitches creating a pulsating, harmonic drone, singing out a hypnotic siren call to all those present. Red lights at the end of the arms create the effect of a whirling swarm of fireflies, or of planets in motion, like mesmerising orbits of colour. These intersecting lights trace rings above the heads of the audience, while the combined chorus of the spinning speakers creates a cohesive harmonious whole, ‘a sticky flux’, that is both uplifting and transfixing.
 
@@ -78,10 +77,22 @@ See the Guardian’s Richard Williams’ blog post about Chorus here:&nbsp;[http
 
 **Touring and restaging:**
 
+2022&nbsp; &nbsp;
+
+* Festival of Sound, Basingstoke
+* The Future Starts Here, Grimsby
+
+2021&nbsp; &nbsp;
+
+* Birmingham Weekender
+* Derby Feste
+* SPILL, Ipswich
+* Lumin Festival Crewe
+
 2020
 
-* Old Royal Naval College, Greenwich and Docklands International Festival
-* Appetite, Stoke on Trent
+* Old Royal Naval College, Greenwich and Docklands International Festival (Sept)
+* Appetite, Stoke on Trent (Oct)
 
 2019
 
@@ -90,7 +101,7 @@ See the Guardian’s Richard Williams’ blog post about Chorus here:&nbsp;[http
 2018
 
 * Lakes Alive Festival, Kendal Castle, UK
-* Dimanche de la Canebi&egrave;re, Marseilles, France
+* Dimanche de la Canebière, Marseilles, France
 * Cheriton Lights, Folkestone, Kent, UK
 
 2017
@@ -159,7 +170,7 @@ See the Guardian’s Richard Williams’ blog post about Chorus here:&nbsp;[http
 
 *Chorus* was commissioned by Oxford Contemporary Music, and Newbury Corn Exchange in the UK. It was supported by the Sonic Arts Research Unit at Oxford Brookes University and the Arts Council of England.
 
-**Credits:&nbsp;**
+**Credits:**&nbsp;
 
 Tripod fabrication: Charlie Camm, Scenetec Ltd.
 
