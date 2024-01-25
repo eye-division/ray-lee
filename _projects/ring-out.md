@@ -60,6 +60,10 @@ I have posted a video from *Ring Out* at Llawn06 made by Soundlands on my blog. 
 
 **Touring and restaging:**
 
+2021&nbsp; &nbsp;
+
+* Norfolk and Norwich Festival
+
 2020
 
 * Silvertown Square, Royal Docks, London for Greenwich and Docklands International Festival
