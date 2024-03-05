@@ -1,0 +1,104 @@
+paths:
+  uploads: uploads
+  dam_uploads: ''
+  static: ''
+  dam_static: ''
+  collections: ''
+  data: _data
+  layouts: _layouts
+  includes: _includes
+collections_config:
+  data:
+    path: _data
+    output: false
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  posts:
+    path: _posts
+    output: true
+    icon: notes
+    create:
+      path: >-
+        [relative_base_path]/{date|year}-{date|month}-{date|day}-{title|slugify}.[ext]
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  pages:
+    path: ''
+    output: true
+    filter: strict
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  projects:
+    path: _projects
+    output: true
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+_inputs:
+  categories:
+    type: multiselect
+    options:
+      allow_create: true
+      empty_type: array
+    cascade: true
+  tags:
+    type: multiselect
+    options:
+      allow_create: true
+      empty_type: array
+    cascade: true
+_select_data:
+  imagecdn:
+    staging: https://ed-ray-lee-dev.imgix.net
+    production: https://ed-ray-lee.imgix.net
+  social:
+    - name: Twitter
+      icon: icon-twitter_sign
+      username: invisibleforces
+      url: https://twitter.com/invisibleforces
+      desc: Follow us on Twitter
+      share: true
+    - name: Facebook
+      icon: icon-facebook_sign
+      username: eyedivision
+      url:
+      desc: Like us on Facebook
+      share: true
+    - name: LinkedIn
+      icon: linkedin
+      username:
+      url:
+      desc: Connect with us on LinkedIn
+      share: true
+    - name: YouTube
+      icon: icon-youtube
+      username: invisibleray
+      url: https://www.youtube.com/user/invisibleray
+      desc: Subscribe on YouTube
+      share: false
+    - name: SoundCloud
+      icon: icon-soundcloud
+      username: invisibleray
+      url: https://soundcloud.com/invisibleray/
+      desc: Follow me on SoundCloud
+      share: false
+    - name: Vimeo
+      icon: icon-vimeo_square
+      username: ray lee
+      url: https://vimeo.com/user7947235
+      desc: Follow me on Vimeo
+      share: false
+  protocols:
+    fb_image: /assets/ray-portrait-w.jpg
+    fb_image_width: 1098
+    fb_image_height: 1084
+    fb_image_type: image/jpg
+    twitter_image: /assets/ray-portrait-w.jpg
+data_config: {}
+timezone: Europe/London
