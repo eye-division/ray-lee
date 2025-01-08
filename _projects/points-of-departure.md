@@ -8,13 +8,15 @@ project_date: 2021-05-31 00:00:00 +0100
 project_to_date: 2021-05-31 00:00:00 +0100
 list: true
 archive: false
-main_image_path: /uploads/shore-chorus1.jpg
-main_image_desription:
-video_embed:
+main_image_path: /uploads/20210508-215542.jpg
+main_image_desription: 'photo: Ray Lee'
+video_embed: https://youtu.be/qQRkZFlo7bc
 video_description:
 images:
   - image_path: /uploads/shore-ro-2.jpg
-    description: Mock up for Points of Departure
+    description:
+  - image_path: /uploads/raylee-large-summerdean-4.jpg
+    description: 'photo: Summer Dean'
 tags:
 order_number: 2
 _options:
