@@ -4,12 +4,12 @@ description: >-
   Brought together for the first time for this one-of-a-kind event Ray Lee's
   spectacular sculptures emerge from the darkness of Shoreham Port to a strange
   but haunting effect
-project_date: 2020-05-07 00:00:00
-project_to_date: 2021-05-31 00:00:00
+project_date: 2021-05-31 00:00:00 +0100
+project_to_date: 2021-05-31 00:00:00 +0100
 list: true
 archive: false
 main_image_path: /uploads/shore-chorus1.jpg
-main_image_desription: Mock up for Points of Departure
+main_image_desription:
 video_embed:
 video_description:
 images:
@@ -33,7 +33,7 @@ _options:
 
 *Points of Departure at Shoreham Port, Brighton Festival May 2021. Photo: Ray Lee*
 
-*"Ray Lee’s spectacular outdoor installation, Points of Departure saw 6,000 visitors to Shoreham Port, with sold out events across three weeks and extra dates added due to its popularity." (source: Brighton Festival)*
+*“Ray Lee’s spectacular outdoor installation, Points of Departure saw 6,000 visitors to Shoreham Port, with sold out events across three weeks and extra dates added due to its popularity.” (source: Brighton Festival)*
 
 I’ve been making large-scale, immersive sound art installations, sculptures and performances for quite a long time now. In the back of my mind I’d been thinking of ways of bringing these works together, with new ones, to create a kind of vast sonic pleasure garden somehow related to the idea of the Eighteenth Century pleasure garden, such as Vauxhall. Places where the people came to relax and explore, free of some of the societal restraints present in their everyday lives.
 
