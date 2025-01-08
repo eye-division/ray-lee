@@ -10,7 +10,7 @@ list: true
 archive: false
 main_image_path: /uploads/20210508-215542.jpg
 main_image_desription: 'photo: Ray Lee'
-video_embed:
+video_embed: https://youtu.be/qQRkZFlo7bc
 video_description:
 images:
   - image_path: /uploads/shore-ro-2.jpg
