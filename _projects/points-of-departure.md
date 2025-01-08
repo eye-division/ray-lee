@@ -8,13 +8,15 @@ project_date: 2021-05-31 00:00:00 +0100
 project_to_date: 2021-05-31 00:00:00 +0100
 list: true
 archive: false
-main_image_path: /uploads/shore-chorus1.jpg
-main_image_desription:
+main_image_path: /uploads/20210508-215542.jpg
+main_image_desription: 'photo: Ray Lee'
 video_embed:
 video_description:
 images:
   - image_path: /uploads/shore-ro-2.jpg
-    description: Mock up for Points of Departure
+    description:
+  - image_path: /uploads/raylee-large-summerdean-4.jpg
+    description: 'photo: Summer Dean'
 tags:
 order_number: 2
 _options:
@@ -37,7 +39,7 @@ _options:
 
 I’ve been making large-scale, immersive sound art installations, sculptures and performances for quite a long time now. In the back of my mind I’d been thinking of ways of bringing these works together, with new ones, to create a kind of vast sonic pleasure garden somehow related to the idea of the Eighteenth Century pleasure garden, such as Vauxhall. Places where the people came to relax and explore, free of some of the societal restraints present in their everyday lives.
 
-I thought that pe[Explore existing images](https://app.cloudcannon.com/update/78314/site#)rhaps I could make a sonic fairground, a series of sonic experiences that provided a visceral sense of sound in motion. And yet, as my producer Simon Chatterton reminded me, my works are perhaps less suited to the idea of a noisy, garish fairground and more like a sonic meditation, a sonic bath. I immerse my audiences in a wash of moving sound. My works don’t aim to provide momentary excitement, but to generate wonder and encourage the audience to allow themselves to move beyond literal explanations. So maybe a sonic fairground was not the right context? However, I kept coming back to this idea and imagining a huge field filled with my sound machines and an audience who congregate to experience a sense of collective wonder.
+I thought that perhaps I could make a sonic fairground, a series of sonic experiences that provided a visceral sense of sound in motion. And yet, as my producer Simon Chatterton reminded me, my works are perhaps less suited to the idea of a noisy, garish fairground and more like a sonic meditation, a sonic bath. I immerse my audiences in a wash of moving sound. My works don’t aim to provide momentary excitement, but to generate wonder and encourage the audience to allow themselves to move beyond literal explanations. So maybe a sonic fairground was not the right context? However, I kept coming back to this idea and imagining a huge field filled with my sound machines and an audience who congregate to experience a sense of collective wonder.
 
 So, when Brighton Festival approached me to bring my existing works to the 2020 festival and site them at the historic working Shoreham port this seemed like the ideal opportunity to put some of my ideas into action. In the end, the pandemic put paid to the 2020 festival and we rescheduled *Points* for 2021. Instead of a huge field, Shoreham port is a fascinating industrial complex enclosing the ship canal, locks, port and marina. The potential for bringing an audience at night-time through this atmospheric location was immense and, of course, quite a major logistical challenge, not the least because the port and locks operate 24 hours and not about to stop for an art installation. However, I’m always up for a challenge!
 
