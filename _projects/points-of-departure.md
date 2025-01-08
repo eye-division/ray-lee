@@ -36,8 +36,6 @@ _options:
     resize_style: contain
     mime_type: image/jpeg
 ---
-# Points of Departure, May 2021
-
 *Points of Departure at Shoreham Port, Brighton Festival May 2021. Photo: Ray Lee*
 
 *“Ray Lee’s spectacular outdoor installation, Points of Departure saw 6,000 visitors to Shoreham Port, with sold out events across three weeks and extra dates added due to its popularity.” (source: Brighton Festival)*
