@@ -8,15 +8,20 @@ project_date: 2024-10-30 00:00:00
 project_to_date: 2024-10-30 00:00:00
 list: true
 archive: false
-main_image_path:
+main_image_path: /uploads/ray-lee-the-invention-of-wonder-2.jpg
 main_image_desription:
-video_embed:
+video_embed: >-
+  <iframe width="560" height="315"
+  src="https://www.youtube.com/embed/qMx3aSRc1VA?si=akEeCBQi7ThUV2OM"
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+  clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 video_description:
 images:
   - image_path:
     description:
 tags:
-order_number:
+order_number: 7
 _options:
   image_path:
     width: '1600'
