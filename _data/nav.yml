@@ -19,6 +19,9 @@
     - subtitle: Siren
       subhref: /projects/siren/
       display: true
+    - subtitle: The Invention of Wonder
+      subhref: /projects/the-invention-of-wonder/
+      display: true
     - subtitle: View all projects
       subhref: /projects
       display: true
@@ -66,6 +69,6 @@
 - title: info
   href: /info/
 - title: sonaesthetica blog
-  href: 'https://www.sonaesthetica.com/'
+  href: https://www.sonaesthetica.com/
 - title:
   href:
