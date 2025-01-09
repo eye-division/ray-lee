@@ -1,5 +1,5 @@
 ---
-title: The Invention of Wonder
+title: Invention of Wonder
 description: >-
   A 60 minutes sound art performance in the form of 10 sonic experiments that
   takes its inspiration from the Philosophical Table, an exhibit dating from the
