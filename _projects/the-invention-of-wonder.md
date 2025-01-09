@@ -24,6 +24,10 @@ images:
     description:
   - image_path: /uploads/iow-ray-sonic-lance-4-v2.jpg
     description:
+  - image_path: /uploads/iow-light-tube-2.jpg
+    description:
+  - image_path: /uploads/iow-laser-infinity-crop-2-closeup.jpg
+    description:
 tags:
 order_number: 7
 _options:
