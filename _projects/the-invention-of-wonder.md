@@ -16,7 +16,7 @@ images:
   - image_path:
     description:
 tags:
-order_number:
+order_number: 7
 _options:
   image_path:
     width: '1600'
