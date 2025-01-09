@@ -18,7 +18,7 @@ video_embed: >-
   referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 video_description:
 images:
-  - image_path: /uploads/ray-lee-invention-of-wonder-1.jpg
+  - image_path: /uploads/ray-lee-invention-of-wonder-4-2.jpg
     description:
   - image_path: /uploads/iow-ray-1.jpg
     description:
