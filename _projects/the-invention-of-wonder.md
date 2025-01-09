@@ -8,7 +8,7 @@ project_date: 2024-10-30 00:00:00
 project_to_date: 2024-10-30 00:00:00
 list: true
 archive: false
-main_image_path: /uploads/ray-lee-the-invention-of-wonder-2.jpg
+main_image_path: /uploads/ray-lee-invention-of-wonder-4-1.jpg
 main_image_desription:
 video_embed: >-
   <iframe width="560" height="315"
@@ -18,7 +18,11 @@ video_embed: >-
   referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 video_description:
 images:
-  - image_path:
+  - image_path: /uploads/ray-lee-invention-of-wonder-1.jpg
+    description:
+  - image_path: /uploads/iow-ray-1.jpg
+    description:
+  - image_path: /uploads/iow-ray-sonic-lance-4-v2.jpg
     description:
 tags:
 order_number: 7
@@ -34,8 +38,6 @@ _options:
     resize_style: contain
     mime_type: image/jpeg
 ---
-![](/uploads/ray-lee-invention-of-wonder-4.jpg){: width="1181" height="529"}
-
 Ten sonic experiments create a theatre of the unexplained by the master alchemist of sound, Ray Lee.
 
 > *Is it the light that makes the sound or the sound that makes the light?*
