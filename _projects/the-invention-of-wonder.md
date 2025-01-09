@@ -34,8 +34,6 @@ _options:
     resize_style: contain
     mime_type: image/jpeg
 ---
-![](/uploads/ray-lee-invention-of-wonder-4.jpg){: width="1181" height="529"}
-
 Ten sonic experiments create a theatre of the unexplained by the master alchemist of sound, Ray Lee.
 
 > *Is it the light that makes the sound or the sound that makes the light?*
