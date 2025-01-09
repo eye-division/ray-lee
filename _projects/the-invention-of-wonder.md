@@ -30,6 +30,16 @@ images:
     description:
   - image_path: /uploads/p9050380.jpg
     description:
+  - image_path: /uploads/ray-lee-invention-of-wonder-1.jpg
+    description:
+  - image_path: /uploads/ray-lee-the-invention-of-wonder-2.jpg
+    description:
+  - image_path: /uploads/sequence-01-00-03-02-14-still026.jpg
+    description:
+  - image_path: /uploads/ray-lee-invention-of-wonder-5.jpg
+    description:
+  - image_path: /uploads/sequence-01-00-00-42-00-still010.jpg
+    description:
 tags:
 order_number: 7
 _options:
