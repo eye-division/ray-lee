@@ -28,6 +28,8 @@ images:
     description:
   - image_path: /uploads/iow-laser-infinity-crop-2-closeup.jpg
     description:
+  - image_path: /uploads/p9050380.jpg
+    description:
 tags:
 order_number: 7
 _options:
