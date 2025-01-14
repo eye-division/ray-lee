@@ -12,7 +12,7 @@ main_image_path: /uploads/20210508-215542.jpg
 main_image_desription: 'photo: Ray Lee'
 video_embed: >-
   <iframe width="560" height="315"
-  src="https://www.youtube.com/embed/qQRkZFlo7bc?si=WrG24U6tIJ6amIK1"
+  src="https://www.youtube.com/embed/ii6_q6THstM?si=nFcQZKeyOxzvM-JG"
   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
   clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
   referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
