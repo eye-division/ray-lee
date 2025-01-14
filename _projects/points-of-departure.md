@@ -22,6 +22,8 @@ images:
     description:
   - image_path: /uploads/raylee-large-summerdean-4.jpg
     description: 'photo: Summer Dean'
+  - image_path: /uploads/20210508-215540.jpg
+    description: ''
 tags:
 order_number: 2
 _options:
