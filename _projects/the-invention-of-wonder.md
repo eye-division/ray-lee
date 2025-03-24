@@ -12,11 +12,11 @@ main_image_path: /uploads/ray-lee-invention-of-wonder-4-1.jpg
 main_image_desription:
 video_embed: >-
   <iframe width="560" height="315"
-  src="https://www.youtube.com/embed/qMx3aSRc1VA?si=akEeCBQi7ThUV2OM"
+  src="https://www.youtube.com/embed/YdRLG8a4l6k?si=BfbKPu2LiTxw68fi"
   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
   clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
   referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-video_description:
+video_description: a one minute 'trailer' for The Invention of Wonder'
 images:
   - image_path: /uploads/ray-lee-invention-of-wonder-4-2.jpg
     description:
