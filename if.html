@@ -1,0 +1,271 @@
+---
+layout: home
+main_image_path: /assets/chorus.jpg
+carousel:
+  - image: /uploads/00stav congregation crop.jpg
+    caption: Congregation
+    link: /projects/congregation
+  - image: /assets/chorus ray lee 2.jpg
+    caption: 'Chorus. photo: Roy Riley, Inside Out Dorset 2016'
+    link: /projects/chorus/
+  - image: /uploads/congregation NN 1.jpg
+    caption: 'Congregation - image: Norwich and Norfolk Festival'
+    link: /projects/congregation
+  - image: /assets/ray congregation.jpg
+    caption: Congregation- Photo National Theatre Studio
+    link: /projects/congregation
+  - image: /assets/chorus3.jpg
+    caption: 'Chorus - Photo: Nathan Cox'
+    link: /projects/chorus/
+  - image: /assets/Ring%20Out%204.jpg
+    caption: Ring Out - Hull Photo Lee Price
+    link: /projects/ring-out/
+  - image: /assets/chorus.jpg
+    caption: Chorus- Warsaw Contemporary Music Festival
+    link: /projects/chorus/
+  - image: /assets/chorus1.jpg
+    caption: 'Chorus. Photo: Farrows Creative'
+    link: /projects/chorus/
+  - image: /assets/chorus in portland.jpg
+    caption: 'Chorus. photo: Roy Riley, Inside Out Dorset 2016'
+    link: /projects/chorus/
+  - image: /assets/01_141029_guido_mencari_london_spill_festival-240_PRINT.jpg
+    caption: 'Siren. photo: Guido Mencari for Spill 2014'
+    link: /projects/siren/
+  - image: /uploads/congregation NN 2.jpg
+    caption: 'Congregation - image: Norwich and Norfolk Festival'
+    link:
+  - image: /assets/1927-102.jpg
+    caption: Ethometric Museum Ashmolean 2013
+    link: /projects/ethometric_museum/
+  - image: /uploads/00kendal.jpg
+    caption: Congregation
+    link: /projects/congregation
+  - image: /assets/P1070507.JPG
+    caption: Ethometric Research Institute  Photo Ray Lee
+    link: /projects/ethometric_museum/
+  - image: /uploads/congregation NN 3.jpg
+    caption: 'Congregation - image: Norwich and Norfolk Festival'
+    link: /projects/congregation
+  - image: /assets/P1050600.JPG
+    caption: Photo Ray Lee Ethometric Museum BAC London
+    link: /projects/ethometric_museum/
+  - image: /assets/RingOut3.jpg
+    caption: Ring Out - Hull Photo Lee Price
+    link: /projects/ring-out/
+  - image: /assets/03_141029_guido_mencari_london_spill_festival-38_PRINT.jpg
+    caption: 'photo: Guido Mencari for Spill 2014'
+    link: /projects/siren/
+  - image: /uploads/OI000146.jpg
+    caption: Congregation
+    link: /projects/congregation
+  - image: /uploads/IMG_1313.jpg
+    caption: Ring Out
+    link: projects/ring-out
+  - image: /uploads/chorus crop with ray.jpg
+    caption: Chorus
+    link:
+  - image: /uploads/img-1352.jpg
+    caption:
+    link:
+  - image: /uploads/Congregation - Ray Lee @ Freedom Festival 2019 (1).jpg
+    caption: 'Congregation: Freedom Festival Hull'
+    link: /projects/congregation/
+  - image: /uploads/Congregation - Ray Lee @ Freedom Festival 2019 (3).jpg
+    caption: Congregation Freedom Festival Hull
+    link: /projects/congregation/
+  - image:
+    caption: Congregation
+    link: /projects/congregation/
+  - image: /uploads/Congregation by Ray Lee - Hat Fair 2019 (7).jpg
+    caption: Congregation
+    link: /projects/congregation/
+  - image: /uploads/P1070703.JPG
+    caption: Chorus at Hong Kong International Festival 2017
+    link: /projects/chorus/
+  - image: /uploads/chorus hk close up.jpg
+    caption: 'Chorus: Hong Kong photo Ray Lee'
+    link: /projects/chorus/
+  - image: /assets/Ray Lee (67) crop.jpg
+    caption: Siren
+    link: /projects/siren/
+  - image: /assets/84.JPG
+    caption: 'Siren: Zagreb 2008'
+    link: /projects/siren/
+  - image: /assets/20170709_134239.jpg
+    caption: Ring Out 'Ringers', South Bank 2017
+    link: /projects/ring-out/
+  - image: /uploads/IMG_1362.jpg
+    caption: Ring Out 2017 Photo Lee Price
+    link: /projects/ring-out/
+  - image: /uploads/congregation NN 2.jpg
+    caption: 'Congregation: Photo Norfolk and Norwich festival 2019'
+    link: /projects/congregation/
+  - image: /uploads/Congregation quote1.jpg
+    caption: Congregation - Hat Fair 2019
+    link: /projects/congregation/
+  - image: /uploads/iow-ray-1.jpg
+    caption: The Invention of Wonder. Photo Ray Lee
+    link: ''
+  - image: /uploads/iow-ray-2.jpg
+    caption: The Invention of Wonder
+    link: ''
+  - image: /uploads/iow-ray-sonic-lance-4.jpg
+    caption: The Invention of Wonder
+    link: ''
+latest_video_embed: >-
+  <iframe src="https://player.vimeo.com/video/99467393" width="640" height="360"
+  frameborder="0" webkitallowfullscreen mozallowfullscreen
+  allowfullscreen></iframe> <p><a href="https://vimeo.com/99467393">Ray Lee
+  Chorus at Newbury Market Square April 2013</a> from <a
+  href="https://vimeo.com/invisibleforces">ray lee</a> on <a
+  href="https://vimeo.com">Vimeo</a>.</p>
+about_image_path: /assets/franklin hieronymous square.jpg
+_options:
+  layout:
+    hidden: true
+  main_image_path:
+    width: '1600'
+    height: '1600'
+    resize_style: contain
+    mime_type: image/jpeg
+  image:
+    width: '1600'
+    height: '1600'
+    resize_style: contain
+    mime_type: image/jpeg
+_comments:
+  latest_video_embed: Add or edit a YouTube link (URL)
+  about_image_path: Replace the image that sits in the About Ray Lee section
+---
+<section class="top reverse-bg">
+
+  <div class="wrapper">
+
+    <div class="photo">
+      <!-- slider -->
+      {% if page.carousel %}
+      <div class="flexslider">
+        <ul class="slides">
+          {% for slides in page.carousel %}
+          <li>
+            {% if slides.link %}
+              <a href="{{ site.baseurl }}{{ slides.link }}" title="View project">
+            {% endif %}
+              {% include img.html src=slides.image width=761 height=508 %}
+            {% if slides.link %}
+              </a>
+            {% endif %}
+            {% if slides.caption %}
+            <p class="flex-caption">{{ slides.caption }}</p>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% else %}
+        {% if page.main_image_path %}
+          {% include img.html src=page.main_image_path width=760 height=500 %}
+        {% endif %}
+      {% endif %}
+        <h2>About Ray Lee</h2>
+
+        <div class="about">
+          <div class="rayphoto">
+            {% if page.about_image_path %}
+
+              {% include img.html src=page.about_image_path width=200 %}
+
+            {% else %}
+              {% include img.html src={{ site.baseurl }}/assets/ray-portrait.jpg width=200 %}
+
+            {% endif %}
+            </div>
+          <div class="text editable">
+            <p><strong><em></em></strong></p>
+            <blockquote>
+              <p>A kind of musical H.G.Wells - Ivan Hewitt BBC Radio 3</p>
+            </blockquote>
+            <p><em></em></p>
+            <p><strong><em>Ray Lee</em></strong>&nbsp;is an award-winning sound artist, and composer. He creates spinning, whirling, and pendulous sound installations and performances that explore &ldquo;circles of ether,&rdquo; the invisible forces that surround us.</p>
+            <p>His immersive and mesmerising works such as the world-wide hit&nbsp;<em>Siren</em>,&nbsp;<em>Ethometric Museum</em>&nbsp;and his monumental outdoor works&nbsp;<em>Chorus</em>&nbsp;and&nbsp;<em>Ring Out</em> are a unique synthesis of art forms, both accessible and engaging for a wide audience.&nbsp;</p>
+            <p>His new outdoor work&nbsp;<em>Congregation</em>, for one hundred interactive sonic spheres, was funded by Without Walls and toured throughout the UK in 2019. His music-theatre work&nbsp;<em>Ethometric Museum</em>&nbsp;won him the 2012 British Composer of the Year for Sonic Art.&nbsp;<em>Siren</em>&nbsp;toured the world with significant British Council support. <em>Force Field</em>&nbsp;was awarded an honorary mention in the 2008 Prix Ars Electronica. He is a Professor of Sound Art at Oxford Brookes University and an associate artist of OCM (Oxford Contemporary Music).</p>
+            <p><a class="readmore" href="/about/">Read more . . . <svg class="icon icon--readmore">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-double_angle_right" />
+                </svg></a></p>
+          </div>
+        </div>
+    </div>
+
+    <div class="latest">
+      <div class="editable">
+        <h3>What's new?:</h3>
+        <p>Chorus with Eeshar Singh at Light up Leicester:</p>
+        <p><a href="https://youtu.be/kY_ZcuJQDFk?si=8r-06QcfFPlXAme9" target="_blank" rel="noopener">https://youtu.be/kY_ZcuJQDFk?si=8r-06QcfFPlXAme9</a></p>
+        <p>For Light up Leicester 25 I developed a new version of Chorus with Santoor player and composer Eeshar Singh thanks to Darbar Arts and funding from PPL PRS via Leicester City Council.</p>
+        <p></p>
+        <p><img src="/uploads/20250315-193426.jpg" /></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+      </div>
+
+     
+
+    </div>
+
+  </div>
+
+</section>
+
+{% assign projects = site.projects | where: "list",true | where:"archive",false | sort: "order_number" %}
+
+{% if projects %}
+
+<section class="front">
+
+  <header>
+    <h2>Projects</h2>
+  </header>
+
+  <div class="projects-front">
+
+    {% for project in projects %}
+      {% if project.tags contains 'home' %}
+        <article class="project {% cycle 'alpha', '', 'last' %}">
+
+          <a href="{{project.url}}" title="{{project.title}}">
+
+            {% if project.main_image_path %}
+              {% include img.html src=project.main_image_path width=400 height=300 %}
+            {% else %}
+              {% include img.html src="/siteicon.png" width=400 height=300 %}
+            {% endif %}
+
+            <div class="project-caption">
+              {% if project.description %}
+                <p>{{project.description}}</p>
+              {% endif %}
+            </div>
+
+          </a>
+
+          <a href="{{project.url}}" title="{{project.title}}">
+            <div class="project-title">
+                <h3>{{project.title}}</h3>
+            </div>
+          </a>
+
+        </article>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <footer>
+    <p><a href="{{ site.baseurl }}/projects/" class="readmore">View all . . . <svg class="icon icon--readmore"><use xlink:href="#icon-double_angle_right" /></svg></a></p>
+  </footer>
+</section>
+{% endif %}
