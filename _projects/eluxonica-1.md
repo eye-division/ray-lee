@@ -7,7 +7,8 @@ list: true
 archive: false
 main_image_path: /uploads/ray-lee-invention-of-wonder-1-1.jpg
 main_image_desription:
-video_embed: <iframe width="560" height="315" src="https://youtu.be/ZyKqL9afXsY"
+video_embed: <iframe width="560" height="315"
+  src="https://www.youtube.com/embed/ZyKqL9afXsY?si=Lq1KjJY3yCSU-DOl"
   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
   clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
   referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -22,7 +23,7 @@ images:
   - image_path: /uploads/iow-ray-sonic-lance-5-v2.jpg
     description:
 tags:
-order_number: 7
+order_number: 8
 _options:
   image_path:
     width: '1600'
