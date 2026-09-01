@@ -14,8 +14,6 @@ video_embed: <iframe width="560" height="315"
   referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 video_description: Eluxonica 1 for Photonizer
 images:
-  - image_path: /uploads/sequence-01-00-00-42-00-still010.jpg
-    description:
   - image_path: /uploads/iow-ray-sonic-lance-3.jpg
     description:
   - image_path: /uploads/iow-ray-sonic-lance-4-v2-1.jpg
