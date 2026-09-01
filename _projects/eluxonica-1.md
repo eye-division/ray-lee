@@ -5,7 +5,7 @@ project_date: 2026-08-01T00:00:00+01:00
 project_to_date: 2026-08-01T00:00:00+01:00
 list: true
 archive: false
-main_image_path:
+main_image_path: /uploads/ray-lee-invention-of-wonder-1-1.jpg
 main_image_desription:
 video_embed: <iframe width="560" height="315" src="https://youtu.be/ZyKqL9afXsY"
   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
@@ -35,9 +35,7 @@ _options:
     resize_style: contain
     mime_type: image/jpeg
 ---
-&nbsp;
-
-&nbsp;Eluxonica 1, for Photonizer (- the sonic lance)
+Eluxonica 1, for Photonizer (- the sonic lance)
 
 > A sound and movement performance by Ray Lee
 
@@ -47,6 +45,6 @@ Designed and built by Ray Lee the Photonizer is a self-contained instrument that
 
 https://youtu.be/ZyKqL9afXsY
 
-The Photonizer was originally used in 'The Invention of Wonder' by Ray Lee
+The Photonizer was originally used in ‘The Invention of Wonder’ by Ray Lee
 
 &nbsp;
